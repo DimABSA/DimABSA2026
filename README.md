@@ -1,5 +1,5 @@
 <figure>
-  <img src="./assets/banner_3.png" width="100%">
+  <img src="./assets/banner.png" width="100%">
 </figure>
 <!-- <figure>
   <img src="./assets/banner.png" width="100%">
