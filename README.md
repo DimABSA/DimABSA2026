@@ -504,7 +504,7 @@ Below are some examples from domains included in this subtask, such as restauran
 - [EmoBank](https://github.com/JULIELab/EmoBank)
 - [Chinese Emobank](http://nlp.innobic.yzu.edu.tw/resources/ChineseEmoBank.html)
 - [Facebook Posts](https://github.com/wwbp/additional_data_sets/tree/master/valence_arousal)
-- [COMETA (German)](https://static-content.springer.com/esm/art%3A10.3758%2Fs13428-019-01300-7/MediaObjects/13428_2019_1300_MOESM2_ESM.xlsx)
+- [COMETA (German)](https://static-content.springer.com/esm/art%3A10.3758%2Fs13428-019-01300-7/MediaObjects/13428_2019_1300_MOESM2_ESM.xlsx](https://link.springer.com/article/10.3758/s13428-019-01300-7))
 
 # References
 
