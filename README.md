@@ -442,11 +442,11 @@ Below are some examples from domains included in this subtask, such as restauran
 | 8 | Kinyarwanda| KIN |  |  |  |
 | 9 | Portuguese <br> (Brazilian) | PTBR |  |  |  |
 | 10 | Portuguese <br> (Mozambican) | PTMZ |  |  |  |
-| 11 | Russian | RUS |  |  |  |
+| 11 | Russian | RUS | Restaurant | Restaurant |  |
 | 12 | Swahili | SWA |  |  |  |
-| 13 | Tatar | TAT |  |  |  |
+| 13 | Tatar | TAT | Restaurant | Restaurant |  |
 | 14 | Twi | TWI |  |  |  |
-| 15 | Ukrainian | UKR |  |  |  |
+| 15 | Ukrainian | UKR | Restaurant | Restaurant |  |
 | 16 | Xhosa | XHO |  |  |  |
 
 # Full List of Aspect Categories 
