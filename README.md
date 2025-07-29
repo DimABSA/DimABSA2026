@@ -435,7 +435,7 @@ Below are some examples from domains included in this subtask, such as restauran
 | 1 | Chinese | ZHO | Restaurant<br>Laptop |  Restaurant<br>Laptop | Restaurant<br>Laptop |
 | 2 | Emakhuwa | VMW |  |  |  |
 | 3 | English | ENG | Restaurant<br>Laptop<br>Stance | Restaurant<br>Laptop | Restaurant<br>Laptop |
-| 4 | German | DEU |  |  |  |
+| 4 | German | DEU | Stance | Stance |  |
 | 5 | Hausa | HAU |  |  |  |
 | 6 | Igbo | IBO |  |  |  |
 | 7 | Japanses | JPN | Hotel<br>Finance | Hotel<br>Finance | Hotel<br>Finance |
