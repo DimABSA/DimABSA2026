@@ -61,7 +61,7 @@ Below are some examples from domains included in this subtask, such as restauran
 
 - ### Restaurant
   Input: 
-  ```
+  ```json
   {
       "ID": "R001",
       "Text": "average to good thai food, but terrible delivery.",
@@ -73,7 +73,7 @@ Below are some examples from domains included in this subtask, such as restauran
   ```
   
   Output:
-  ```
+  ```json
   {
       "ID": "R001",
       "Aspect_VA":[
@@ -90,7 +90,7 @@ Below are some examples from domains included in this subtask, such as restauran
   ```
 - ### Laptop
   Input:
-  ```
+  ```json
   {
       "ID": "L001",
       "Text": "i am extremely happy with this laptop.",
@@ -100,7 +100,7 @@ Below are some examples from domains included in this subtask, such as restauran
   }
   ```
   Output:
-  ```
+  ```json
   {
       "ID": "L001",
       "Aspect_VA":[
@@ -115,7 +115,7 @@ Below are some examples from domains included in this subtask, such as restauran
 - ### Hotel
 
   Input:
-  ```
+  ```json
   {
       "ID": "H001",
       "Text": "Check-in was smooth, and the room was perfectly clean.",
@@ -126,7 +126,7 @@ Below are some examples from domains included in this subtask, such as restauran
   }
   ```
   Output:
-  ```
+  ```json
   {
       "ID": "H001",
       "Aspect_VA":[
@@ -143,7 +143,7 @@ Below are some examples from domains included in this subtask, such as restauran
   ```
 - ### Finance
   Input:
-  ```
+  ```json
   
   {
       "ID": "F001",
@@ -154,7 +154,7 @@ Below are some examples from domains included in this subtask, such as restauran
   }
   ```
   Output:
-  ```
+  ```json
   {
       "ID": "F001",
       "Aspect_VA":[
@@ -167,7 +167,7 @@ Below are some examples from domains included in this subtask, such as restauran
   ```
 - ### Stance
   Input:
-  ```
+  ```json
   
   {
       "ID": "S001",
@@ -178,7 +178,7 @@ Below are some examples from domains included in this subtask, such as restauran
   }
   ```
   Output:
-  ```
+  ```json
   {
       "ID": "S001",
       "Aspect_VA":[
@@ -209,7 +209,7 @@ Below are some examples from domains included in this subtask, such as restauran
 
 - ### Restaurant
   Input:
-  ```
+  ```json
   
   {
       "ID": "R001",
@@ -217,7 +217,7 @@ Below are some examples from domains included in this subtask, such as restauran
   }
   ```
   Output:
-  ```
+  ```json
   {
       "ID": "R001",
       "Triplet":[
@@ -236,7 +236,7 @@ Below are some examples from domains included in this subtask, such as restauran
   ```
 - ### Laptop
   Input:
-  ```
+  ```json
   
   {
       "ID": "L001",
@@ -247,7 +247,7 @@ Below are some examples from domains included in this subtask, such as restauran
   }
   ```
   Output:
-  ```
+  ```json
   {
       "ID": "L001",
       "Triplet":[
@@ -263,14 +263,14 @@ Below are some examples from domains included in this subtask, such as restauran
 - ### Hotel
 
   Input:
-  ```
+  ```json
   {
       "ID": "H001",
       "Text": "Check-in was smooth, and the room was perfectly clean."
   }
   ```
   Output:
-  ```
+  ```json
   {
       "ID": "H001",
       "Triplet":[
@@ -289,7 +289,7 @@ Below are some examples from domains included in this subtask, such as restauran
   ```
 - ### Finance
   Input:
-  ```
+  ```json
   
   {
       "ID": "F001",
@@ -297,7 +297,7 @@ Below are some examples from domains included in this subtask, such as restauran
   }
   ```
   Output:
-  ```
+  ```json
   {
       "ID": "F001",
       "Triplet":[
@@ -327,14 +327,14 @@ Below are some examples from domains included in this subtask, such as restauran
 
 - ### Restaurant
   Input:
-  ```
+  ```json
   {
       "ID": "R001",
       "Text": "average to good thai food, but terrible delivery."
   }
   ```
   Output:
-  ```
+  ```json
   {
       "ID": "R001",
       "Quadruplet":[
@@ -355,7 +355,7 @@ Below are some examples from domains included in this subtask, such as restauran
   ```
 - ### Laptop
   Input:
-  ```
+  ```json
   {
       "ID": "L001",
       "Text": "i am extremely happy with this laptop.",
@@ -365,7 +365,7 @@ Below are some examples from domains included in this subtask, such as restauran
   }
   ```
   Output:
-  ```
+  ```json
   {
       "ID": "L001",
       "Quadruplet":[
@@ -381,14 +381,14 @@ Below are some examples from domains included in this subtask, such as restauran
 
 - ### Hotel
   Input:
-  ```
+  ```json
   {
       "ID": "H001",
       "Text": "Check-in was smooth, and the room was perfectly clean."
   }
   ```
   Output:
-  ```
+  ```json
   {
       "ID": "H001",
       "Quadruplet":[
@@ -409,14 +409,14 @@ Below are some examples from domains included in this subtask, such as restauran
   ```
 - ### Finance
   Input:
-  ```
+  ```json
   {
       "ID": "F001",
       "Text": "The pandemic led to a record low in net income."
   }
   ```
   Output:
-  ```
+  ```json
   {
       "ID": "F001",
       "Quadruplet":[
