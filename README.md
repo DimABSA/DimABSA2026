@@ -1,5 +1,5 @@
 <figure>
-  <img src="./assets/banner.png" width="100%">
+  <img src="https://github.com/DimABSA/DimABSA2026/blob/main/banner.png" width="100%">
 </figure>
 <!-- <figure>
   <img src="./assets/banner.png" width="100%">
