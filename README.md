@@ -431,7 +431,7 @@ Below are some examples from domains included in this subtask, such as restauran
   ```
 # Datasets
 | No. | Language | Code | Subtask 1<br>DimASR | Subtask 2<br>DimASTE | Subtask 3<br>DimASQP |
-|-----|----------|------|------------------|-------------------|------------------|
+|:-----:|:----------:|:------:|:------------------:|:-------------------:|:------------------:|
 | 1 | Chinese | ZHO | Restaurant<br>Laptop |  Restaurant<br>Laptop | Restaurant<br>Laptop |
 | 2 | Emakhuwa | VMW |  |  |  |
 | 3 | English | ENG | Restaurant<br>Laptop<br>Stance | Restaurant<br>Laptop | Restaurant<br>Laptop |
