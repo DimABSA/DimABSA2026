@@ -1,0 +1,20 @@
+{"ID": "R0283:S003", "Text": "肉粿沒有很焦脆。", "Quadruplet": [{"Aspect": "肉粿", "Category": "食物#品質", "Opinion": "沒有很焦脆", "VA": "4.00#5.00"}]}
+{"ID": "R0283:S004", "Text": "肉粿每一塊都好脆好恰好喜歡。", "Quadruplet": [{"Aspect": "肉粿", "Category": "食物#品質", "Opinion": "好脆", "VA": "6.25#6.00"}, {"Aspect": "肉粿", "Category": "食物#品質", "Opinion": "好恰", "VA": "6.12#6.00"}, {"Aspect": "肉粿", "Category": "食物#品質", "Opinion": "好喜歡", "VA": "6.62#6.62"}]}
+{"ID": "R0284:S012", "Text": "口感有點微妙。", "Quadruplet": [{"Aspect": "口感", "Category": "食物#品質", "Opinion": "有點微妙", "VA": "4.75#4.75"}]}
+{"ID": "R0284:S018", "Text": "很夠味起司也很香。", "Quadruplet": [{"Aspect": "起司", "Category": "食物#品質", "Opinion": "很夠味", "VA": "6.67#6.50"}, {"Aspect": "起司", "Category": "食物#品質", "Opinion": "很香", "VA": "6.50#6.33"}]}
+{"ID": "R0284:S021", "Text": "這款沙拉真是我的愛。", "Quadruplet": [{"Aspect": "沙拉", "Category": "食物#品質", "Opinion": "我的愛", "VA": "7.50#7.25"}]}
+{"ID": "R0284:S025", "Text": "味道是真的很好。", "Quadruplet": [{"Aspect": "味道", "Category": "食物#品質", "Opinion": "真的很好", "VA": "6.17#6.17"}]}
+{"ID": "R0284:S026", "Text": "堅果給的超級多。", "Quadruplet": [{"Aspect": "堅果", "Category": "食物#份量與款式", "Opinion": "超級多", "VA": "6.83#6.83"}]}
+{"ID": "R0284:S027", "Text": "雞肉烤得嫩有點微甜。", "Quadruplet": [{"Aspect": "雞肉", "Category": "食物#品質", "Opinion": "嫩", "VA": "6.10#5.60"}, {"Aspect": "雞肉", "Category": "食物#品質", "Opinion": "微甜", "VA": "6.00#5.60"}]}
+{"ID": "R0284:S034", "Text": "味道有點帶苦。", "Quadruplet": [{"Aspect": "味道", "Category": "食物#品質", "Opinion": "有點帶苦", "VA": "4.17#5.00"}]}
+{"ID": "R0285:S009", "Text": "蔬菜爽口。", "Quadruplet": [{"Aspect": "蔬菜", "Category": "食物#品質", "Opinion": "爽口", "VA": "6.25#5.25"}]}
+{"ID": "R0285:S015", "Text": "他們家泡菜很好吃。", "Quadruplet": [{"Aspect": "泡菜", "Category": "食物#品質", "Opinion": "很好吃", "VA": "6.62#6.62"}]}
+{"ID": "R0285:S016", "Text": "口味偏甜", "Quadruplet": [{"Aspect": "口味", "Category": "食物#品質", "Opinion": "偏甜", "VA": "5.12#4.75"}]}
+{"ID": "R0285:S01˙", "Text": "很合我們口味。", "Quadruplet": [{"Aspect": "口味", "Category": "食物#品質", "Opinion": "很合", "VA": "6.17#6.33"}]}
+{"ID": "R0285:S020", "Text": "真的解膩又爽口。", "Quadruplet": [{"Aspect": "NULL", "Category": "食物#品質", "Opinion": "解膩", "VA": "5.88#5.50"}, {"Aspect": "NULL", "Category": "食物#品質", "Opinion": "爽口", "VA": "6.00#5.38"}]}
+{"ID": "R0285:S023", "Text": "服務還蠻好的。", "Quadruplet": [{"Aspect": "服務", "Category": "服務#概括", "Opinion": "蠻好的", "VA": "6.12#5.38"}]}
+{"ID": "R0285:S027", "Text": "牛舌新鮮。", "Quadruplet": [{"Aspect": "牛舌", "Category": "食物#品質", "Opinion": "新鮮", "VA": "6.33#6.00"}]}
+{"ID": "R0285:S030", "Text": "油脂多有嚼勁。", "Quadruplet": [{"Aspect": "油脂", "Category": "食物#品質", "Opinion": "多", "VA": "6.33#5.83"}, {"Aspect": "NULL", "Category": "食物#品質", "Opinion": "有嚼勁", "VA": "6.00#5.67"}]}
+{"ID": "R0285:S031", "Text": "牛小排還是當天最佳。", "Quadruplet": [{"Aspect": "牛小排", "Category": "食物#品質", "Opinion": "最佳", "VA": "6.60#6.20"}]}
+{"ID": "R0285:S032", "Text": "口感棒油脂豐富。", "Quadruplet": [{"Aspect": "口感", "Category": "食物#品質", "Opinion": "棒", "VA": "6.00#5.25"}, {"Aspect": "油脂", "Category": "食物#品質", "Opinion": "豐富", "VA": "6.12#5.38"}]}
+{"ID": "R0285:S033", "Text": "柚子胡椒醬真的加分很多。", "Quadruplet": [{"Aspect": "柚子胡椒醬", "Category": "食物#品質", "Opinion": "加分很多", "VA": "6.83#6.50"}]}
