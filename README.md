@@ -310,7 +310,7 @@ Below are some examples from domains included in this subtask, such as restauran
   }
   ```
 ## Subtask 3: Dimensional Aspect Sentiment Quad Prediction (DimASQP)
-Given a textual instance, extract all triplets consisting of an **aspect term**, an **aspect category**, an **opinion term**, and a **valence-arousal (VA)** score. This task is an extension of Subtask 2 (triplet extraction), with the addition of the aspect category element.
+Given a textual instance, extract all **(A, C, O, VA)** quadruplets, where A denotes an aspect term, C an aspect category, O an opinion term, and VA a valence-arousal score. This task is an extension of Subtask 2 (triplet extraction), with the addition of the aspect category element.
 The input is in JSON Lines format and includes the following fields:
 - "ID" – A unique identifier for the instance.
 - "Text" – A sentence or paragraph expressing subjective opinions.
