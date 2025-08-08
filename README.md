@@ -193,7 +193,7 @@ Below are some examples from domains included in this subtask, such as restauran
 
 
 ## Subtask 2: Dimensional Aspect Sentiment Triplet Extraction (DimASTE)
-Given a textual instance, extract all (A, C, O) triplets, where A denotes an aspect term, O an opinion term, and VA a valence-arousal score. 
+Given a textual instance, extract all (A, O, VA) triplets, where A denotes an **aspect term**, O an **opinion term**, and VA a **valence-arousal** score. 
 The input is in JSON Lines format and includes the following fields.
 - "ID" – A unique identifier for the instance.
 - "Text" – A sentence or paragraph expressing subjective opinions. 
