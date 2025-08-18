@@ -34,12 +34,14 @@ This valence-arousal (VA) representation has inspired the rise of dimensional se
   Fig. 1. Two-dimensional valence-arousal space (Yu et al., 2016).
 </p>
 
-Here, for the first time, we introduce a SemEval shared task that aims to bridge this gap by integrating dimensional sentiment analysis into the traditional (categorical) ABSA framework. Specifically, given a textual instance, participating systems are expected to predict real-valued valence and arousal scores towards the relevant aspect. We refer to this new task as dimensional ABSA (DimABSA). The proposed DimABSA task has the following features
-- This task captures sentiment in a more nuanced manner by using real-valued valence and arousal scores, whereas previous ABSA tasks have treated sentiment in a categorical way (e.g., positive and negative).
-- This task constructs datasets from three application areas: customer reviews, financial reports, and stance detection, whereas previous ABSA tasks have focused primarily on customer review data. 
-- This task covers 16 languages spoken across Africa, Asia, Latin America, North America, and Europe, including both high-resource and low-resource languages. It covers the following languages: Hausa, Igbo, Kinyarwanda, Swahili, Twi, as well as Chinese, English, German, Japanese, Brazilian Portuguese, Russian, Ukrainian, and Tatar.
+
+To bridge this gap, we introduce **Dimensional ABSA (DimABSA)**, a new SemEval shared task that integrates dimensional sentiment analysis into the traditional ABSA framework. Given a textual instance, participants are expected to predict real-valued **valence** and **arousal** scores associated with relevant aspects. The proposed DimABSA task has the following features
 
 
+- **Fine-grained sentiment modeling**: Replaces discrete sentiment labels with continuous VA scores, offering more nuanced emotional representation.
+- **Multidomain coverage**: Constructs datasets from four diverse application areas—**customer reviews**,**moview reviews** **financial reports**, and **stance detection**, going beyond thefocus on consumer reviews on traditional ABSA.
+- **Multilingual benchmark**: Covers languages across five continents, including both high-resource and low-resource languages. Supported languages include:  
+  *Hausa, Igbo, Kinyarwanda, Swahili, Twi, Chinese, English, German, Japanese, Brazilian Portuguese, Russian, Ukrainian, and Tatar*.
 
 
 ## Task Description
