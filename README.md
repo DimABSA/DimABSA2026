@@ -472,7 +472,7 @@ Below are some examples from domains included in this subtask, such as restauran
 | No. | Language | Code | Subtask 1<br>DimASR | Subtask 2<br>DimASTE | Subtask 3<br>DimASQP |
 |:-----:|:----------:|:------:|:------------------:|:-------------------:|:------------------:|
 | 1 | Chinese | ZHO | Restaurant<br>Laptop |  Restaurant<br>Laptop | Restaurant<br>Laptop |
-| 2 | English | ENG | Restaurant<br>Laptop<br>Stance | Restaurant<br>Laptop | Restaurant<br>Laptop |
+| 2 | English | ENG | Restaurant<br>Laptop<br>Stance | Restaurant<br>Laptop<br>Stance | Restaurant<br>Laptop |
 | 3 | German | DEU | Stance | Stance |  |
 | 4 | Hausa | HAU |  |  |  |
 | 5 | Igbo | IBO |  |  |  |
