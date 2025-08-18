@@ -35,13 +35,13 @@ This valence-arousal (VA) representation has inspired the rise of dimensional se
 </p>
 
 
-To bridge this gap, this task introduce **Dimensional ABSA (DimABSA)**, a task that integrates dimensional sentiment analysis into the traditional ABSA framework and define as:
+To bridge this gap, this task introduces **Dimensional ABSA (DimABSA)**, a task that integrates dimensional sentiment analysis into the traditional ABSA framework and is defined as:
 
 > Given a textual instance, participants are expected to predict real-valued **valence** and **arousal** scores associated with relevant aspects. The proposed DimABSA task has the following features
 
 
-- **Fine-grained sentiment modeling**: Replaces discrete sentiment labels with continuous VA scores, offering more nuanced emotional representation.
-- **Multidomain coverage**: Constructs datasets from four diverse application areas—**customer reviews**,**moview reviews** **financial reports**, and **stance detection**, going beyond thefocus on consumer reviews on traditional ABSA.
+- **Fine-grained sentiment modelling**: Replaces discrete sentiment labels with continuous VA scores, offering more nuanced emotional representation.
+- **Multidomain coverage**: Constructs datasets from four diverse application areas, **customer reviews**,**moview reviews** **financial reports**, and **stance detection**, going beyond the focus on consumer reviews on traditional ABSA.
 - **Multilingual benchmark**: Covers languages across five continents, including both high-resource and low-resource languages. Supported languages include: *Hausa, Igbo, Kinyarwanda, Swahili, Twi, Chinese, English, German, Japanese, Brazilian Portuguese, Russian, Ukrainian, and Tatar*.
 
 
