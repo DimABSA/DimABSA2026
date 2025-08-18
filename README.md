@@ -39,7 +39,27 @@ Here, for the first time, we introduce a SemEval shared task that aims to bridge
 - This task constructs datasets from three application areas: customer reviews, financial reports, and stance detection, whereas previous ABSA tasks have focused primarily on customer review data. 
 - This task covers 16 languages spoken across Africa, Asia, Latin America, North America, and Europe, including both high-resource and low-resource languages. It covers the following languages: Hausa, Igbo, Kinyarwanda, Swahili, Twi, as well as Chinese, English, German, Japanese, Brazilian Portuguese, Russian, Ukrainian, and Tatar.
 
-# Task Description 
+
+
+# Task Description
+
+We introduce **dimensional sentiment representation** into three traditional ABSA subtasks:  
+- **Aspect Sentiment Classification (ASC)**  
+- **Aspect Sentiment Triplet Extraction (ASTE)**  
+- **Aspect Sentiment Quad Prediction (ASQP)**  
+
+These tasks involve analyzing aspect terms, aspect categories, opinion terms, and sentiment polarity within given sentences.
+
+By replacing categorical sentiment polarity with **valence-arousal (VA) scores**, we propose three new corresponding **dimensional subtasks**:
+
+- **Dimensional Aspect Sentiment Regression (DimASR)**  
+- **Dimensional Aspect Sentiment Triplet Extraction (DimASTE)**  
+- **Dimensional Aspect Sentiment Quad Prediction (DimASQP)**  
+
+The elements to be predicted in these new subtasks are described below. Among these, only the **Valence-Arousal (VA)** element is newly introduced; the remaining elements are identical to those in traditional ABSA tasks.
+
+
+
 We introduce dimensional sentiment representation into three traditional ABSA subtasks: Aspect Sentiment Classification (ASC), Aspect Sentiment Triplet Extraction (ASTE), and Aspect Sentiment Quad Prediction (ASQP), which involve the analysis of aspect terms, aspect categories, opinion terms, and sentiment polarity in given sentences. By replacing sentiment polarity with valence-arousal scores, we propose three new corresponding dimensional subtasks: Dimensional Aspect Sentiment Regression (DimASR), Dimensional Aspect Sentiment Triplet Extraction (DimASTE), and Dimensional Aspect Sentiment Quad Prediction (DimASQP). The resulting elements to be predicted in the new subtasks are described as follows. Among them, only the Valence-Arousal (VA) element is newly introduced; the others are identical to those in traditional ABSA.
 
 - Aspect Term: refers to a word or phrase indicating an opinion target, such as *appetizer*, *waiter*, *battery*, or *screen*.
