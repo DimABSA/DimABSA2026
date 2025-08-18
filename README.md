@@ -68,63 +68,6 @@ The elements to be predicted in the new subtasks are described as follows.
 
 Different subtasks involve different combinations of the above elements. Participants may choose to participate in one or more of these subtasks, depending on their research interest or application focus.
 
-
-
-
-# Overview
-
-Aspect-Based Sentiment Analysis (ABSA) focuses on identifying aspect terms within text and determining the sentiment polarity expressed toward them. While effective, most existing ABSA research adopts a **categorical sentiment framework**—typically classifying sentiments as *positive*, *negative*, or *neutral*. This coarse-grained representation contrasts sharply with long-standing theories in psychology and affective science (Russell, 1980; 2003), where sentiment is modeled as continuous dimensions of **valence** (from negative to positive) and **arousal** (from calm to excited), as illustrated in Figure 1.
-
-This **valence-arousal (VA) framework** has fueled the rise of **dimensional sentiment analysis** as a growing research paradigm (Mohammad, 2018; Lee et al., 2022, 2024; Muhammad et al., 2025), enabling richer modeling of emotional nuance and supporting a wider range of downstream applications.
-
-<p align="center">
-  <img src="https://github.com/DimABSA/DimABSA2026/blob/main/VA.png" width="500"><br>
-  <em>Figure 1. Two-dimensional valence-arousal space (Yu et al., 2016).</em>
-</p>
-
-To bridge this gap, we introduce **Dimensional ABSA (DimABSA)**, a new SemEval shared task that integrates dimensional sentiment analysis into the traditional ABSA framework. Given a textual instance, participants are expected to predict real-valued **valence** and **arousal** scores associated with relevant aspects. DimABSA introduces the following key innovations:
-
-- **Fine-grained sentiment modeling**: Replaces discrete sentiment labels with continuous VA scores, offering more nuanced emotional representation.
-- **Multidomain coverage**: Constructs datasets from three diverse application areas—**customer reviews**, **financial reports**, and **stance detection**—going beyond the typical focus on consumer reviews.
-- **Multilingual benchmark**: Covers 16 languages across five continents, including both high-resource and low-resource languages. Supported languages include:  
-  *Hausa, Igbo, Kinyarwanda, Swahili, Twi, Chinese, English, German, Japanese, Brazilian Portuguese, Russian, Ukrainian, and Tatar*.
-
----
-
-## Task Description
-
-This shared task reformulates three widely studied ABSA subtasks by incorporating continuous valence-arousal sentiment representation:
-
-- **Aspect Sentiment Classification (ASC)**
-- **Aspect Sentiment Triplet Extraction (ASTE)**
-- **Aspect Sentiment Quad Prediction (ASQP)**
-
-Traditionally, these tasks involve extracting **aspect terms**, **aspect categories**, **opinion terms**, and assigning **categorical sentiment polarity**. In DimABSA, we replace polarity with **real-valued VA scores**, yielding three corresponding **dimensional subtasks**:
-
-- **Dimensional Aspect Sentiment Regression (DimASR)**:  
-  Predicts VA scores for predefined aspect categories within a sentence.
-
-- **Dimensional Aspect Sentiment Triplet Extraction (DimASTE)**:  
-  Extracts triplets of the form *(aspect term, opinion term, VA score)*.
-
-- **Dimensional Aspect Sentiment Quad Prediction (DimASQP)**:  
-  Extracts quads of the form *(aspect category, aspect term, opinion term, VA score)*.
-
-The elements involved in these subtasks are as follows:
-
-- **Aspect Term**: A word or phrase that denotes the target of an opinion, such as *appetizer*, *waiter*, *battery*, or *screen*.
-
-- **Aspect Category**: An abstract label representing the category to which an aspect term belongs, formatted as *Entity#Attribute* (e.g., `FOOD#QUALITY`, `SERVICE#PRICES`). These are drawn from predefined ontologies (Pontiki et al., 2015). See the [full list of aspect categories](#full-list-of-aspect-categories) for valid combinations.
-
-- **Opinion Term**: A sentiment-bearing word or phrase expressing an opinion about a specific aspect term (e.g., *great*, *terrible*, *satisfactory*).
-
-- **Valence-Arousal (VA) Score**: A pair of real-valued numbers:
-  - **Valence (V)** ∈ [1.00, 9.00]: Indicates sentiment polarity (1.00 = extremely negative; 9.00 = extremely positive; 5.00 = neutral).
-  - **Arousal (A)** ∈ [1.00, 9.00]: Indicates emotional intensity (1.00 = very calm; 9.00 = highly intense; 5.00 = moderate).
-
-Each subtask involves predicting different combinations of these elements. Participants are welcome to submit systems for one or more subtasks, depending on their interests and modeling preferences.
-
-
 <!--  
 
 We introduce dimensional sentiment representation into three traditional ABSA subtasks: Aspect Sentiment Classification (ASC), Aspect Sentiment Triplet Extraction (ASTE), and Aspect Sentiment Quad Prediction (ASQP), which involve the analysis of aspect terms, aspect categories, opinion terms, and sentiment polarity in given sentences. By replacing sentiment polarity with valence-arousal scores, we propose three new corresponding dimensional subtasks: Dimensional Aspect Sentiment Regression (DimASR), Dimensional Aspect Sentiment Triplet Extraction (DimASTE), and Dimensional Aspect Sentiment Quad Prediction (DimASQP). The resulting elements to be predicted in the new subtasks are described as follows. Among them, only the Valence-Arousal (VA) element is newly introduced; the others are identical to those in traditional ABSA.
