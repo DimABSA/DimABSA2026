@@ -519,14 +519,17 @@ Below are some examples from domains included in this subtask, such as restauran
 
 # Important Dates and Task Phases
 
-- Sample data ready 15 July 2025
-- Training data ready 1 September 2025
-- Evaluation start 10 January 2026
-- Evaluation end by 31 January 2026 
-- Paper submission due February 2026
-- Notification to authors March 2026
-- Camera ready due April 2026
-- SemEval workshop 2026 
+| Description                   | Deadline                                        |
+|-------------------------------|------------------------------------------------|
+| Sample Data Ready             | 15 July 2025                                    |
+| Training Data Ready           | 1 September 2025                                |
+| Evaluation Start              | 10 January 2026                                 |
+| Evaluation End                | 31 January 2026                                 |
+| System Description Paper Due  | February 2026                                   |
+| Notification to Authors       | March 2026                                      |
+| Camera Ready Due              | April 2026                                      |
+| SemEval Workshop 2026         | (co-located with ACL 2026)                      |
+
 
 # Resources
 
