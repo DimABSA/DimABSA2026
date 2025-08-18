@@ -24,9 +24,10 @@
 
 # Overview
 
-Aspect-Based Sentiment Analysis (ABSA) is the task of identifying the aspect terms and their associated sentiment polarity in text. However, current ABSA research adopts a coarse-grained, categorical sentiment representation (e.g., positive, negative, and neutral). This is in sharp contrast to the long-standing theoretical foundations in psychological and affective science (Russell, 1980; 2003) where sentiment is represented by fine-grained real-valued scores of **valence** (negative to positive) and **arousal** (sluggish to excited) dimensions, as shown in Fig. 1. 
+Aspect-Based Sentiment Analysis (ABSA) is the task of identifying aspect terms in text and determining their associated sentiment polarity. However, current ABSA research predominantly adopts a coarse-grained, categorical sentiment representation (e.g., positive, negative, or neutral). This approach stands in contrast to long-established theories in psychology and affective science (Russell, 1980; 2003), where sentiment is represented along fine-grained, real-valued dimensions of valence (ranging from negative to positive) and arousal (from sluggish to excited), as illustrated in Fig. 1.
 
-Such a valence-arousal (VA) representation has driven the rise of dimensional sentiment analysis as an emerging research paradigm (Mohammad, 2018; Mohammad et al., 2018; Lee et al., 2022, 2024; Muhammad et al., 2025), enabling nuanced distinctions in emotional expression and supporting a wide range of applications.
+This valence-arousal (VA) representation has inspired the rise of dimensional sentiment analysis as an emerging research paradigm (Mohammad, 2018; Mohammad et al., 2018; Lee et al., 2022, 2024; Muhammad et al., 2025), enabling more nuanced distinctions in emotional expression and supporting a broader range of applications.
+
 
 <p align="center">
   <img src="https://github.com/DimABSA/DimABSA2026/blob/main/VA.png" width="500"><br>
