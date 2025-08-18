@@ -18,7 +18,7 @@
 - [References](#references)
 
 
-[Join the Google Group for the task](https://groups.google.com/g/emotion-semeval-2025-participants) | [Join Discord](https://discord.gg/g2xJtSbWhs)  | [Create an Issue](https://github.com/emotion-analysis-project/SemEval2025-task11/issues) | [Contact Us](mailto:emotion-semeval-2025-organisers@googlegroups.com) | [Download Dataset](https://docs.google.com/document/d/1yETTEiD8JVL8oeXu8Dvwc7OgPIDp0ROxd9nXifsXYYE/edit?usp=sharing) | [How to Participate](https://docs.google.com/document/d/1O10l9McuoBtw3dIMQbgAcmsoyaWW0DrkBZvC4CPc0yc/edit?usp=sharing)|
+[Join the Google Group for the task]((https://groups.google.com/g/dimabsa-participants) | [Join Discord](#)  | [Create an Issue](#) | [Contact Us](mailto:dimabsa-organizers@googlegroups.com) | [Download Dataset](#) | [How to Participate](#)|
 
 ---
 
