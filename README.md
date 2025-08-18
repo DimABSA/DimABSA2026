@@ -19,7 +19,7 @@
 
 
 
-# 🚀 Quick Start
+#  Quick Start
 
 - **Task**: Predict real-valued **valence–arousal (VA)** scores for aspects in text.  
 - **Subtasks**:  
