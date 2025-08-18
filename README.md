@@ -118,14 +118,7 @@ Below are some examples from domains included in this subtask, such as restauran
   
   **Input:**
  
-  ```json
-  {
-    "ID": "R001",
-    "Text": "average to good thai food, but terrible delivery.",
-    "Aspect": ["thai food", "delivery"]
-  }
- ```
--->
+
   Input: 
   ```json
   {
@@ -137,23 +130,6 @@ Below are some examples from domains included in this subtask, such as restauran
       ]
   }
   ```
-  <!--  
-
- Output:
-  ```json
-  {
-  "ID": "R001",
-  "Aspect_VA": [
-    {"Aspect": "thai food", "VA": "6.75#6.38"},
-    {"Aspect": "delivery", "VA": "2.88#6.62"}
-  ]
-}
-```
-</details><details> <summary><b>Laptop Review</b></summary>
-
-
-
-
   Output:
   ```json
   {
