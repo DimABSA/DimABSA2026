@@ -45,7 +45,7 @@ To bridge this gap, this task introduce **Dimensional ABSA (DimABSA)**, a task t
 - **Multilingual benchmark**: Covers languages across five continents, including both high-resource and low-resource languages. Supported languages include: *Hausa, Igbo, Kinyarwanda, Swahili, Twi, Chinese, English, German, Japanese, Brazilian Portuguese, Russian, Ukrainian, and Tatar*.
 
 
-## Task Description
+# Task Description
 <!--  
 This shared task introduces **dimensional sentiment representation** into three established Aspect-Based Sentiment Analysis (ABSA) subtasks: **Aspect Sentiment Classification (ASC)**, **Aspect Sentiment Triplet Extraction (ASTE)**, and **Aspect Sentiment Quad Prediction (ASQP)**. Traditionally, these subtasks involve the identification of aspect terms, aspect categories, opinion terms, and the assignment of discrete sentiment polarity labels (e.g., positive, negative, neutral) within a given sentence.
 
