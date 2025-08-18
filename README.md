@@ -517,6 +517,25 @@ Below are some examples from domains included in this subtask, such as restauran
 |GENERAL, SALES, PROFIT, AMOUNT, PRICE, COST|
 > https://github.com/chakki-works/chABSA-dataset
 
+
+# Evaluation
+
+The performance of the submitted systems will be evaluated based on the following metrics:
+
+
+
+
+
+
+- <b> Subtask 1: Dimensional Aspect Sentiment Regression (DimASR) </b> 
+   TBD
+- <b>Subtask 2: Dimensional Aspect Sentiment Triplet Extraction (DimASTE) </b> 
+TBD
+- <b>Subtask 3: Dimensional Aspect Sentiment Quad Prediction (DimASQP)</b> 
+TBD
+- For details about the evaluation script and the submission file format checker, check this [guide](#).
+
+
 # Important Dates and Task Phases
 
 | Description                   | Deadline                                        |
