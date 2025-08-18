@@ -30,7 +30,7 @@
 - **Languages**: 16 (high + low resource) 🌍  
 - **Data**: JSONL format (train/dev/test sets).  
 - **Submission**: Upload predictions via Codalab.  
-- **Evaluation**: Regression (Pearson/CCC) + Extraction (F1 + correlation).  
+- **Evaluation**: TBD.  
 - **Important Dates**: Training data (Sep 1, 2025) → Evaluation (Jan 2026).
 
 [Join the Google Group for the task](https://groups.google.com/g/dimabsa-participants)| [Join Discord](#)  | [Create an Issue](#) | [Contact Us](mailto:dimabsa-organizers@googlegroups.com) | [Download Dataset](#) | [How to Participate](#)|
