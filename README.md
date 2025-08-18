@@ -485,6 +485,36 @@ Below are some examples from domains included in this subtask, such as restauran
 | 12 | Twi | TWI |  |  |  |
 | 13 | Ukrainian | UKR | Restaurant | Restaurant |  |
 
+
+# Evaluation
+
+The performance of the submitted systems will be evaluated based on the following metrics:
+
+
+- <b> Subtask 1: Dimensional Aspect Sentiment Regression (DimASR) </b> 
+   TBD
+- <b>Subtask 2: Dimensional Aspect Sentiment Triplet Extraction (DimASTE) </b> 
+TBD
+- <b>Subtask 3: Dimensional Aspect Sentiment Quad Prediction (DimASQP)</b> 
+TBD
+- For details about the evaluation script and the submission file format checker, check this [guide](#).
+
+
+# Important Dates and Task Phases
+
+| Description                   | Deadline                                        |
+|-------------------------------|------------------------------------------------|
+| Sample Data Ready             | 15 July 2025                                    |
+| Training Data Ready           | 1 September 2025                                |
+| Evaluation Start              | 10 January 2026                                 |
+| Evaluation End                | 31 January 2026                                 |
+| System Description Paper Due  | February 2026                                   |
+| Notification to Authors       | March 2026                                      |
+| Camera Ready Due              | April 2026                                      |
+| SemEval Workshop 2026         | (co-located with ACL 2026)                      |
+
+
+
 # Full List of Aspect Categories 
 > from [SemEval-2016 Task 5](https://aclanthology.org/S16-1002.pdf)
 
@@ -517,37 +547,6 @@ Below are some examples from domains included in this subtask, such as restauran
 |GENERAL, SALES, PROFIT, AMOUNT, PRICE, COST|
 > https://github.com/chakki-works/chABSA-dataset
 
-
-# Evaluation
-
-The performance of the submitted systems will be evaluated based on the following metrics:
-
-
-
-
-
-
-- <b> Subtask 1: Dimensional Aspect Sentiment Regression (DimASR) </b> 
-   TBD
-- <b>Subtask 2: Dimensional Aspect Sentiment Triplet Extraction (DimASTE) </b> 
-TBD
-- <b>Subtask 3: Dimensional Aspect Sentiment Quad Prediction (DimASQP)</b> 
-TBD
-- For details about the evaluation script and the submission file format checker, check this [guide](#).
-
-
-# Important Dates and Task Phases
-
-| Description                   | Deadline                                        |
-|-------------------------------|------------------------------------------------|
-| Sample Data Ready             | 15 July 2025                                    |
-| Training Data Ready           | 1 September 2025                                |
-| Evaluation Start              | 10 January 2026                                 |
-| Evaluation End                | 31 January 2026                                 |
-| System Description Paper Due  | February 2026                                   |
-| Notification to Authors       | March 2026                                      |
-| Camera Ready Due              | April 2026                                      |
-| SemEval Workshop 2026         | (co-located with ACL 2026)                      |
 
 
 # Resources
