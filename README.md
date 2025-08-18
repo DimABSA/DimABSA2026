@@ -35,7 +35,7 @@ This valence-arousal (VA) representation has inspired the rise of dimensional se
 </p>
 
 
-To bridge this gap, we introduce **Dimensional ABSA (DimABSA)**, a new SemEval shared task that integrates dimensional sentiment analysis into the traditional ABSA framework. Given a textual instance, participants are expected to predict real-valued **valence** and **arousal** scores associated with relevant aspects. The proposed DimABSA task has the following features
+To bridge this gap, we introduce **Dimensional ABSA (DimABSA)**, a task that integrates dimensional sentiment analysis into the traditional ABSA framework. Given a textual instance, participants are expected to predict real-valued **valence** and **arousal** scores associated with relevant aspects. The proposed DimABSA task has the following features
 
 
 - **Fine-grained sentiment modeling**: Replaces discrete sentiment labels with continuous VA scores, offering more nuanced emotional representation.
