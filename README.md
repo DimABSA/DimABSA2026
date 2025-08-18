@@ -472,21 +472,18 @@ Below are some examples from domains included in this subtask, such as restauran
 | No. | Language | Code | Subtask 1<br>DimASR | Subtask 2<br>DimASTE | Subtask 3<br>DimASQP |
 |:-----:|:----------:|:------:|:------------------:|:-------------------:|:------------------:|
 | 1 | Chinese | ZHO | Restaurant<br>Laptop |  Restaurant<br>Laptop | Restaurant<br>Laptop |
-| 2 | Emakhuwa | VMW |  |  |  |
-| 3 | English | ENG | Restaurant<br>Laptop<br>Stance | Restaurant<br>Laptop | Restaurant<br>Laptop |
-| 4 | German | DEU | Stance | Stance |  |
-| 5 | Hausa | HAU |  |  |  |
-| 6 | Igbo | IBO |  |  |  |
-| 7 | Japanses | JPN | Hotel<br>Finance | Hotel<br>Finance | Hotel<br>Finance |
-| 8 | Kinyarwanda| KIN |  |  |  |
-| 9 | Portuguese <br> (Brazilian) | PTBR |  |  |  |
-| 10 | Portuguese <br> (Mozambican) | PTMZ |  |  |  |
-| 11 | Russian | RUS | Restaurant | Restaurant |  |
-| 12 | Swahili | SWA |  |  |  |
-| 13 | Tatar | TAT | Restaurant | Restaurant |  |
-| 14 | Twi | TWI |  |  |  |
-| 15 | Ukrainian | UKR | Restaurant | Restaurant |  |
-| 16 | Xhosa | XHO |  |  |  |
+| 2 | English | ENG | Restaurant<br>Laptop<br>Stance | Restaurant<br>Laptop | Restaurant<br>Laptop |
+| 3 | German | DEU | Stance | Stance |  |
+| 4 | Hausa | HAU |  |  |  |
+| 5 | Igbo | IBO |  |  |  |
+| 6 | Japanses | JPN | Hotel<br>Finance | Hotel<br>Finance | Hotel<br>Finance |
+| 7 | Kinyarwanda| KIN |  |  |  |
+| 8 | Portuguese <br> (Brazilian) | PTBR |  |  |  |
+| 9 | Russian | RUS | Restaurant | Restaurant |  |
+| 10 | Swahili | SWA |  |  |  |
+| 11 | Tatar | TAT | Restaurant | Restaurant |  |
+| 12 | Twi | TWI |  |  |  |
+| 13 | Ukrainian | UKR | Restaurant | Restaurant |  |
 
 # Full List of Aspect Categories 
 > from [SemEval-2016 Task 5](https://aclanthology.org/S16-1002.pdf)
