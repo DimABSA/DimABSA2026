@@ -18,7 +18,7 @@
 - [References](#references)
 
 
-[Join the Google Group for the task]((https://groups.google.com/g/dimabsa-participants) | [Join Discord](#)  | [Create an Issue](#) | [Contact Us](mailto:dimabsa-organizers@googlegroups.com) | [Download Dataset](#) | [How to Participate](#)|
+[Join the Google Group for the task](https://groups.google.com/g/dimabsa-participants)| [Join Discord](#)  | [Create an Issue](#) | [Contact Us](mailto:dimabsa-organizers@googlegroups.com) | [Download Dataset](#) | [How to Participate](#)|
 
 ---
 
