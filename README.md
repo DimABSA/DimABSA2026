@@ -41,24 +41,33 @@ Here, for the first time, we introduce a SemEval shared task that aims to bridge
 
 
 
-# Task Description
 
-We introduce **dimensional sentiment representation** into three traditional ABSA subtasks:  
-- **Aspect Sentiment Classification (ASC)**  
-- **Aspect Sentiment Triplet Extraction (ASTE)**  
-- **Aspect Sentiment Quad Prediction (ASQP)**  
+## Task Description
 
-These tasks involve analyzing aspect terms, aspect categories, opinion terms, and sentiment polarity within given sentences.
+This shared task introduces **dimensional sentiment representation** into three established Aspect-Based Sentiment Analysis (ABSA) subtasks: **Aspect Sentiment Classification (ASC)**, **Aspect Sentiment Triplet Extraction (ASTE)**, and **Aspect Sentiment Quad Prediction (ASQP)**. Traditionally, these subtasks involve the identification of aspect terms, aspect categories, opinion terms, and the assignment of discrete sentiment polarity labels (e.g., positive, negative, neutral) within a given sentence.
 
-By replacing categorical sentiment polarity with **valence-arousal (VA) scores**, we propose three new corresponding **dimensional subtasks**:
+To enable a more fine-grained and psychologically grounded understanding of sentiment, we replace categorical polarity labels with continuous **valence-arousal (VA)** scores. These scores provide a two-dimensional representation of affective meaning, capturing both the **valence** (i.e., the positivity or negativity of the sentiment) and **arousal** (i.e., the degree of emotional intensity).
 
-- **Dimensional Aspect Sentiment Regression (DimASR)**  
-- **Dimensional Aspect Sentiment Triplet Extraction (DimASTE)**  
-- **Dimensional Aspect Sentiment Quad Prediction (DimASQP)**  
+Based on this reformulation, we define three novel subtasks, each corresponding to a traditional ABSA task but adapted to the dimensional sentiment paradigm:
 
-The elements to be predicted in these new subtasks are described below. Among these, only the **Valence-Arousal (VA)** element is newly introduced; the remaining elements are identical to those in traditional ABSA tasks.
+- **Dimensional Aspect Sentiment Regression (DimASR)**: predicts VA scores for predefined aspect categories.
+- **Dimensional Aspect Sentiment Triplet Extraction (DimASTE)**: extracts (aspect term, opinion term, VA score) triplets.
+- **Dimensional Aspect Sentiment Quad Prediction (DimASQP)**: extracts (aspect category, aspect term, opinion term, VA score) quads.
+
+The elements to be predicted in the new subtasks are described as follows. Among them, only the **Valence-Arousal (VA)** element is newly introduced; the others are retained from traditional ABSA settings:
+
+- **Aspect Term**: A word or phrase indicating an opinion target, such as *appetizer*, *waiter*, *battery*, or *screen*.
+- **Aspect Category**: An abstract or predefined category to which an aspect term belongs. It follows the format *Entity#Attribute*, where the *Entity* (e.g., `FOOD`, `SERVICE`) and *Attribute* (e.g., `PRICES`, `QUALITY`) are selected from predefined lists (Pontiki et al., 2015). For all valid combinations, see the [full list of aspect categories](#full-list-of-aspect-categories).
+- **Opinion Term**: A sentiment-bearing word or phrase associated with a specific aspect term, such as *great*, *terrible*, or *satisfactory*.
+- **Valence-Arousal (VA)**: A pair of real-valued scores, each ranging from **1.00 to 9.00**, rounded to two decimal places.  
+    - **Valence (V)**: Measures the degree of positivity or negativity.  
+    - **Arousal (A)**: Measures the intensity of emotion.  
+    A score of **1.00** indicates extremely negative valence or very low arousal, **9.00** indicates extremely positive valence or very high arousal, and **5.00** represents a neutral valence or medium arousal.
+
+Different subtasks involve different combinations of the above elements. Participants may choose to participate in one or more of these subtasks, depending on their research interest or application focus.
 
 
+<!--  
 
 We introduce dimensional sentiment representation into three traditional ABSA subtasks: Aspect Sentiment Classification (ASC), Aspect Sentiment Triplet Extraction (ASTE), and Aspect Sentiment Quad Prediction (ASQP), which involve the analysis of aspect terms, aspect categories, opinion terms, and sentiment polarity in given sentences. By replacing sentiment polarity with valence-arousal scores, we propose three new corresponding dimensional subtasks: Dimensional Aspect Sentiment Regression (DimASR), Dimensional Aspect Sentiment Triplet Extraction (DimASTE), and Dimensional Aspect Sentiment Quad Prediction (DimASQP). The resulting elements to be predicted in the new subtasks are described as follows. Among them, only the Valence-Arousal (VA) element is newly introduced; the others are identical to those in traditional ABSA.
 
@@ -68,7 +77,7 @@ We introduce dimensional sentiment representation into three traditional ABSA su
 - Valence-Arousal (VA): Both valence (V) and arousal (A) are real numbers ranging from 1.00 to 9.00, rounded to two decimal places. A score of 1.00 indicates extremely negative valence or very low arousal; 9.00 indicates extremely positive valence or very high arousal; and 5.00 represents neutral valence or medium arousal.
 
 Different subtasks involve different combinations of the above elements. Participants may choose to participate in one or more of these subtasks.
-
+-->
 ## Subtask 1: Dimensional Aspect Sentiment Regression (DimASR)
 
 Given a textual instance and one or more target aspects, predict a real-valued **valence-arousal (VA)** score for each aspect. 
