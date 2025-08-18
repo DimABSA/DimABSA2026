@@ -111,14 +111,8 @@ The output should be in JSON Lines format and include the following fields. All 
 Below are some examples from domains included in this subtask, such as restaurant, laptop, and hotel reviews, and financial reports, and environmental stance detection.
 
 
+
 - ### Restaurant
-
-  <details>
-  <summary><b>Restaurant Review</b></summary>
-  
-  **Input:**
- 
-
   Input: 
   ```json
   {
@@ -130,6 +124,7 @@ Below are some examples from domains included in this subtask, such as restauran
       ]
   }
   ```
+  
   Output:
   ```json
   {
@@ -248,6 +243,8 @@ Below are some examples from domains included in this subtask, such as restauran
       ]
   }
   ```
+
+  
 
 
 ## Subtask 2: Dimensional Aspect Sentiment Triplet Extraction (DimASTE)
