@@ -18,6 +18,35 @@
 - [References](#references)
 
 
+
+# 🚀 Quick Start
+
+- **Task**: Predict real-valued **valence–arousal (VA)** scores for aspects in text.  
+- **Subtasks**:  
+  1. DimASR – Aspect Sentiment Regression  
+  2. DimASTE – Aspect Sentiment Triplet Extraction  
+  3. DimASQP – Aspect Sentiment Quad Prediction  
+- **Domains**: Customer reviews, movie reviews, hotel reviews, finance, stance.  
+- **Languages**: 16 (high + low resource) 🌍  
+- **Data**: JSONL format (train/dev/test sets).  
+- **Submission**: Upload predictions via Codalab.  
+- **Evaluation**: Regression (Pearson/CCC) + Extraction (F1 + correlation).  
+- **Important Dates**: Training data (Sep 1, 2025) → Evaluation (Jan 2026).
+
+## 🔎 Task Flow
+
+```mermaid
+flowchart LR
+    A["Input Text:<br> 'The battery life is impressive, but the keyboard feels cheap.'"] --> B[Aspect Extraction]
+    B --> C["Aspects Identified:<br>- battery life<br>- keyboard"]
+    C --> D[Opinion Term Detection]
+    D --> E[Predict Valence–Arousal (VA) Scores]
+    E --> F["Output:<br>(battery life, DEVICE#BATTERY, impressive, 8.20#6.00)<br>(keyboard, DEVICE#KEYBOARD, feels cheap, 3.00#5.00)"]
+```
+---
+
+
+
 [Join the Google Group for the task](https://groups.google.com/g/dimabsa-participants)| [Join Discord](#)  | [Create an Issue](#) | [Contact Us](mailto:dimabsa-organizers@googlegroups.com) | [Download Dataset](#) | [How to Participate](#)|
 
 ---
