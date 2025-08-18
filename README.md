@@ -67,6 +67,19 @@ The elements to be predicted in the new subtasks are described as follows.
     - **Arousal (A)**: Measures the intensity of emotion.  
     A score of **1.00** indicates extremely negative valence or very low arousal, **9.00** indicates extremely positive valence or very high arousal, and **5.00** represents a neutral valence or medium arousal.
 
+<details>
+    <summary><strong>Example (Customer Review):</strong></summary>
+    <ul>
+      <li><strong>Sentence:</strong> "The battery life of this laptop is impressive, but the keyboard feels cheap."</li>
+      <li><strong>Annotations:</strong></li>
+      <ul>
+        <li>(battery life, DEVICE#BATTERY, impressive, 8.20#6.00)</li>
+        <li>(keyboard, DEVICE#KEYBOARD, feels cheap, 3.00#5.00)</li>
+      </ul>
+    </ul>
+</details>
+
+  
 Participants may choose to participate in one or more of these subtasks, depending on their research interest or application focus.
 
 <!--  
