@@ -46,12 +46,12 @@ To bridge this gap, this task introduce **Dimensional ABSA (DimABSA)**, a task t
 
 
 ## Task Description
-
+<!--  
 This shared task introduces **dimensional sentiment representation** into three established Aspect-Based Sentiment Analysis (ABSA) subtasks: **Aspect Sentiment Classification (ASC)**, **Aspect Sentiment Triplet Extraction (ASTE)**, and **Aspect Sentiment Quad Prediction (ASQP)**. Traditionally, these subtasks involve the identification of aspect terms, aspect categories, opinion terms, and the assignment of discrete sentiment polarity labels (e.g., positive, negative, neutral) within a given sentence.
 
 To enable a more fine-grained and psychologically grounded understanding of sentiment, we replace categorical polarity labels with continuous **valence-arousal (VA)** scores. These scores provide a two-dimensional representation of affective meaning, capturing both the **valence** (i.e., the positivity or negativity of the sentiment) and **arousal** (i.e., the degree of emotional intensity).
-
-Based on this reformulation, we define three novel subtasks, each corresponding to a traditional ABSA task but adapted to the dimensional sentiment paradigm:
+-->
+ We define three subtasks, each corresponding to a traditional ABSA task but adapted to the dimensional sentiment paradigm:
 
 - **Dimensional Aspect Sentiment Regression (DimASR)**: predicts VA scores for predefined aspect categories.
 - **Dimensional Aspect Sentiment Triplet Extraction (DimASTE)**: extracts (aspect term, opinion term, VA score) triplets.
