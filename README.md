@@ -54,7 +54,7 @@ Based on this reformulation, we define three novel subtasks, each corresponding 
 - **Dimensional Aspect Sentiment Triplet Extraction (DimASTE)**: extracts (aspect term, opinion term, VA score) triplets.
 - **Dimensional Aspect Sentiment Quad Prediction (DimASQP)**: extracts (aspect category, aspect term, opinion term, VA score) quads.
 
-The elements to be predicted in the new subtasks are described as follows. Among them, only the **Valence-Arousal (VA)** element is newly introduced; the others are retained from traditional ABSA settings:
+The elements to be predicted in the new subtasks are described as follows.
 
 - **Aspect Term**: A word or phrase indicating an opinion target, such as *appetizer*, *waiter*, *battery*, or *screen*.
 - **Aspect Category**: An abstract or predefined category to which an aspect term belongs. It follows the format *Entity#Attribute*, where the *Entity* (e.g., `FOOD`, `SERVICE`) and *Attribute* (e.g., `PRICES`, `QUALITY`) are selected from predefined lists (Pontiki et al., 2015). For all valid combinations, see the [full list of aspect categories](#full-list-of-aspect-categories).
