@@ -522,11 +522,18 @@ Below are some examples from domains included in this subtask, such as restauran
 The performance of the submitted systems will be evaluated based on the following metrics:
 
 
-- <b> Subtask 1: Dimensional Aspect Sentiment Regression (DimASR) </b> 
+**Subtask 1: DimASR** 
    TBD
-- <b> Subtask 2 & 3: DimASTE & DimASQP </b> 
+
+**Subtask 2 & 3: DimASTE & DimASQP** 
+
 DimASTE and DimASQP are sentiment analysis tasks involving extraction, classification, and regression. Their outputs contain both categorical elements (e.g., A, C, O) and continuous elements (VA), which have traditionally been evaluated using separate metrics. In conventional ABSA tasks, categorical elements are assessed using precision, recall, and F1-score, where a predicted tuple is counted as a *true positive (TP)* only if all its categorical elements exactly match the gold annotation. This binary criterion, however, does not account for continuous-valued components, which are typically evaluated using correlation-based or difference-based metrics. To unify the evaluation of categorical and continuous components, we propose the ***continuous true positive (cTP)***, which extends the categorical TP by incorporating a penalty based on the VA prediction error. Let P be the set of predicted triplets (A, O, VA) or quadruplets (A, C, O, VA). For a prediction t ∈ 𝑃, its cTP is defined as
-![equation](images/lagrida_latex_editor.png)
+
+<img width="225" height="50" alt="image" src="https://github.com/user-attachments/assets/3ce8889f-d708-4a3e-aa89-dce060933960" />,
+
+where *P*<sub>*cat*</sub> ⊆ *P* denotes the set of predictions in which all categorical elements, (A, O) for a triplet or (A, C, O) for a quadruplet, exactly match the gold annotation for the same sentence. Each categorically correct prediction *t* ∈ *P*<sub>*cat*</sub> is assigned an initial TP score of 1, which is then reduced based on its VA error distance. Predictions with no categorical match are assigned a score of 0. The distance function is defined as 
+
+<img width="255" height="52" alt="image" src="https://github.com/user-attachments/assets/f736e6bb-9281-4f1b-a5b4-e9d69c7766de" />,
 
 
 
