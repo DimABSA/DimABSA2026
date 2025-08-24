@@ -524,10 +524,12 @@ The performance of the submitted systems will be evaluated based on the followin
 
 - <b> Subtask 1: Dimensional Aspect Sentiment Regression (DimASR) </b> 
    TBD
-- <b>Subtask 2: Dimensional Aspect Sentiment Triplet Extraction (DimASTE) </b> 
-TBD
-- <b>Subtask 3: Dimensional Aspect Sentiment Quad Prediction (DimASQP)</b> 
-TBD
+- <b> Subtask 2 & 3: DimASTE & DimASQP </b> 
+DimASTE and DimASQP are sentiment analysis tasks involving extraction, classification, and regression. Their outputs contain both categorical elements (e.g., A, C, O) and continuous elements (VA), which have traditionally been evaluated using separate metrics. In conventional ABSA tasks, categorical elements are assessed using precision, recall, and F1-score, where a predicted tuple is counted as a *true positive (TP)* only if all its categorical elements exactly match the gold annotation. This binary criterion, however, does not account for continuous-valued components, which are typically evaluated using correlation-based or difference-based metrics. To unify the evaluation of categorical and continuous components, we propose the ***continuous true positive (cTP)***, which extends the categorical TP by incorporating a penalty based on the VA prediction error. Let P be the set of predicted triplets (A, O, VA) or quadruplets (A, C, O, VA). For a prediction t ∈ 𝑃, its cTP is defined as
+![equation](images/lagrida_latex_editor.png)
+
+
+
 - For details about the evaluation script and the submission file format checker, check this [guide](#).
 
 
