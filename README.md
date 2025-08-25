@@ -328,24 +328,7 @@ Below are some examples from domains included in this subtask, such as restauran
       "Text": "average to good thai food, but terrible delivery."
   }
   ```
-  Output:
-  ```json
-  {
-      "ID": "R001",
-      "Triplet":[
-          {
-              "Aspect": "thai food",
-              "Opinion": "average to good",
-              "VA": "6.75#6.38"
-          },
-          {
-              "Aspect": "delivery",
-              "Opinion": "terrible",
-              "VA": "2.88#6.62"
-          }
-      ]
-  }
-  ```
+
 - ### Laptop
   Input:
   ```json
