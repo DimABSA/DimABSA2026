@@ -137,26 +137,40 @@ Input: <details>
 {
     "ID": "R001",
     "Text": "average to good thai food, but terrible delivery."
+    "Aspect": [
+          "thai food",
+          "delivery"
+      ]
 }
 ```
 </details> 
 
 
+  
+  Output:
+ 
+ <details>
+  <summary> Sample Output JSON Record (click to expand)</summary>
 
-
-
-  ```json
+```json
   {
       "ID": "R001",
-      "Text": "average to good thai food, but terrible delivery.",
-      "Aspect": [
-          "thai food",
-          "delivery"
+      "Aspect_VA":[
+          {
+              "Aspect": "thai food",
+              "VA": "6.75#6.38"
+          },
+          {
+              "Aspect": "delivery",
+              "VA": "2.88#6.62"
+          }
       ]
   }
   ```
-  
-  Output:
+</details> 
+
+
+
   ```json
   {
       "ID": "R001",
