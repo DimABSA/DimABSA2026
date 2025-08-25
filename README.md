@@ -546,7 +546,7 @@ Below are some examples from domains included in this subtask, such as restauran
 
 The performance of the submitted systems will be evaluated based on the following metrics:
 
-**Subtask 1: DimASR** 
+**Subtask 1: DimASR (RMSE)** 
 
 DimASR is a sentiment regression task evaluated using the normalized ***Root Mean Square Error (RMSE)*** between the predicted and gold VA values:
 
@@ -557,7 +557,7 @@ $$
 
 where 𝑁 is the total number of instances; ${V_p^{(i)}}$ and ${A_p^{(i)}}$ denote the predicted valence and arousal values for instance *i*; ${V_g^{(i)}}$ and ${A_g^{(i)}}$ denote the corresponding gold values; and $D_{\max} = 8^2 + 8^2 = 128$ is the maximum possible squared distance in the VA space on the [1, 9] scale, ensuring that *RMSE* is bounded within [0,1], with 0 indicating perfect prediction and 1 corresponding to the maximum error.
 
-**Subtask 2 & 3: DimASTE & DimASQP** 
+**Subtask 2 & 3: DimASTE & DimASQP (continuous F1)** 
 
 DimASTE and DimASQP are sentiment analysis tasks involving extraction, classification, and regression. Their outputs contain both categorical elements (e.g., A, C, O) and continuous elements (VA), which have traditionally been evaluated using separate metrics. In conventional ABSA tasks, categorical elements are assessed using precision, recall, and F1-score, where a predicted tuple is counted as a *true positive (TP)* only if all its categorical elements exactly match the gold annotation. This binary criterion, however, does not account for continuous-valued components, which are typically evaluated using correlation-based or difference-based metrics. To unify the evaluation of categorical and continuous components, we propose the ***continuous true positive (cTP)***, which extends the categorical TP by incorporating a penalty based on the VA prediction error. Let *P* be the set of predicted triplets (A, O, VA) or quadruplets (A, C, O, VA). For a prediction $t \in P$, its *cTP* is defined as
 
