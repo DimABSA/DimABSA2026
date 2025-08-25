@@ -21,12 +21,12 @@
 
 #  Quick Start
 
-- **Task**: Predict real-valued **valence–arousal (VA)** scores for aspects in text.  
+- **Task**: Predict real-valued **valence–arousal (VA)** scores for aspects and extract their relevant information from text.  
 - **Subtasks**:  
   1. DimASR – Aspect Sentiment Regression  
   2. DimASTE – Aspect Sentiment Triplet Extraction  
   3. DimASQP – Aspect Sentiment Quad Prediction  
-- **Domains**: Customer reviews, movie reviews, hotel reviews, finance, stance.  
+- **Domains**: Customer reviews (restaurants, laptops, movies, hotels), finance, stance.  
 - **Languages**: 16 (high + low resource) 🌍  
 - **Data**: JSONL format (train/dev/test sets).  
 - **Submission**: Upload predictions via Codalab.  
@@ -56,7 +56,7 @@ To bridge this gap, this task introduces **Dimensional ABSA (DimABSA)**, a task 
 
 
 - **Fine-grained sentiment modelling**: Replaces discrete sentiment labels with continuous VA scores, offering more nuanced emotional representation.
-- **Multidomain coverage**: Constructs datasets from four diverse application areas, **customer reviews**,**moview reviews** **financial reports**, and **stance detection**, going beyond the focus on consumer reviews on traditional ABSA.
+- **Multidomain coverage**: Constructs datasets from four diverse application areas, **customer reviews (restaurants, laptops, movies, hotels)**, **financial reports**, and **stance detection**, going beyond the focus on consumer reviews on traditional ABSA.
 - **Multilingual benchmark**: Covers languages across five continents, including both high-resource and low-resource languages. Supported languages include: *Hausa, Igbo, Kinyarwanda, Swahili, Twi, Chinese, English, German, Japanese, Brazilian Portuguese, Russian, Ukrainian, and Tatar*.
 
 
@@ -559,7 +559,7 @@ $$
 cPrecision = \frac{{T{P_{cat}} - \sum\nolimits_{t \in {P_{cat}}} {{\rm{dist(}}VA_p^{(t)}{\rm{, }}VA_g^{(t)}{\rm{)}}} }}{{T{P_{cat}} + F{P_{cat}}}},
 $$
 
-where $FP_{cat}$ denotes the number of predictions with no categorical match.
+where $FP_{cat}$ denotes the number of predictions with no categorical match. Figure 2 illustrates an example of calculating *cTP*, *cRecall*, and *cPrecision*.
 
 Finally, the ***continuous F1 (cF1)*** is the harmonic mean of *cRecall* and *cPrecision*.
 
@@ -567,14 +567,17 @@ $$
 cF{\rm{1}} = \frac{{2 \times cRecall \times cPrecision}}{{cRecall + cPrecision}}
 $$
 
+
+<p align="center">
+  <br>
+  <img width="672" height="345" alt="image" src="https://github.com/DimABSA/DimABSA2026/blob/main/continuous TP example.png" /><br>  
+  Fig. 2. Example of calculating cTP, cRecall, and cPrecision.
+</p>
+
 Notes: 
 1. When the VA prediction is perfect (*dist*=0), *cRecall*/*cPrecision* reduces to the standard *recall*/*precision*. When no categorical match exists, both scores are 0.
 2. The output VA values should lie within the inclusive range [1, 9]. Any prediction with either V or A outside this range is considered invalid.
 3. Participants must remove duplicate predictions before submission. If multiple predictions in the same sentence share the same categorical tuple (A,O) for triplets or (A,C,O) for quadruplets, all of them are considered invalid.
-
-<p align="center">
-  <img width="1120" height="575" alt="image" src="https://github.com/DimABSA/DimABSA2026/blob/main/continuous TP example.png" />
-</p>
 
 - For details about the evaluation script and the submission file format checker, check this [guide](#).
 
