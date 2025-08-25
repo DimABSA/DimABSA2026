@@ -12,6 +12,7 @@
     - [Subtask 2](#subtask-2-dimensional-aspect-sentiment-triplet-extraction-dimaste) 
     - [Subtask 3](#subtask-3-dimensional-aspect-sentiment-quad-prediction-dimasqp)
 - [Datasets](#datasets)
+- [Evaluation](#evaluation)
 - [Full List of Aspect Categories](#full-list-of-aspect-categories)
 - [Important Dates and Task Phases](#important-dates-and-task-phases)
 - [Resources](#resources)
