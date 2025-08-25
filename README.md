@@ -31,7 +31,7 @@
 - **Languages**: 16 (high + low resource) 🌍  
 - **Data**: JSONL format (train/dev/test sets).  
 - **Submission**: Upload predictions via Codalab.  
-- **Evaluation**: TBD.  
+- **Evaluation**: RMSE for Subtask 1 and a new metric (continuous F1) for Subtask 2&3.  
 - **Important Dates**: Training data (Sep 1, 2025) → Evaluation (Jan 2026).
 
 [Join the Google Group for the task](https://groups.google.com/g/dimabsa-participants)| [Join Discord](#)  | [Create an Issue](#) | [Contact Us](mailto:dimabsa-organizers@googlegroups.com) | [Download Dataset](#) | [How to Participate](#)|
@@ -546,9 +546,16 @@ Below are some examples from domains included in this subtask, such as restauran
 
 The performance of the submitted systems will be evaluated based on the following metrics:
 
-
 **Subtask 1: DimASR** 
-   TBD
+
+DimASR is a sentiment regression task evaluated using the normalized ***Root Mean Square Error (RMSE)*** between the predicted and gold VA values:
+
+$$
+RMSE_{VA} = \sqrt{\frac{1}{N} \sum_{i=1}^N 
+   \frac{(V_p^{(i)} - V_g^{(i)})^2 + (A_p^{(i)} - A_g^{(i)})^2}{D_{\max}} }
+$$
+
+where 𝑁 is the total number of instances; ${V_p^{(i)}}$ and ${A_p^{(i)}}$ denote the predicted valence and arousal values for instance *i*; ${V_g^{(i)}}$ and ${A_g^{(i)}}$ denote the corresponding gold values; and $D_{\max} = 8^2 + 8^2 = 128$ is the maximum possible squared distance in the VA space on the [1, 9] scale, ensuring that *RMSE* is bounded within [0,1], with 0 indicating perfect prediction and 1 corresponding to the maximum error.
 
 **Subtask 2 & 3: DimASTE & DimASQP** 
 
