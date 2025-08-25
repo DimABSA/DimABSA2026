@@ -129,10 +129,9 @@ Below are some examples from domains included in this subtask, such as restauran
 
 
 - ### Restaurant
-  Input:
 
-<details>
-  <summary>Sample JSON Record</summary>
+Input: <details>
+  <summary> Sample JSON Record (click to expand)</summary>
 
 ```json
 {
@@ -140,7 +139,10 @@ Below are some examples from domains included in this subtask, such as restauran
     "Text": "average to good thai food, but terrible delivery."
 }
 ```
-</details>
+</details> 
+
+
+
 
 
   ```json
