@@ -575,9 +575,9 @@ $$
 </p>
 
 Notes: 
-1. When the VA prediction is perfect (*dist*=0), *cRecall*/*cPrecision* reduces to the standard *recall*/*precision*. When no categorical match exists, both scores are 0.
+1. When the VA prediction is perfect (*dist*=0), *cRecall*/*cPrecision* reduces to the standard *recall*/*precision*.
 2. The output VA values should lie within the inclusive range [1, 9]. Any prediction with either V or A outside this range is considered invalid.
-3. Participants must remove duplicate predictions before submission. If multiple predictions in the same sentence share the same categorical tuple (A,O) for triplets or (A,C,O) for quadruplets, all of them are considered invalid.
+3. Participants should remove duplicate predictions before submission. If multiple predictions in the same sentence share the same categorical tuple (A,O) for triplets or (A,C,O) for quadruplets, all of them are considered invalid.
 
 - For details about the evaluation script and the submission file format checker, check this [guide](#).
 
