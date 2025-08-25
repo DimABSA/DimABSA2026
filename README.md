@@ -527,7 +527,7 @@ The performance of the submitted systems will be evaluated based on the followin
 
 **Subtask 2 & 3: DimASTE & DimASQP** 
 
-DimASTE and DimASQP are sentiment analysis tasks involving extraction, classification, and regression. Their outputs contain both categorical elements (e.g., A, C, O) and continuous elements (VA), which have traditionally been evaluated using separate metrics. In conventional ABSA tasks, categorical elements are assessed using precision, recall, and F1-score, where a predicted tuple is counted as a *true positive (TP)* only if all its categorical elements exactly match the gold annotation. This binary criterion, however, does not account for continuous-valued components, which are typically evaluated using correlation-based or difference-based metrics. To unify the evaluation of categorical and continuous components, we propose the ***continuous true positive (cTP)***, which extends the categorical TP by incorporating a penalty based on the VA prediction error. Let P be the set of predicted triplets (A, O, VA) or quadruplets (A, C, O, VA). For a prediction $t \in P$, its *cTP* is defined as
+DimASTE and DimASQP are sentiment analysis tasks involving extraction, classification, and regression. Their outputs contain both categorical elements (e.g., A, C, O) and continuous elements (VA), which have traditionally been evaluated using separate metrics. In conventional ABSA tasks, categorical elements are assessed using precision, recall, and F1-score, where a predicted tuple is counted as a *true positive (TP)* only if all its categorical elements exactly match the gold annotation. This binary criterion, however, does not account for continuous-valued components, which are typically evaluated using correlation-based or difference-based metrics. To unify the evaluation of categorical and continuous components, we propose the ***continuous true positive (cTP)***, which extends the categorical TP by incorporating a penalty based on the VA prediction error. Let *P* be the set of predicted triplets (A, O, VA) or quadruplets (A, C, O, VA). For a prediction $t \in P$, its *cTP* is defined as
 
 $$
 cTP^{(t)} =
@@ -543,7 +543,7 @@ $$
 dist(VA_p, VA_g) = \frac{\sqrt{\left( V_p - V_g \right)^2 + \left( A_p - A_g \right)^2}}{D_{max}},
 $$
 
-where $dist(\cdot)$ denotes the normalized Euclidean distance between the predicted $VA_p = (V_p, A_p)$ and gold $VA_g = (V_g, A_g)$ in the VA space, and $D_{max}=\sqrt{8^2 + 8^2}=\sqrt{128}$  is the maximum possible Euclidean distance on the [1, 9] scale, ensuring that $dist$ ⊆ [0, 1].
+where $dist(\cdot)$ denotes the normalized Euclidean distance between the predicted $VA_p = (V_p, A_p)$ and gold $VA_g = (V_g, A_g)$ in the VA space, and $D_{max}=\sqrt{8^2 + 8^2}=\sqrt{128}$  is the maximum possible Euclidean distance in the VA space on the [1, 9] scale, ensuring that $dist$ ⊆ [0, 1].
 
 Building on per-prediction $cTP^{(t)}$, ***continuous Recall (cRecall)*** is defined as the total *cTP* divided by the number of gold triplets/quadruplets:
 
@@ -561,7 +561,7 @@ $$
 
 where $FP_{cat}$ denotes the number of predictions with no categorical match.
 
-Finally, the ***continuous F***1 ***(cF***1***)*** is the harmonic mean of *cRecall* and *cPrecision*.
+Finally, the ***continuous F1 (cF1)*** is the harmonic mean of *cRecall* and *cPrecision*.
 
 $$
 cF{\rm{1}} = \frac{{2 \times cRecall \times cPrecision}}{{cRecall + cPrecision}}
@@ -572,6 +572,9 @@ Notes:
 2. The output VA values should lie within the inclusive range [1, 9]. Any prediction with either V or A outside this range is considered invalid.
 3. Participants must remove duplicate predictions before submission. If multiple predictions in the same sentence share the same categorical tuple (A,O) for triplets or (A,C,O) for quadruplets, all of them are considered invalid.
 
+<p align="center">
+  <img width="1120" height="575" alt="image" src="https://github.com/DimABSA/DimABSA2026/blob/main/continuous TP example.png" />
+</p>
 
 - For details about the evaluation script and the submission file format checker, check this [guide](#).
 
