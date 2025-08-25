@@ -129,7 +129,20 @@ Below are some examples from domains included in this subtask, such as restauran
 
 
 - ### Restaurant
-  Input: 
+  Input:
+
+<details>
+  <summary>Sample JSON Record</summary>
+
+```json
+{
+    "ID": "R001",
+    "Text": "average to good thai food, but terrible delivery."
+}
+```
+</details>
+
+
   ```json
   {
       "ID": "R001",
