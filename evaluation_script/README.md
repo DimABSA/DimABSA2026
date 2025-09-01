@@ -36,7 +36,7 @@ pip install -r requirements.txt
 
 Example command for evaluating predictions:  
 ```bash
-python metrics_subtask_1_2_3.py -t 2 -p eng_restaurant_subtask2_output.jsonl -g eng_restaurant_subtask2_gold.jsonl
+python metrics_subtask_1_2_3.py -t 2 -p sample_data/eng_restaurant_subtask2_output.jsonl -g sample_data/eng_restaurant_subtask2_gold.jsonl
 ```
 
 Three variables need to be specified in order to switch between different subtasks:  
