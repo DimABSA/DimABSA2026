@@ -22,7 +22,7 @@
 
 #  Quick Start
 
-- **Task**: Predict real-valued **valence–arousal (VA)** scores for aspects and extract their relevant information from text.  
+- **Task**: Predict real-valued **valence–arousal (VA)** scores for aspects and extract their associated information from text.  
 - **Subtasks**:  
   1. DimASR – Aspect Sentiment Regression  
   2. DimASTE – Aspect Sentiment Triplet Extraction  
@@ -53,7 +53,7 @@ This valence-arousal (VA) representation has inspired the rise of dimensional se
 
 To bridge this gap, this task introduces **Dimensional ABSA (DimABSA)**, a task that integrates dimensional sentiment analysis into the traditional ABSA framework and is defined as:
 
-> Given a textual instance, participants are expected to predict real-valued **valence** and **arousal** scores associated with relevant aspects. The proposed DimABSA task has the following features
+> Given a textual instance, participants are expected to predict real-valued **valence** and **arousal** scores for aspects and extract their associated information from text. The proposed DimABSA task has the following features
 
 
 - **Fine-grained sentiment modelling**: Replaces discrete sentiment labels with continuous VA scores, offering more nuanced emotional representation.
