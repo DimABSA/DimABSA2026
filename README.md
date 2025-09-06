@@ -527,8 +527,8 @@ Below are some examples from domains included in this subtask, such as restauran
 # Datasets
 | No. | Language | Code | Subtask 1<br>DimASR | Subtask 2<br>DimASTE | Subtask 3<br>DimASQP |
 |:-----:|:----------:|:------:|:------------------:|:-------------------:|:------------------:|
-| 1 | English | ENG | Restaurant<br>Laptop<br>Stance | Restaurant<br>Laptop<br>Stance | Restaurant<br>Laptop |
-| 2 | German | DEU | Stance | Stance |  |
+| 1 | German | DEU | Stance | Stance |  |
+| 2 | English | ENG | Restaurant<br>Laptop<br>Stance | Restaurant<br>Laptop<br>Stance | Restaurant<br>Laptop |
 | 3 | Hausa | HAU |  |  |  |
 | 4 | Igbo | IBO |  |  |  |
 | 5 | Japanses | JPN | Hotel<br>Finance | Hotel<br>Finance | Hotel<br>Finance |
