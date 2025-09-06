@@ -40,7 +40,7 @@
 
 # Overview
 
-Aspect-Based Sentiment Analysis (ABSA) is the task of identifying aspect terms in text and determining their associated sentiment polarity (Pontiki et al., 2014; 2015; 2016). However, current ABSA research predominantly adopts a coarse-grained, categorical sentiment representation (e.g., positive, negative, or neutral). This approach stands in contrast to long-established theories in psychology and affective science (Russell, 1980; 2003), where sentiment is represented along fine-grained, real-valued dimensions of **valence** (ranging from negative to positive) and **arousal** (from sluggish to excited), as illustrated in Fig. 1.
+Aspect-Based Sentiment Analysis (ABSA) is the task of identifying aspect terms in text and determining their associated sentiment polarity (Zhang et al., 2023). However, current ABSA research predominantly adopts a coarse-grained, categorical sentiment representation (e.g., positive, negative, or neutral). This approach stands in contrast to long-established theories in psychology and affective science (Russell, 1980; 2003), where sentiment is represented along fine-grained, real-valued dimensions of **valence** (ranging from negative to positive) and **arousal** (from sluggish to excited), as illustrated in Fig. 1.
 
 This valence-arousal (VA) representation has inspired the rise of dimensional sentiment analysis as an emerging research paradigm (Mohammad, 2018; Lee et al., 2022, 2024; Muhammad et al., 2025), enabling more nuanced distinctions in emotional expression and supporting a broader range of applications.
 
@@ -69,9 +69,9 @@ To enable a more fine-grained and psychologically grounded understanding of sent
 -->
  We define three subtasks, each corresponding to a traditional ABSA task but adapted to the dimensional sentiment paradigm:
 
-- **Dimensional Aspect Sentiment Regression (DimASR)**: predicts VA scores for aspect terms in text.
-- **Dimensional Aspect Sentiment Triplet Extraction (DimASTE)**: extracts (aspect term, opinion term, VA score) triplets.
-- **Dimensional Aspect Sentiment Quad Prediction (DimASQP)**: extracts (aspect category, aspect term, opinion term, VA score) quads.
+- **Dimensional Aspect Sentiment Regression (DimASR)**: Predict VA scores for given aspect terms in text, extending the traditional Aspect Sentiment Classification (ASC) task (Pontiki et al., 2014; 2015; 2016).
+- **Dimensional Aspect Sentiment Triplet Extraction (DimASTE)**: Extract (aspect term, opinion term, VA score) triplets from text, extending the traditional Aspect Sentiment Triplet Extraction (ASTE) task (Peng et al., 2020).
+- **Dimensional Aspect Sentiment Quad Prediction (DimASQP)**: Extract (aspect category, aspect term, opinion term, VA score) quadruplets from text, extending the traditional Aspect Sentiment Quad Prediction (ASQP) task (Cai et al., 2021; Zhang et al., 2021).
 
 The elements to be predicted in the new subtasks are described as follows.
 
@@ -687,23 +687,21 @@ Notes:
 
 Sven Buechel and Udo Hahn. 2017. EmoBank: Studying the Impact of Annotation Perspective and Representation Format on Dimensional Emotion Analysis. In *Proc. of EACL-17*, pages 578-585.
 
+Hongjie Cai, Rui Xia and Jie Yu. 2021. Aspect-Category-Opinion-Sentiment Quadruple Extraction with Implicit Aspects and Opinions. In Findings of EMNLP-21, pages 2909–2920.
+
 Francesca M. M. Citron, Mollie Lee, and Nora Michaelis. 2020. Affective and psycholinguistic norms for German conceptual metaphors (COMETA). *Behavior Research Methods*, 52(3):1056-1072.
-<!--
-Will E. Hipson and Saif M. Mohammad. 2021. Emotion dynamics in movie dialogues. *PLOS ONE*, 16(9):e0256153.
--->
+
 Lung-Hao Lee, Jian-Hong Li, and Liang-Chih Yu. 2022. Chinese EmoBank: Building Valence-Arousal Resources for Dimensional Sentiment Analysis. *ACM Transactions on Asian and Low-Resource Language Information Processing*, 21(4):65.
 
 Lung-Hao Lee, Liang-Chih Yu, Suge Wang and Jian Liao. Overview of the SIGHAN 2024 shared task for Chinese dimensional aspect-based sentiment analysis. In *Proc. of SIGHAN-24*, pages 165-174.
-<!--
-Zhiwei Liu, Tianlin Zhang, Kailai Yang, Paul Thompson, Zeping Yu, Sophia Ananiadou. 2024. Emotion detection for misinformation: A review. Information Fusion, 107:102300.
-Saif M. Mohammad. 2018. Obtaining Reliable Human Ratings of Valence, Arousal, and Dominance for 20,000 English Words. In *Proc. of ACL-18*, pages 174-184.
--->
 
 Saif M. Mohammad and Felipe Bravo-Marquez. 2017. WASSA-2017 Shared Task on Emotion Intensity. In *Proc. of WASSA-17*, pages 34-49.
 
 Saif M. Mohammad, Felipe Bravo-Marquez, Mohammad Salameh, and Svetlana Kiritchenko. 2018. SemEval-2018 Task 1: Affect in Tweets. In *Proc. of SemEval-18*, pages 1-17.
 
 Shamsuddeen Hassan Muhammad, Nedjma Ousidhoum, Idris Abdulmumin, Seid Muhie Yimam, Jan Philip Wahle, Terry Ruas, Meriem Beloucif, Christine De Kock, Tadesse Destaw Belay, Ibrahim Said Ahmad, Nirmal Surange, Daniela Teodorescu, David Ifeoluwa Adelani, Alham Fikri Aji, Felermino Ali, Vladimir Araujo, Abinew Ali Ayele, Oana Ignat, Alexander Panchenko, Yi Zhou, and Saif M. Mohammad. 2025. SemEval-2025 Task 11: Bridging the Gap in Text-Based Emotion Detection. In *Proc. of SemEval-25*.
+
+Haiyun Peng, Lu Xu, Lidong Bing, Fei Huang, Wei Lu, and Luo Si. 2020. Knowing What, How and Why: A Near Complete Solution for Aspect-Based Sentiment Analysis. In *Proc. of AAAI-20*, pages 8600-8607.
 
 Maria Pontiki, Dimitrios Galanis, Haris Papageorgiou, Ion Androutsopoulos, Suresh Manandhar, Mohammad AL-Smadi, Mahmoud AI-Ayyoub, Yanyan Zhao, Bing Qin, Orphee De Clercq, Veronique Hoste, Marianna Apidianaki, Xavier Tannier, Natalia Loukachevitch. Evgeny Kotelnikov, Nuria Bel, Salud Maria Jimenez-Zafra and Gulsen Eryigit. 2016. SemEval-2016 Task 5: Aspect Based Sentiment Analysis. In *Proc. of SemEval-16*, pages 19-30.
 
@@ -716,24 +714,12 @@ Daniel Preot¸iuc-Pietro, H Andrew Schwartz, Gregory Park, Johannes Eichstaedt, 
 James A Russel. 1980. A circumplex model of affect. *Journal of Personality and Social Psychology*, 39(6):1161-1178.
 
 James A Russel. 2003. Core affect and the psychological construction of emotion. *Psychological Review*, 110(1):145172.
-<!--
-Shuvam Shiwakoti, Surendrabikram Thapa, Kritesh Rauniyar, Akshyat Shah, Aashish Bhandari and Usman Naseem. 2024. Analyzing the Dynamics of Climate Change Discourse on Twitter: A New Annotated Corpus and Multi-Aspect Classification. In *Proc. of LREC/COLING-24*, pages 984–994.
--->
-<!--
-Daniela Teodorescu, Tiffany Cheng, Alona Fyshe and Saif M. Mohammad. 2023. Language and Mental Health: Measures of Emotion Dynamics from Text as Linguistic Biosocial Markers. In *Proc. of EMNLP-23*, pages 3117-3133.
--->
-<!--
-Apoorva Upadhyaya, Marco Fisichella and Wolfgang Nejdl. Toxicity, Morality, and Speech Act Guided Stance Detection. In *Findings of the Association for Computational Linguistics: EMNLP 2023*, pages 4464–4478.
--->
-<!--
-Zhiyuan Wen, Jiannong Cao, Jiaxing Shen, Ruosong Yang, Shuaiqi Liu and Maosong Sun. 2024. Personality-affected Emotion Generation in Dialog Systems. *ACM Trans. Information Systems*, 42(5):134.
--->
 
 Liang-Chih Yu, Lung-Hao Lee, Shuai Hao, Jin Wang, Yunchao He, Jun Hu, K Robert Lai, Xuejie Zhang. 2016. Building Chinese Affective Resources in Valence-Arousal Dimensions. In *Proc. of NAACL-16*, pages 540-545.
 
-<!--
+Chen Zhang, Qiuchi Li, Dawei Song and Linqi Song. 2021. Aspect Sentiment Quad Prediction as Paraphrase Generation. In Proc. of EMNLP-21, pages 9209–9219.
+
 Wenxuan Zhang, Xin Li, Yang Deng, Lidong Bing and Wai Lam. 2023. A Survey on Aspect-Based Sentiment Analysis: Tasks, Methods, and Challenges. *IEEE Trans. Knowledge and Data Engineering*, 35(11):11019-11038.
--->
 
 # Organizers
 [Liang-Chih Yu](http://nlp.innobic.yzu.edu.tw/~lcyu/), [Shamsuddeen Hassan Muhammad](https://shmuhammadd.github.io/), [Lung-Hao Lee](https://lunghao.weebly.com/), [Jin Wang](http://www.ise.ynu.edu.cn/teacher/973), [Jan Philip Wahle](https://jpwahle.com/), [Terry Ruas](https://terryruas.com/), [Kai-Wei Chang](https://web.cs.ucla.edu/~kwchang/), [Saif M. Mohammad](https://www.saifmohammad.com/)
