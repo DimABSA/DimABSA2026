@@ -527,19 +527,22 @@ Below are some examples from domains included in this subtask, such as restauran
 # Datasets
 | No. | Language | Code | Subtask 1<br>DimASR | Subtask 2<br>DimASTE | Subtask 3<br>DimASQP |
 |:-----:|:----------:|:------:|:------------------:|:-------------------:|:------------------:|
-| 1 | Chinese | ZHO | Restaurant<br>Laptop |  Restaurant<br>Laptop | Restaurant<br>Laptop |
-| 2 | English | ENG | Restaurant<br>Laptop<br>Stance | Restaurant<br>Laptop<br>Stance | Restaurant<br>Laptop |
-| 3 | German | DEU | Stance | Stance |  |
-| 4 | Hausa | HAU |  |  |  |
-| 5 | Igbo | IBO |  |  |  |
-| 6 | Japanses | JPN | Hotel<br>Finance | Hotel<br>Finance | Hotel<br>Finance |
-| 7 | Kinyarwanda| KIN |  |  |  |
-| 8 | Portuguese <br> (Brazilian) | PTBR |  |  |  |
+| 1 | English | ENG | Restaurant<br>Laptop<br>Stance | Restaurant<br>Laptop<br>Stance | Restaurant<br>Laptop |
+| 2 | German | DEU | Stance | Stance |  |
+| 3 | Hausa | HAU |  |  |  |
+| 4 | Igbo | IBO |  |  |  |
+| 5 | Japanses | JPN | Hotel<br>Finance | Hotel<br>Finance | Hotel<br>Finance |
+| 6 | Kinyarwanda| KIN |  |  |  |
+| 7 | Portuguese <br> (Brazilian) | PTBR |  |  |  |
+| 8 | Portuguese <br> (Mozambican) | PTMZ |  |  |  |
 | 9 | Russian | RUS | Restaurant | Restaurant |  |
 | 10 | Swahili | SWA |  |  |  |
 | 11 | Tatar | TAT | Restaurant | Restaurant |  |
 | 12 | Twi | TWI |  |  |  |
 | 13 | Ukrainian | UKR | Restaurant | Restaurant |  |
+| 14 | Emakhuwa | VMW |  |  |  |
+| 15 | isiXhosa | XHO |  |  |  |
+| 16 | Chinese | ZHO | Restaurant<br>Laptop |  Restaurant<br>Laptop | Restaurant<br>Laptop |
 
 
 # Evaluation
