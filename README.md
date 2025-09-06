@@ -76,7 +76,7 @@ To enable a more fine-grained and psychologically grounded understanding of sent
 The elements to be predicted in the new subtasks are described as follows.
 
 - **Aspect Term**: A word or phrase indicating an opinion target, such as *appetizer*, *waiter*, *battery*, or *screen*.
-- **Aspect Category**: An abstract or predefined category to which an aspect term belongs. It follows the format *Entity#Attribute*, where the *Entity* (e.g., `FOOD`, `SERVICE`) and *Attribute* (e.g., `PRICES`, `QUALITY`) are selected from predefined lists (Pontiki et al., 2015). For all valid combinations, see the [full list of aspect categories](#full-list-of-aspect-categories).
+- **Aspect Category**: An abstract or predefined category to which an aspect term belongs. It follows the format *Entity#Attribute*, where the *Entity* (e.g., `FOOD`, `SERVICE`) and *Attribute* (e.g., `PRICES`, `QUALITY`) are selected from predefined lists (Pontiki et al., 2015; 2016). For all valid combinations, see the [full list of aspect categories](#full-list-of-aspect-categories).
 - **Opinion Term**: A sentiment-bearing word or phrase associated with a specific aspect term, such as *great*, *terrible*, or *satisfactory*.
 - **Valence-Arousal (VA)**: A pair of real-valued scores, each ranging from **1.00 to 9.00**, rounded to two decimal places.  
     - **Valence (V)**: Measures the degree of positivity or negativity.  
