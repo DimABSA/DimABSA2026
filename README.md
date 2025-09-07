@@ -541,7 +541,7 @@ Input:
 | 2 | [English](https://en.wikipedia.org/wiki/English_language) | ENG | Restaurant<br>Laptop<br>Stance | Restaurant<br>Laptop<br>Stance | Restaurant<br>Laptop |
 | 3 | [Hausa](https://en.wikipedia.org/wiki/Hausa_language) | HAU |  |  |  |
 | 4 | [Igbo](https://en.wikipedia.org/wiki/Igbo_language) | IBO |  |  |  |
-| 5 | [Japanses](https://en.wikipedia.org/wiki/Japanese_language) | JPN | Hotel<br>Finance | Hotel<br>Finance | Hotel<br>Finance |
+| 5 | [Japanese](https://en.wikipedia.org/wiki/Japanese_language) | JPN | Hotel<br>Finance | Hotel<br>Finance | Hotel<br>Finance |
 | 6 | [Kinyarwanda](https://en.wikipedia.org/wiki/Kinyarwanda)| KIN |  |  |  |
 | 7 | [Portuguese (Brazilian)](https://en.wikipedia.org/wiki/Brazilian_Portuguese) | PTBR |  |  |  |
 | 8 | [Portuguese (Mozambican)](https://en.wikipedia.org/wiki/Mozambican_Portuguese) | PTMZ |  |  |  |
