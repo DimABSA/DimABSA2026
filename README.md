@@ -299,21 +299,31 @@ Input:
     "Text": "average to good thai food, but terrible delivery."
 }
 ```
-
-  ```json
-  
+Output:
+```json
   {
       "ID": "R001",
-      "Text": "average to good thai food, but terrible delivery."
+      "Triplet":[
+          {
+              "Aspect": "thai food",
+              "Opinion": "average to good",
+              "VA": "6.75#6.38"
+          },
+          {
+              "Aspect": "delivery",
+              "Opinion": "terrible",
+              "VA": "2.88#6.62"
+          }
+      ]
   }
-  ```
+```
 </details>
 
 <details>
 <summary>Laptop</summary>
 
 Input:
-  ```json
+```json
   
   {
       "ID": "L001",
@@ -330,7 +340,7 @@ Input:
       "Triplet":[
           {
               "Aspect": "laptop",
-              "Opinion": "xtremely happy",
+              "Opinion": "extremely happy",
               "VA": "8.12#8.25"
           }
       ]
@@ -421,7 +431,7 @@ Input:
       "Text": "average to good thai food, but terrible delivery."
   }
   ```
-  Output:
+Output:
   ```json
   {
       "ID": "R001",
@@ -464,7 +474,7 @@ Input:
           {
               "Aspect": "laptop",
               "Category": "LAPTOP#GENERAL",
-              "Opinion": "xtremely happy",
+              "Opinion": "extremely happy",
               "VA": "8.12#8.25"
           }
       ]
