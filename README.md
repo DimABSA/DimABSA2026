@@ -222,7 +222,6 @@ Input:
 
   Input:
   ```json
-  
   {
       "ID": "S001",
       "Text": "We must walk door to door in our communities even as ws demand change form the top.",
