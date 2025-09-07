@@ -27,7 +27,7 @@
   1. DimASR – Aspect Sentiment Regression  
   2. DimASTE – Aspect Sentiment Triplet Extraction  
   3. DimASQP – Aspect Sentiment Quad Prediction  
-- **Domains**: Customer reviews (restaurants, laptops, movies, hotels), finance, stance.  
+- **Domains**: Customer reviews (restaurants, laptops, movies, hotels), stance, finance.  
 - **Languages**: 16 (high + low resource) 🌍  
 - **Data**: JSONL format (train/dev/test sets).  
 - **Submission**: Upload predictions via Codalab.  
@@ -57,7 +57,7 @@ To bridge this gap, this task introduces **Dimensional ABSA (DimABSA)**, a task 
 
 
 - **Fine-grained sentiment modelling**: Replaces discrete sentiment labels with continuous VA scores, offering more nuanced emotional representation.
-- **Multidomain coverage**: Constructs datasets from three diverse application areas, **customer reviews (restaurants, laptops, movies, hotels)**, **financial reports**, and **stance detection**, going beyond the focus on consumer reviews on traditional ABSA.
+- **Multidomain coverage**: Constructs datasets from three diverse application areas, **customer reviews (restaurants, laptops, movies, hotels)**, **stance detection**, and **financial reports**, going beyond the focus on consumer reviews on traditional ABSA.
 - **Multilingual benchmark**: Covers languages across five continents, including both high-resource and low-resource languages. Supported languages include: *Hausa, Igbo, Kinyarwanda, Swahili, Twi, Chinese, English, German, Japanese, Brazilian Portuguese, Russian, Ukrainian, and Tatar*.
 
 
@@ -218,34 +218,6 @@ Input:
 </details>
 
 <details>
-<summary>Finance</summary>
-
-  Input:
-  ```json
-  
-  {
-      "ID": "F001",
-      "Text": "The pandemic led to a record low in net income.",
-      "Aspect": [
-          "net income"
-      ]
-  }
-  ```
-  Output:
-  ```json
-  {
-      "ID": "F001",
-      "Aspect_VA":[
-          {
-              "Aspect": "net income",
-              "VA": "2.14#7.67"
-          }
-      ]
-  }
-  ```
-</details>
-
-<details>
 <summary>Stance</summary>
 
   Input:
@@ -268,6 +240,34 @@ Input:
           {
               "Aspect": "communities",
               "VA": "6.83#7.30"
+          }
+      ]
+  }
+  ```
+</details>
+
+<details>
+<summary>Finance</summary>
+
+Input:
+  ```json
+  
+  {
+      "ID": "F001",
+      "Text": "The pandemic led to a record low in net income.",
+      "Aspect": [
+          "net income"
+      ]
+  }
+  ```
+  Output:
+  ```json
+  {
+      "ID": "F001",
+      "Aspect_VA":[
+          {
+              "Aspect": "net income",
+              "VA": "2.14#7.67"
           }
       ]
   }
