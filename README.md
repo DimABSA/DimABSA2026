@@ -122,7 +122,7 @@ The output should be in JSON Lines format and include the following fields. All 
 - "ID" – Should match the input ID.
 - "Aspect_VA" – A list of pairs, where each pair contains the following fields.
     - "Aspect" – Should be identical in content, case, and order to the Aspect list in the input.
-    - "VA" – The valence-arousal score as a string in V#A format, with each value ranging from 1.00 to 9.00 and rounded to two decimal places.
+    - "VA" – The valence-arousal score is a string in V#A format, with each value ranging from 1.00 to 9.00 and rounded to two decimal places.
 
 Below are some examples from domains included in this subtask, such as restaurant, laptop, and hotel reviews, and financial reports, and environmental stance detection.
 
@@ -286,7 +286,7 @@ The output should be in JSON Lines format and include the following fields. All 
 - "Triplet" – A list of extracted triplets, where each triplet contains the following fields.
     - "Aspect" – The aspect term (string), which should retain the same case as in the input text.
     - "Opinion" – The opinion term (string), which should retain the same case as in the input text.
-    - "VA" – The valence-arousal score as a string in V#A format, with each value ranging from 1.00 to 9.00 and rounded to two decimal places.
+    - "VA" – The valence-arousal score is a string in V#A format, with each value ranging from 1.00 to 9.00 and rounded to two decimal places.
 Below are some examples from domains included in this subtask, such as restaurant, laptop, and hotel reviews, and financial reports.
 
 <details>
@@ -407,7 +407,7 @@ The output should be in JSON Lines format and include the following fields. All 
     - "Aspect" – The aspect term (string), which should retain the same case as in the input text.
     - "Category" – The aspect category (string), formatted as ENTITY#ATTRIBUTE and written in UPPERCASE. For all valid combinations, see the [full list of aspect categories](#full-list-of-aspect-categories).
     - "Opinion" – The opinion term (string), which should retain the same case as in the input text.
-    - "VA" – The valence-arousal score as a string in V#A format, with each value ranging from 1.00 to 9.00 and rounded to two decimal places.
+    - "VA" – The valence-arousal score is a string in V#A format, with each value ranging from 1.00 to 9.00 and rounded to two decimal places.
 
 Below are some examples from domains included in this subtask, such as restaurant, laptop, and hotel reviews, and financial reports.
 
@@ -566,7 +566,7 @@ $$
 
 where $N$ is the total number of instances; ${V_p^{(i)}}$ and ${A_p^{(i)}}$ denote the predicted valence and arousal values for instance $i$; ${V_g^{(i)}}$ and ${A_g^{(i)}}$ denote the corresponding gold values; and $D_{\max} = 8^2 + 8^2 = 128$ is the maximum possible squared distance in the VA space on the [1, 9] scale, ensuring that *RMSE* is bounded within [0,1], with 0 indicating perfect prediction and 1 corresponding to the maximum error.
 
-Notes: The output VA values must lie within the inclusive range [1, 9]. 
+Notes: VA outputs must be within [1, 9], rounded to two decimals. 
 
 **Subtask 2 & 3: DimASTE & DimASQP (continuous F1)** 
 
@@ -619,7 +619,7 @@ $$
 
 Notes: 
 1. When the VA prediction is perfect (*dist*=0), *cRecall*/*cPrecision* reduces to the standard *recall*/*precision*.
-2. The output VA values must lie within the inclusive range [1, 9]. Any prediction with either V or A outside this range is considered invalid.
+2. VA outputs must be within [1, 9], rounded to two decimals. Any prediction with either V or A outside this range is considered invalid.
 3. Participants should remove duplicate predictions before submission. If multiple predictions in the same sentence share the same categorical tuple (A,O) for triplets or (A,C,O) for quadruplets, all of them are considered invalid.
 
 <!--
