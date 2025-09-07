@@ -566,7 +566,7 @@ $$
 
 where $N$ is the total number of instances; ${V_p^{(i)}}$ and ${A_p^{(i)}}$ denote the predicted valence and arousal values for instance $i$; ${V_g^{(i)}}$ and ${A_g^{(i)}}$ denote the corresponding gold values; and $D_{\max} = 8^2 + 8^2 = 128$ is the maximum possible squared distance in the VA space on the [1, 9] scale, ensuring that *RMSE* is bounded within [0,1], with 0 indicating perfect prediction and 1 corresponding to the maximum error.
 
-Notes: The output VA values should lie within the inclusive range [1, 9]. 
+Notes: The output VA values must lie within the inclusive range [1, 9]. 
 
 **Subtask 2 & 3: DimASTE & DimASQP (continuous F1)** 
 
@@ -619,7 +619,7 @@ $$
 
 Notes: 
 1. When the VA prediction is perfect (*dist*=0), *cRecall*/*cPrecision* reduces to the standard *recall*/*precision*.
-2. The output VA values should lie within the inclusive range [1, 9]. Any prediction with either V or A outside this range is considered invalid.
+2. The output VA values must lie within the inclusive range [1, 9]. Any prediction with either V or A outside this range is considered invalid.
 3. Participants should remove duplicate predictions before submission. If multiple predictions in the same sentence share the same categorical tuple (A,O) for triplets or (A,C,O) for quadruplets, all of them are considered invalid.
 
 <!--
