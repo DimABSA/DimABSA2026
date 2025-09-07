@@ -126,13 +126,10 @@ The output should be in JSON Lines format and include the following fields. All 
 
 Below are some examples from domains included in this subtask, such as restaurant, laptop, and hotel reviews, and financial reports, and environmental stance detection.
 
+<details>
+<summary>Restaurant</summary>
 
-
-- ### Restaurant
-
-Input: <details>
-  <summary> Sample JSON Record (click to expand)</summary>
-
+Input:
 ```json
 {
     "ID": "R001",
@@ -143,15 +140,7 @@ Input: <details>
       ]
 }
 ```
-</details> 
-
-
-  
-  Output:
- 
- <details>
-  <summary> Sample Output JSON Record (click to expand)</summary>
-
+Output:
 ```json
   {
       "ID": "R001",
@@ -169,25 +158,10 @@ Input: <details>
   ```
 </details> 
 
+<details>
+<summary>Laptop</summary>
 
-
-  ```json
-  {
-      "ID": "R001",
-      "Aspect_VA":[
-          {
-              "Aspect": "thai food",
-              "VA": "6.75#6.38"
-          },
-          {
-              "Aspect": "delivery",
-              "VA": "2.88#6.62"
-          }
-      ]
-  }
-  ```
-- ### Laptop
-  Input:
+Input:
   ```json
   {
       "ID": "L001",
@@ -209,8 +183,10 @@ Input: <details>
       ]
   }
   ```
+</details>
 
-- ### Hotel
+<details>
+<summary>Hotel</summary>
 
   Input:
   ```json
@@ -239,7 +215,11 @@ Input: <details>
       ]
   }
   ```
-- ### Finance
+</details>
+
+<details>
+<summary>Finance</summary>
+
   Input:
   ```json
   
@@ -263,7 +243,11 @@ Input: <details>
       ]
   }
   ```
-- ### Stance
+</details>
+
+<details>
+<summary>Stance</summary>
+
   Input:
   ```json
   
@@ -288,8 +272,7 @@ Input: <details>
       ]
   }
   ```
-
-  
+</details>
 
 
 ## Subtask 2: Dimensional Aspect Sentiment Triplet Extraction (DimASTE)
@@ -307,19 +290,16 @@ The output should be in JSON Lines format and include the following fields. All 
     - "VA" – The valence-arousal score as a string in V#A format, with each value ranging from 1.00 to 9.00 and rounded to two decimal places.
 Below are some examples from domains included in this subtask, such as restaurant, laptop, and hotel reviews, and financial reports.
 
-- ### Restaurant
-  Input:
+<details>
+<summary>Restaurant</summary>
 
-  <details>
-  <summary>Sample JSON Record</summary>
-
+Input:
 ```json
 {
     "ID": "R001",
     "Text": "average to good thai food, but terrible delivery."
 }
 ```
-</details>
 
   ```json
   
@@ -328,9 +308,12 @@ Below are some examples from domains included in this subtask, such as restauran
       "Text": "average to good thai food, but terrible delivery."
   }
   ```
+</details>
 
-- ### Laptop
-  Input:
+<details>
+<summary>Laptop</summary>
+
+Input:
   ```json
   
   {
@@ -354,10 +337,12 @@ Below are some examples from domains included in this subtask, such as restauran
       ]
   }
   ```
+</details>
 
-- ### Hotel
+<details>
+<summary>Hotel</summary>
 
-  Input:
+Input:
   ```json
   {
       "ID": "H001",
@@ -382,8 +367,12 @@ Below are some examples from domains included in this subtask, such as restauran
       ]
   }
   ```
-- ### Finance
-  Input:
+</details>
+
+<details>
+<summary>Finance</summary>
+
+Input:
   ```json
   
   {
@@ -404,6 +393,9 @@ Below are some examples from domains included in this subtask, such as restauran
       ]
   }
   ```
+</details>
+
+
 ## Subtask 3: Dimensional Aspect Sentiment Quad Prediction (DimASQP)
 Given a textual instance, extract all **(A, C, O, VA)** quadruplets, where A denotes an aspect term, C an aspect category, O an opinion term, and VA a valence-arousal score. This task is an extension of Subtask 2 (triplet extraction), with the addition of the aspect category element.
 The input is in JSON Lines format and includes the following fields:
@@ -420,8 +412,10 @@ The output should be in JSON Lines format and include the following fields. All 
 
 Below are some examples from domains included in this subtask, such as restaurant, laptop, and hotel reviews, and financial reports.
 
-- ### Restaurant
-  Input:
+<details>
+<summary>Restaurant</summary>
+  
+Input:
   ```json
   {
       "ID": "R001",
@@ -448,8 +442,12 @@ Below are some examples from domains included in this subtask, such as restauran
       ]
   }
   ```
-- ### Laptop
-  Input:
+</details>
+
+<details>
+<summary>Laptop</summary>
+
+Input:
   ```json
   {
       "ID": "L001",
@@ -473,9 +471,12 @@ Below are some examples from domains included in this subtask, such as restauran
       ]
   }
   ```
+</details>
 
-- ### Hotel
-  Input:
+<details>
+<summary>Hotel</summary>
+
+Input:
   ```json
   {
       "ID": "H001",
@@ -502,8 +503,12 @@ Below are some examples from domains included in this subtask, such as restauran
       ]
   }
   ```
-- ### Finance
-  Input:
+</details>
+
+<details>
+<summary>Finance</summary>
+
+Input:
   ```json
   {
       "ID": "F001",
@@ -524,6 +529,8 @@ Below are some examples from domains included in this subtask, such as restauran
       ]
   }
   ```
+</details>
+
 # Datasets
 | No. | Language | Code | Subtask 1<br>DimASR | Subtask 2<br>DimASTE | Subtask 3<br>DimASQP |
 |:-----:|:----------:|:------:|:------------------:|:-------------------:|:------------------:|
