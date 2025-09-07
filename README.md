@@ -458,9 +458,6 @@ Input:
   {
       "ID": "L001",
       "Text": "i am extremely happy with this laptop.",
-      "Aspect": [
-          "laptop"
-      ]
   }
   ```
   Output:
