@@ -2,7 +2,7 @@
 When submitting your predictions on the Codabench task page:
  - Decide the target language(s) and domain(s). Each submission file corresponds to one language-domain combination.
  - For each language-domain combination, name the file `pred_[lang_code]_[domain].jsonl`, where <br>
-		- `[lang_code]` represents a [language code](#list-of-language-codes), and <br> 
+		- `[lang_code]` represents a 3-letter [language code](#list-of-language-codes), and <br> 
 		- `[domain]` represents a [domain](#list-of-domains).  
 For example, Hausa predictions for the stance domain should be named `pred_hau_stance.jsonl`.
 - If submitting for multiple languages or domains, submit one prediction file per language-domain combination. For example, submitting for multiple languages or domains would look like this:
@@ -62,8 +62,8 @@ When making submissions on Codabench, follow these guidelines to ensure **all yo
 - `ibo`: Igbo
 - `jpn`: Japanese
 - `kin`: Kinyarwanda
-- `ptbr`: Brazilian Portuguese
-- `ptmz`: Mozambican Portuguese
+- `ptb`: Brazilian Portuguese
+- `ptm`: Mozambican Portuguese
 - `rus`: Russian
 - `swa`: Swahili
 - `tat`: Tatar
