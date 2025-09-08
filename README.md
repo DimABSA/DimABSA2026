@@ -538,22 +538,22 @@ Input:
 # Datasets
 | No. | Language | Code | Subtask 1<br>DimASR | Subtask 2<br>DimASTE | Subtask 3<br>DimASQP |
 |:-----:|:----------:|:------:|:------------------:|:-------------------:|:------------------:|
-| 1 | [German](https://en.wikipedia.org/wiki/German_language) | DEU | Stance | Stance |  |
-| 2 | [English](https://en.wikipedia.org/wiki/English_language) | ENG | Restaurant<br>Laptop<br>Stance | Restaurant<br>Laptop<br>Stance | Restaurant<br>Laptop |
-| 3 | [Hausa](https://en.wikipedia.org/wiki/Hausa_language) | HAU |  |  |  |
-| 4 | [Igbo](https://en.wikipedia.org/wiki/Igbo_language) | IBO |  |  |  |
-| 5 | [Japanese](https://en.wikipedia.org/wiki/Japanese_language) | JPN | Hotel<br>Finance | Hotel<br>Finance | Hotel<br>Finance |
-| 6 | [Kinyarwanda](https://en.wikipedia.org/wiki/Kinyarwanda)| KIN |  |  |  |
-| 7 | [Portuguese (Brazilian)](https://en.wikipedia.org/wiki/Brazilian_Portuguese) | PTBR |  |  |  |
-| 8 | [Portuguese (Mozambican)](https://en.wikipedia.org/wiki/Mozambican_Portuguese) | PTMZ |  |  |  |
-| 9 | [Russian](https://en.wikipedia.org/wiki/Russian_language) | RUS | Restaurant | Restaurant |  |
-| 10 | [Swahili](https://en.wikipedia.org/wiki/Swahili_language) | SWA |  |  |  |
-| 11 | [Tatar](https://en.wikipedia.org/wiki/Tatar_language) | TAT | Restaurant | Restaurant |  |
-| 12 | [Twi](https://en.wikipedia.org/wiki/Akan_language) | TWI |  |  |  |
-| 13 | [Ukrainian](https://en.wikipedia.org/wiki/Ukrainian_language) | UKR | Restaurant | Restaurant |  |
-| 14 | [Emakhuwa](https://en.wikipedia.org/wiki/Makhuwa_language) | VMW |  |  |  |
-| 15 | [isiXhosa](https://en.wikipedia.org/wiki/Xhosa_language) | XHO |  |  |  |
-| 16 | [Chinese](https://en.wikipedia.org/wiki/Chinese_language) | ZHO | Restaurant<br>Laptop |  Restaurant<br>Laptop | Restaurant<br>Laptop |
+| 1 | [German](https://en.wikipedia.org/wiki/German_language) | deu | Stance | Stance |  |
+| 2 | [English](https://en.wikipedia.org/wiki/English_language) | eng | Restaurant<br>Laptop<br>Stance | Restaurant<br>Laptop<br>Stance | Restaurant<br>Laptop |
+| 3 | [Hausa](https://en.wikipedia.org/wiki/Hausa_language) | hau |  |  |  |
+| 4 | [Igbo](https://en.wikipedia.org/wiki/Igbo_language) | ibo |  |  |  |
+| 5 | [Japanese](https://en.wikipedia.org/wiki/Japanese_language) | jpn | Hotel<br>Finance | Hotel<br>Finance | Hotel<br>Finance |
+| 6 | [Kinyarwanda](https://en.wikipedia.org/wiki/Kinyarwanda)| kin |  |  |  |
+| 7 | [Portuguese (Brazilian)](https://en.wikipedia.org/wiki/Brazilian_Portuguese) | ptbr |  |  |  |
+| 8 | [Portuguese (Mozambican)](https://en.wikipedia.org/wiki/Mozambican_Portuguese) | ptmz |  |  |  |
+| 9 | [Russian](https://en.wikipedia.org/wiki/Russian_language) | rus | Restaurant | Restaurant |  |
+| 10 | [Swahili](https://en.wikipedia.org/wiki/Swahili_language) | swa |  |  |  |
+| 11 | [Tatar](https://en.wikipedia.org/wiki/Tatar_language) | tat | Restaurant | Restaurant |  |
+| 12 | [Twi](https://en.wikipedia.org/wiki/Akan_language) | twi |  |  |  |
+| 13 | [Ukrainian](https://en.wikipedia.org/wiki/Ukrainian_language) | ukr | Restaurant | Restaurant |  |
+| 14 | [Emakhuwa](https://en.wikipedia.org/wiki/Makhuwa_language) | vmw |  |  |  |
+| 15 | [isiXhosa](https://en.wikipedia.org/wiki/Xhosa_language) | xho |  |  |  |
+| 16 | [Chinese](https://en.wikipedia.org/wiki/Chinese_language) | zho | Restaurant<br>Laptop |  Restaurant<br>Laptop | Restaurant<br>Laptop |
 
 
 # Evaluation
