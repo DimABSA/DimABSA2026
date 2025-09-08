@@ -536,7 +536,7 @@ Input:
 </details>
 
 # Datasets
-| No. | Language | Code | Subtask 1<br>DimASR | Subtask 2<br>DimASTE | Subtask 3<br>DimASQP |
+| No. | Language | Code<br>(3-letter) | Subtask 1<br>DimASR | Subtask 2<br>DimASTE | Subtask 3<br>DimASQP |
 |:-----:|:----------:|:------:|:------------------:|:-------------------:|:------------------:|
 | 1 | [German](https://en.wikipedia.org/wiki/German_language) | deu | Stance | Stance |  |
 | 2 | [English](https://en.wikipedia.org/wiki/English_language) | eng | Restaurant<br>Laptop<br>Stance | Restaurant<br>Laptop<br>Stance | Restaurant<br>Laptop |
@@ -544,8 +544,8 @@ Input:
 | 4 | [Igbo](https://en.wikipedia.org/wiki/Igbo_language) | ibo |  |  |  |
 | 5 | [Japanese](https://en.wikipedia.org/wiki/Japanese_language) | jpn | Hotel<br>Finance | Hotel<br>Finance | Hotel<br>Finance |
 | 6 | [Kinyarwanda](https://en.wikipedia.org/wiki/Kinyarwanda)| kin |  |  |  |
-| 7 | [Portuguese (Brazilian)](https://en.wikipedia.org/wiki/Brazilian_Portuguese) | ptbr |  |  |  |
-| 8 | [Portuguese (Mozambican)](https://en.wikipedia.org/wiki/Mozambican_Portuguese) | ptmz |  |  |  |
+| 7 | [Portuguese<br>(Brazilian)](https://en.wikipedia.org/wiki/Brazilian_Portuguese) | ptb |  |  |  |
+| 8 | [Portuguese<br>(Mozambican)](https://en.wikipedia.org/wiki/Mozambican_Portuguese) | ptm |  |  |  |
 | 9 | [Russian](https://en.wikipedia.org/wiki/Russian_language) | rus | Restaurant | Restaurant |  |
 | 10 | [Swahili](https://en.wikipedia.org/wiki/Swahili_language) | swa |  |  |  |
 | 11 | [Tatar](https://en.wikipedia.org/wiki/Tatar_language) | tat | Restaurant | Restaurant |  |
