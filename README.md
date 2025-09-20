@@ -27,7 +27,7 @@
   1. DimASR – Aspect Sentiment Regression  
   2. DimASTE – Aspect Sentiment Triplet Extraction  
   3. DimASQP – Aspect Sentiment Quad Prediction  
-- **Domains**: Customer review (restaurant, laptop, hotel, movie), stance, finance.  
+- **Domains**: Restaurant, Laptop, Hotel, Movie, Finance.  
 - **Languages**: 16 (high + low resource) 🌍  
 - **Data**: JSONL format (train/dev/test sets).  
 - **Submission**: Upload predictions via Codalab.  
