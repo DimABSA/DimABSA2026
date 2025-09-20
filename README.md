@@ -58,7 +58,7 @@ To bridge this gap, this task introduces **Dimensional ABSA (DimABSA)**, a task 
 The proposed DimABSA task has the following features:
 
 - **Fine-grained sentiment modelling**: Replaces discrete sentiment labels with continuous VA scores, offering more nuanced emotional representation.
-- **Multidomain coverage**: Constructs datasets from three diverse application areas, **customer reviews (restaurants, laptops, movies, hotels)**, **stance detection**, and **financial reports**, going beyond the focus on consumer reviews on traditional ABSA.
+- **Multidomain coverage**: Constructs review datasets across five distinct domains, restaurant, laptop, movie, hotel, and finance.
 - **Multilingual benchmark**: Covers languages across five continents, including both high-resource and low-resource languages. Supported languages include: *Hausa, Igbo, Kinyarwanda, Swahili, Twi, Chinese, English, German, Japanese, Brazilian Portuguese, Russian, Ukrainian, and Tatar*.
 
 
