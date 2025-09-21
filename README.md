@@ -54,7 +54,6 @@ The proposed DimABSA task has the following features:
 
 - **Fine-grained sentiment modelling**: Replaces discrete sentiment labels with continuous VA scores, offering more nuanced emotional representation.
 - **Multidomain coverage**: Constructs review datasets across five distinct domains, restaurant, laptop, movie, hotel, and finance.
-- **Multilingual benchmark**: Covers languages across five continents, including both high-resource and low-resource languages. Supported languages include: *Hausa, Igbo, Kinyarwanda, Swahili, Twi, Chinese, English, German, Japanese, Brazilian Portuguese, Russian, Ukrainian, and Tatar*.
 
 
 # Task Description
