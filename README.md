@@ -21,7 +21,7 @@
 
 #  Quick Start
 
-- [Join the Google Group for the task](https://groups.google.com/g/dimabsa-participants)| [Join Discord](https://discord.gg/xWXDWtkMzu) 
+- [Join the Google Group for the task](https://groups.google.com/g/dimabsa-participants) | [Join Discord](https://discord.gg/xWXDWtkMzu) 
 - **Task**: Predict real-valued **valence–arousal (VA)** scores for aspects and extract their associated information from text.  
 - **Subtasks**:  
   1. DimASR – Aspect Sentiment Regression  
