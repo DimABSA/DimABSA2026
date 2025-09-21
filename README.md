@@ -104,6 +104,14 @@ Different subtasks involve different combinations of the above elements. Partici
 
 Given a textual instance and one or more target aspects, predict a real-valued **valence-arousal (VA)** score for each aspect. 
 The input is in JSON Lines format and includes the following fields.
+
+
+
+<pre> ```json { "ID": "001", "Text": "The laptop battery lasts very long, but the keyboard feels uncomfortable.", "Aspect": [ "battery", "keyboard" ] } ``` </pre>
+
+
+
+
 - "ID" – A unique identifier for the instance.
 - "Text" – A sentence or paragraph expressing subjective opinions.
 - "Aspect" – A list of one or more target aspects mentioned in the text.
