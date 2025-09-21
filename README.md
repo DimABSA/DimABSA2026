@@ -632,8 +632,8 @@ Notes:
 
 | Description                   | Deadline                                        |
 |-------------------------------|------------------------------------------------|
-| Sample Data Ready             | 15 July 2025                                    |
-| Training Data Ready           | 1 September 2025                                |
+| Sample Data Ready             | ~15 July 2025~                                    |
+| Training Data Ready           | 30 September 2025                                |
 | Evaluation Start              | 10 January 2026                                 |
 | Evaluation End                | 31 January 2026                                 |
 | System Description Paper Due  | February 2026                                   |
