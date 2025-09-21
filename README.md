@@ -121,11 +121,11 @@ The input is in JSON Lines format and includes the following fields.
 - ID → Unique identifier for the instance
 - Text → A sentence or paragraph expressing subjective opinions
 - Aspect → A list of one or more target aspects mentioned in the text
-
+<!--  
 - "ID" – A unique identifier for the instance.
 - "Text" – A sentence or paragraph expressing subjective opinions.
 - "Aspect" – A list of one or more target aspects mentioned in the text.
-
+-->
 The output should be in JSON Lines format and include the following fields. All textual outputs are **case-sensitive**.
 
 ```json
