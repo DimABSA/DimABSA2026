@@ -112,6 +112,21 @@ The input is in JSON Lines format and includes the following fields.
 
 
 
+```json
+{
+  "ID": "001",
+  "Text": "The laptop battery lasts very long, but the keyboard feels uncomfortable.",
+  "Aspect": [
+    "battery",
+    "keyboard"
+  ]
+}
+```
+
+- ID → Unique identifier for the instance
+-Text → A sentence or paragraph expressing subjective opinions
+Aspect → A list of one or more target aspects mentioned in the text
+
 - "ID" – A unique identifier for the instance.
 - "Text" – A sentence or paragraph expressing subjective opinions.
 - "Aspect" – A list of one or more target aspects mentioned in the text.
