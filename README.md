@@ -34,7 +34,7 @@
 - **Evaluation**: RMSE for Subtask 1 and a new metric (continuous F1) for Subtask 2&3.  
 - **Important Dates**: Training data (Sep 1, 2025) → Evaluation (Jan 2026).
 
-[Join the Google Group for the task](https://groups.google.com/g/dimabsa-participants)| [Join Discord](https://discord.gg/rtC3Xzrk)  | [Create an Issue](#) | [Contact Us](mailto:dimabsa-organizers@googlegroups.com) | [Download Dataset](#) | [How to Participate](#)|
+[Join the Google Group for the task](https://groups.google.com/g/dimabsa-participants)| [Join Discord](https://discord.gg/xWXDWtkMzu) | [Create an Issue](#) | [Contact Us](mailto:dimabsa-organizers@googlegroups.com) | [Download Dataset](#) | [How to Participate](#)|
 
 ---
 
