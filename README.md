@@ -542,18 +542,14 @@ Input:
 | 1 | [German](https://en.wikipedia.org/wiki/German_language) | deu | Stance | Stance |  |
 | 2 | [English](https://en.wikipedia.org/wiki/English_language) | eng | Restaurant<br>Laptop<br>Stance | Restaurant<br>Laptop<br>Stance | Restaurant<br>Laptop |
 | 3 | [Hausa](https://en.wikipedia.org/wiki/Hausa_language) | hau |  |  |  |
-| 4 | [Igbo](https://en.wikipedia.org/wiki/Igbo_language) | ibo |  |  |  |
 | 5 | [Japanese](https://en.wikipedia.org/wiki/Japanese_language) | jpn | Hotel<br>Finance | Hotel<br>Finance | Hotel<br>Finance |
 | 6 | [Kinyarwanda](https://en.wikipedia.org/wiki/Kinyarwanda)| kin |  |  |  |
 | 7 | [Portuguese<br>(Brazilian)](https://en.wikipedia.org/wiki/Brazilian_Portuguese) | ptb |  |  |  |
-| 8 | [Portuguese<br>(Mozambican)](https://en.wikipedia.org/wiki/Mozambican_Portuguese) | ptm |  |  |  |
 | 9 | [Russian](https://en.wikipedia.org/wiki/Russian_language) | rus | Restaurant | Restaurant |  |
 | 10 | [Swahili](https://en.wikipedia.org/wiki/Swahili_language) | swa |  |  |  |
 | 11 | [Tatar](https://en.wikipedia.org/wiki/Tatar_language) | tat | Restaurant | Restaurant |  |
 | 12 | [Twi](https://en.wikipedia.org/wiki/Akan_language) | twi |  |  |  |
 | 13 | [Ukrainian](https://en.wikipedia.org/wiki/Ukrainian_language) | ukr | Restaurant | Restaurant |  |
-| 14 | [Emakhuwa](https://en.wikipedia.org/wiki/Makhuwa_language) | vmw |  |  |  |
-| 15 | [isiXhosa](https://en.wikipedia.org/wiki/Xhosa_language) | xho |  |  |  |
 | 16 | [Chinese](https://en.wikipedia.org/wiki/Chinese_language) | zho | Restaurant<br>Laptop |  Restaurant<br>Laptop | Restaurant<br>Laptop |
 
 
