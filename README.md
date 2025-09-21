@@ -22,12 +22,12 @@
 
 #  Quick Start
 
-- **Task**: Predict real-valued **valence–arousal (VA)** scores for aspects and extract their relevant information from text.  
+- **Task**: Predict real-valued **valence–arousal (VA)** scores for aspects and extract their associated information from text.  
 - **Subtasks**:  
   1. DimASR – Aspect Sentiment Regression  
   2. DimASTE – Aspect Sentiment Triplet Extraction  
   3. DimASQP – Aspect Sentiment Quad Prediction  
-- **Domains**: Customer reviews (restaurants, laptops, movies, hotels), finance, stance.  
+- **Domains**: Restaurant, Laptop, Hotel, Movie, Finance.  
 - **Languages**: 16 (high + low resource) 🌍  
 - **Data**: JSONL format (train/dev/test sets).  
 - **Submission**: Upload predictions via Codalab.  
@@ -40,7 +40,7 @@
 
 # Overview
 
-Aspect-Based Sentiment Analysis (ABSA) is the task of identifying aspect terms in text and determining their associated sentiment polarity. However, current ABSA research predominantly adopts a coarse-grained, categorical sentiment representation (e.g., positive, negative, or neutral). This approach stands in contrast to long-established theories in psychology and affective science (Russell, 1980; 2003), where sentiment is represented along fine-grained, real-valued dimensions of **valence** (ranging from negative to positive) and **arousal** (from sluggish to excited), as illustrated in Fig. 1.
+Aspect-Based Sentiment Analysis (ABSA) is the task of identifying aspect terms in text and determining their associated sentiment polarity (Zhang et al., 2023). However, current ABSA research predominantly adopts a coarse-grained, categorical sentiment representation (e.g., positive, negative, or neutral). This approach stands in contrast to long-established theories in psychology and affective science (Russell, 1980; 2003), where sentiment is represented along fine-grained, real-valued dimensions of **valence** (ranging from negative to positive) and **arousal** (from sluggish to excited), as illustrated in Fig. 1.
 
 This valence-arousal (VA) representation has inspired the rise of dimensional sentiment analysis as an emerging research paradigm (Mohammad, 2018; Lee et al., 2022, 2024; Muhammad et al., 2025), enabling more nuanced distinctions in emotional expression and supporting a broader range of applications.
 
@@ -53,11 +53,12 @@ This valence-arousal (VA) representation has inspired the rise of dimensional se
 
 To bridge this gap, this task introduces **Dimensional ABSA (DimABSA)**, a task that integrates dimensional sentiment analysis into the traditional ABSA framework and is defined as:
 
-> Given a textual instance, participants are expected to predict real-valued **valence** and **arousal** scores associated with relevant aspects. The proposed DimABSA task has the following features
+> Given a textual instance, participants are expected to predict real-valued **valence** and **arousal** scores for aspects and extract their associated information from text. 
 
+The proposed DimABSA task has the following features:
 
 - **Fine-grained sentiment modelling**: Replaces discrete sentiment labels with continuous VA scores, offering more nuanced emotional representation.
-- **Multidomain coverage**: Constructs datasets from four diverse application areas, **customer reviews (restaurants, laptops, movies, hotels)**, **financial reports**, and **stance detection**, going beyond the focus on consumer reviews on traditional ABSA.
+- **Multidomain coverage**: Constructs review datasets across five distinct domains, restaurant, laptop, movie, hotel, and finance.
 - **Multilingual benchmark**: Covers languages across five continents, including both high-resource and low-resource languages. Supported languages include: *Hausa, Igbo, Kinyarwanda, Swahili, Twi, Chinese, English, German, Japanese, Brazilian Portuguese, Russian, Ukrainian, and Tatar*.
 
 
@@ -69,20 +70,21 @@ To enable a more fine-grained and psychologically grounded understanding of sent
 -->
  We define three subtasks, each corresponding to a traditional ABSA task but adapted to the dimensional sentiment paradigm:
 
-- **Dimensional Aspect Sentiment Regression (DimASR)**: predicts VA scores for aspect terms in text.
-- **Dimensional Aspect Sentiment Triplet Extraction (DimASTE)**: extracts (aspect term, opinion term, VA score) triplets.
-- **Dimensional Aspect Sentiment Quad Prediction (DimASQP)**: extracts (aspect category, aspect term, opinion term, VA score) quads.
+- **Dimensional Aspect Sentiment Regression (DimASR)**: Predict VA scores for given aspect terms in text, extending the traditional Aspect Sentiment Classification (ASC) task (Pontiki et al., 2014; 2015; 2016).
+- **Dimensional Aspect Sentiment Triplet Extraction (DimASTE)**: Extract (aspect term, opinion term, VA score) triplets from text, extending the traditional Aspect Sentiment Triplet Extraction (ASTE) task (Peng et al., 2020).
+- **Dimensional Aspect Sentiment Quad Prediction (DimASQP)**: Extract (aspect category, aspect term, opinion term, VA score) quadruplets from text, extending the traditional Aspect Sentiment Quad Prediction (ASQP) task (Cai et al., 2021; Zhang et al., 2021).
 
 The elements to be predicted in the new subtasks are described as follows.
 
 - **Aspect Term**: A word or phrase indicating an opinion target, such as *appetizer*, *waiter*, *battery*, or *screen*.
-- **Aspect Category**: An abstract or predefined category to which an aspect term belongs. It follows the format *Entity#Attribute*, where the *Entity* (e.g., `FOOD`, `SERVICE`) and *Attribute* (e.g., `PRICES`, `QUALITY`) are selected from predefined lists (Pontiki et al., 2015). For all valid combinations, see the [full list of aspect categories](#full-list-of-aspect-categories).
+- **Aspect Category**: An abstract or predefined category to which an aspect term belongs. It follows the format *Entity#Attribute*, where the *Entity* (e.g., `FOOD`, `SERVICE`) and *Attribute* (e.g., `PRICES`, `QUALITY`) are selected from predefined lists (Pontiki et al., 2015; 2016). For all valid combinations, see the [full list of aspect categories](#full-list-of-aspect-categories).
 - **Opinion Term**: A sentiment-bearing word or phrase associated with a specific aspect term, such as *great*, *terrible*, or *satisfactory*.
 - **Valence-Arousal (VA)**: A pair of real-valued scores, each ranging from **1.00 to 9.00**, rounded to two decimal places.  
     - **Valence (V)**: Measures the degree of positivity or negativity.  
     - **Arousal (A)**: Measures the intensity of emotion.  
     A score of **1.00** indicates extremely negative valence or very low arousal, **9.00** indicates extremely positive valence or very high arousal, and **5.00** represents a neutral valence or medium arousal.
 
+<!--
 <details>
     <summary><strong>Example (Customer Review):</strong></summary>
     <ul>
@@ -94,7 +96,7 @@ The elements to be predicted in the new subtasks are described as follows.
       </ul>
     </ul>
 </details>
-
+-->
   
 Participants may choose to participate in one or more of these subtasks, depending on their research interest or application focus.
 
@@ -122,17 +124,14 @@ The output should be in JSON Lines format and include the following fields. All 
 - "ID" – Should match the input ID.
 - "Aspect_VA" – A list of pairs, where each pair contains the following fields.
     - "Aspect" – Should be identical in content, case, and order to the Aspect list in the input.
-    - "VA" – The valence-arousal score as a string in V#A format, with each value ranging from 1.00 to 9.00 and rounded to two decimal places.
+    - "VA" – The valence-arousal score is a string in V#A format, with each value ranging from 1.00 to 9.00 and rounded to two decimal places.
 
 Below are some examples from domains included in this subtask, such as restaurant, laptop, and hotel reviews, and financial reports, and environmental stance detection.
 
+<details>
+<summary>Restaurant</summary>
 
-
-- ### Restaurant
-
-Input: <details>
-  <summary> Sample JSON Record (click to expand)</summary>
-
+Input:
 ```json
 {
     "ID": "R001",
@@ -143,15 +142,7 @@ Input: <details>
       ]
 }
 ```
-</details> 
-
-
-  
-  Output:
- 
- <details>
-  <summary> Sample Output JSON Record (click to expand)</summary>
-
+Output:
 ```json
   {
       "ID": "R001",
@@ -169,25 +160,10 @@ Input: <details>
   ```
 </details> 
 
+<details>
+<summary>Laptop</summary>
 
-
-  ```json
-  {
-      "ID": "R001",
-      "Aspect_VA":[
-          {
-              "Aspect": "thai food",
-              "VA": "6.75#6.38"
-          },
-          {
-              "Aspect": "delivery",
-              "VA": "2.88#6.62"
-          }
-      ]
-  }
-  ```
-- ### Laptop
-  Input:
+Input:
   ```json
   {
       "ID": "L001",
@@ -209,8 +185,10 @@ Input: <details>
       ]
   }
   ```
+</details>
 
-- ### Hotel
+<details>
+<summary>Hotel</summary>
 
   Input:
   ```json
@@ -239,8 +217,40 @@ Input: <details>
       ]
   }
   ```
-- ### Finance
+</details>
+
+<details>
+<summary>Stance</summary>
+
   Input:
+  ```json
+  {
+      "ID": "S001",
+      "Text": "We must walk door to door in our communities even as ws demand change form the top.",
+      "Aspect": [
+          "communities"
+      ]
+  }
+  ```
+  Output:
+  ```json
+  {
+      "ID": "S001",
+      "Aspect_VA":[
+  
+          {
+              "Aspect": "communities",
+              "VA": "6.83#7.30"
+          }
+      ]
+  }
+  ```
+</details>
+
+<details>
+<summary>Finance</summary>
+
+Input:
   ```json
   
   {
@@ -263,33 +273,7 @@ Input: <details>
       ]
   }
   ```
-- ### Stance
-  Input:
-  ```json
-  
-  {
-      "ID": "S001",
-      "Text": "We must walk door to door in our communities even as ws demand change form the top.",
-      "Aspect": [
-          "communities"
-      ]
-  }
-  ```
-  Output:
-  ```json
-  {
-      "ID": "S001",
-      "Aspect_VA":[
-  
-          {
-              "Aspect": "communities",
-              "VA": "6.83#7.30"
-          }
-      ]
-  }
-  ```
-
-  
+</details>
 
 
 ## Subtask 2: Dimensional Aspect Sentiment Triplet Extraction (DimASTE)
@@ -304,60 +288,69 @@ The output should be in JSON Lines format and include the following fields. All 
 - "Triplet" – A list of extracted triplets, where each triplet contains the following fields.
     - "Aspect" – The aspect term (string), which should retain the same case as in the input text.
     - "Opinion" – The opinion term (string), which should retain the same case as in the input text.
-    - "VA" – The valence-arousal score as a string in V#A format, with each value ranging from 1.00 to 9.00 and rounded to two decimal places.
+    - "VA" – The valence-arousal score is a string in V#A format, with each value ranging from 1.00 to 9.00 and rounded to two decimal places.
 Below are some examples from domains included in this subtask, such as restaurant, laptop, and hotel reviews, and financial reports.
 
-- ### Restaurant
-  Input:
+<details>
+<summary>Restaurant</summary>
 
-  <details>
-  <summary>Sample JSON Record</summary>
-
+Input:
 ```json
 {
     "ID": "R001",
     "Text": "average to good thai food, but terrible delivery."
 }
 ```
-</details>
-
-  ```json
-  
+Output:
+```json
   {
       "ID": "R001",
-      "Text": "average to good thai food, but terrible delivery."
+      "Triplet":[
+          {
+              "Aspect": "thai food",
+              "Opinion": "average to good",
+              "VA": "6.75#6.38"
+          },
+          {
+              "Aspect": "delivery",
+              "Opinion": "terrible",
+              "VA": "2.88#6.62"
+          }
+      ]
   }
-  ```
+```
+</details>
 
-- ### Laptop
-  Input:
-  ```json
+<details>
+<summary>Laptop</summary>
+
+Input:
+```json
   
   {
       "ID": "L001",
       "Text": "i am extremely happy with this laptop.",
-      "Aspect": [
-          "laptop"
-      ]
   }
-  ```
-  Output:
-  ```json
+```
+Output:
+```json
   {
       "ID": "L001",
       "Triplet":[
           {
               "Aspect": "laptop",
-              "Opinion": "xtremely happy",
+              "Opinion": "extremely happy",
               "VA": "8.12#8.25"
           }
       ]
   }
   ```
+</details>
 
-- ### Hotel
+<details>
+<summary>Hotel</summary>
 
-  Input:
+Input:
   ```json
   {
       "ID": "H001",
@@ -382,8 +375,12 @@ Below are some examples from domains included in this subtask, such as restauran
       ]
   }
   ```
-- ### Finance
-  Input:
+</details>
+
+<details>
+<summary>Finance</summary>
+
+Input:
   ```json
   
   {
@@ -404,6 +401,9 @@ Below are some examples from domains included in this subtask, such as restauran
       ]
   }
   ```
+</details>
+
+
 ## Subtask 3: Dimensional Aspect Sentiment Quad Prediction (DimASQP)
 Given a textual instance, extract all **(A, C, O, VA)** quadruplets, where A denotes an aspect term, C an aspect category, O an opinion term, and VA a valence-arousal score. This task is an extension of Subtask 2 (triplet extraction), with the addition of the aspect category element.
 The input is in JSON Lines format and includes the following fields:
@@ -416,19 +416,21 @@ The output should be in JSON Lines format and include the following fields. All 
     - "Aspect" – The aspect term (string), which should retain the same case as in the input text.
     - "Category" – The aspect category (string), formatted as ENTITY#ATTRIBUTE and written in UPPERCASE. For all valid combinations, see the [full list of aspect categories](#full-list-of-aspect-categories).
     - "Opinion" – The opinion term (string), which should retain the same case as in the input text.
-    - "VA" – The valence-arousal score as a string in V#A format, with each value ranging from 1.00 to 9.00 and rounded to two decimal places.
+    - "VA" – The valence-arousal score is a string in V#A format, with each value ranging from 1.00 to 9.00 and rounded to two decimal places.
 
 Below are some examples from domains included in this subtask, such as restaurant, laptop, and hotel reviews, and financial reports.
 
-- ### Restaurant
-  Input:
+<details>
+<summary>Restaurant</summary>
+  
+Input:
   ```json
   {
       "ID": "R001",
       "Text": "average to good thai food, but terrible delivery."
   }
   ```
-  Output:
+Output:
   ```json
   {
       "ID": "R001",
@@ -448,15 +450,16 @@ Below are some examples from domains included in this subtask, such as restauran
       ]
   }
   ```
-- ### Laptop
-  Input:
+</details>
+
+<details>
+<summary>Laptop</summary>
+
+Input:
   ```json
   {
       "ID": "L001",
       "Text": "i am extremely happy with this laptop.",
-      "Aspect": [
-          "laptop"
-      ]
   }
   ```
   Output:
@@ -467,15 +470,18 @@ Below are some examples from domains included in this subtask, such as restauran
           {
               "Aspect": "laptop",
               "Category": "LAPTOP#GENERAL",
-              "Opinion": "xtremely happy",
+              "Opinion": "extremely happy",
               "VA": "8.12#8.25"
           }
       ]
   }
   ```
+</details>
 
-- ### Hotel
-  Input:
+<details>
+<summary>Hotel</summary>
+
+Input:
   ```json
   {
       "ID": "H001",
@@ -502,8 +508,12 @@ Below are some examples from domains included in this subtask, such as restauran
       ]
   }
   ```
-- ### Finance
-  Input:
+</details>
+
+<details>
+<summary>Finance</summary>
+
+Input:
   ```json
   {
       "ID": "F001",
@@ -524,22 +534,27 @@ Below are some examples from domains included in this subtask, such as restauran
       ]
   }
   ```
+</details>
+
 # Datasets
-| No. | Language | Code | Subtask 1<br>DimASR | Subtask 2<br>DimASTE | Subtask 3<br>DimASQP |
+| No. | Language | Code<br>(3-letter) | Subtask 1<br>DimASR | Subtask 2<br>DimASTE | Subtask 3<br>DimASQP |
 |:-----:|:----------:|:------:|:------------------:|:-------------------:|:------------------:|
-| 1 | Chinese | ZHO | Restaurant<br>Laptop |  Restaurant<br>Laptop | Restaurant<br>Laptop |
-| 2 | English | ENG | Restaurant<br>Laptop<br>Stance | Restaurant<br>Laptop<br>Stance | Restaurant<br>Laptop |
-| 3 | German | DEU | Stance | Stance |  |
-| 4 | Hausa | HAU |  |  |  |
-| 5 | Igbo | IBO |  |  |  |
-| 6 | Japanses | JPN | Hotel<br>Finance | Hotel<br>Finance | Hotel<br>Finance |
-| 7 | Kinyarwanda| KIN |  |  |  |
-| 8 | Portuguese <br> (Brazilian) | PTBR |  |  |  |
-| 9 | Russian | RUS | Restaurant | Restaurant |  |
-| 10 | Swahili | SWA |  |  |  |
-| 11 | Tatar | TAT | Restaurant | Restaurant |  |
-| 12 | Twi | TWI |  |  |  |
-| 13 | Ukrainian | UKR | Restaurant | Restaurant |  |
+| 1 | [German](https://en.wikipedia.org/wiki/German_language) | deu | Stance | Stance |  |
+| 2 | [English](https://en.wikipedia.org/wiki/English_language) | eng | Restaurant<br>Laptop<br>Stance | Restaurant<br>Laptop<br>Stance | Restaurant<br>Laptop |
+| 3 | [Hausa](https://en.wikipedia.org/wiki/Hausa_language) | hau |  |  |  |
+| 4 | [Igbo](https://en.wikipedia.org/wiki/Igbo_language) | ibo |  |  |  |
+| 5 | [Japanese](https://en.wikipedia.org/wiki/Japanese_language) | jpn | Hotel<br>Finance | Hotel<br>Finance | Hotel<br>Finance |
+| 6 | [Kinyarwanda](https://en.wikipedia.org/wiki/Kinyarwanda)| kin |  |  |  |
+| 7 | [Portuguese<br>(Brazilian)](https://en.wikipedia.org/wiki/Brazilian_Portuguese) | ptb |  |  |  |
+| 8 | [Portuguese<br>(Mozambican)](https://en.wikipedia.org/wiki/Mozambican_Portuguese) | ptm |  |  |  |
+| 9 | [Russian](https://en.wikipedia.org/wiki/Russian_language) | rus | Restaurant | Restaurant |  |
+| 10 | [Swahili](https://en.wikipedia.org/wiki/Swahili_language) | swa |  |  |  |
+| 11 | [Tatar](https://en.wikipedia.org/wiki/Tatar_language) | tat | Restaurant | Restaurant |  |
+| 12 | [Twi](https://en.wikipedia.org/wiki/Akan_language) | twi |  |  |  |
+| 13 | [Ukrainian](https://en.wikipedia.org/wiki/Ukrainian_language) | ukr | Restaurant | Restaurant |  |
+| 14 | [Emakhuwa](https://en.wikipedia.org/wiki/Makhuwa_language) | vmw |  |  |  |
+| 15 | [isiXhosa](https://en.wikipedia.org/wiki/Xhosa_language) | xho |  |  |  |
+| 16 | [Chinese](https://en.wikipedia.org/wiki/Chinese_language) | zho | Restaurant<br>Laptop |  Restaurant<br>Laptop | Restaurant<br>Laptop |
 
 
 # Evaluation
@@ -555,9 +570,9 @@ RMSE_{VA} = \sqrt{\frac{1}{N} \sum_{i=1}^N
    \frac{(V_p^{(i)} - V_g^{(i)})^2 + (A_p^{(i)} - A_g^{(i)})^2}{D_{\max}} }
 $$
 
-where 𝑁 is the total number of instances; ${V_p^{(i)}}$ and ${A_p^{(i)}}$ denote the predicted valence and arousal values for instance *i*; ${V_g^{(i)}}$ and ${A_g^{(i)}}$ denote the corresponding gold values; and $D_{\max} = 8^2 + 8^2 = 128$ is the maximum possible squared distance in the VA space on the [1, 9] scale, ensuring that *RMSE* is bounded within [0,1], with 0 indicating perfect prediction and 1 corresponding to the maximum error.
+where $N$ is the total number of instances; ${V_p^{(i)}}$ and ${A_p^{(i)}}$ denote the predicted valence and arousal values for instance $i$; ${V_g^{(i)}}$ and ${A_g^{(i)}}$ denote the corresponding gold values; and $D_{\max} = 8^2 + 8^2 = 128$ is the maximum possible squared distance in the VA space on the [1, 9] scale, ensuring that *RMSE* is bounded within [0,1], with 0 indicating perfect prediction and 1 corresponding to the maximum error.
 
-Notes: The output VA values should lie within the inclusive range [1, 9]. 
+Notes: VA outputs must be within [1, 9], rounded to two decimals. 
 
 **Subtask 2 & 3: DimASTE & DimASQP (continuous F1)** 
 
@@ -610,7 +625,7 @@ $$
 
 Notes: 
 1. When the VA prediction is perfect (*dist*=0), *cRecall*/*cPrecision* reduces to the standard *recall*/*precision*.
-2. The output VA values should lie within the inclusive range [1, 9]. Any prediction with either V or A outside this range is considered invalid.
+2. VA outputs must be within [1, 9], rounded to two decimals. Any prediction with either V or A outside this range is considered invalid.
 3. Participants should remove duplicate predictions before submission. If multiple predictions in the same sentence share the same categorical tuple (A,O) for triplets or (A,C,O) for quadruplets, all of them are considered invalid.
 
 <!--
@@ -684,20 +699,21 @@ Notes:
 
 Sven Buechel and Udo Hahn. 2017. EmoBank: Studying the Impact of Annotation Perspective and Representation Format on Dimensional Emotion Analysis. In *Proc. of EACL-17*, pages 578-585.
 
-Francesca M. M. Citron, Mollie Lee, and Nora Michaelis. 2020. Affective and psycholinguistic norms for German conceptual metaphors (COMETA). *Behavior Research Methods*, 52(3):1056-1072.
+Hongjie Cai, Rui Xia and Jie Yu. 2021. Aspect-Category-Opinion-Sentiment Quadruple Extraction with Implicit Aspects and Opinions. In Findings of EMNLP-21, pages 2909–2920.
 
-Will E. Hipson and Saif M. Mohammad. 2021. Emotion dynamics in movie dialogues. *PLOS ONE*, 16(9):e0256153.
+Francesca M. M. Citron, Mollie Lee, and Nora Michaelis. 2020. Affective and psycholinguistic norms for German conceptual metaphors (COMETA). *Behavior Research Methods*, 52(3):1056-1072.
 
 Lung-Hao Lee, Jian-Hong Li, and Liang-Chih Yu. 2022. Chinese EmoBank: Building Valence-Arousal Resources for Dimensional Sentiment Analysis. *ACM Transactions on Asian and Low-Resource Language Information Processing*, 21(4):65.
 
 Lung-Hao Lee, Liang-Chih Yu, Suge Wang and Jian Liao. Overview of the SIGHAN 2024 shared task for Chinese dimensional aspect-based sentiment analysis. In *Proc. of SIGHAN-24*, pages 165-174.
 
-Zhiwei Liu, Tianlin Zhang, Kailai Yang, Paul Thompson, Zeping Yu, Sophia Ananiadou. 2024. Emotion detection for misinformation: A review. Information Fusion, 107:102300.
-Saif M. Mohammad. 2018. Obtaining Reliable Human Ratings of Valence, Arousal, and Dominance for 20,000 English Words. *In Proc. of ACL-18*, pages 174-184.
+Saif M. Mohammad and Felipe Bravo-Marquez. 2017. WASSA-2017 Shared Task on Emotion Intensity. In *Proc. of WASSA-17*, pages 34-49.
 
-Saif M. Mohammad, Felipe Bravo-Marquez, Mohammad Salameh, and Svetlana Kiritchenko. 2018. SemEval-2018 Task 1: Affect in Tweets. *In Proc. of SemEval-18*, pages 1-17.
+Saif M. Mohammad, Felipe Bravo-Marquez, Mohammad Salameh, and Svetlana Kiritchenko. 2018. SemEval-2018 Task 1: Affect in Tweets. In *Proc. of SemEval-18*, pages 1-17.
 
 Shamsuddeen Hassan Muhammad, Nedjma Ousidhoum, Idris Abdulmumin, Seid Muhie Yimam, Jan Philip Wahle, Terry Ruas, Meriem Beloucif, Christine De Kock, Tadesse Destaw Belay, Ibrahim Said Ahmad, Nirmal Surange, Daniela Teodorescu, David Ifeoluwa Adelani, Alham Fikri Aji, Felermino Ali, Vladimir Araujo, Abinew Ali Ayele, Oana Ignat, Alexander Panchenko, Yi Zhou, and Saif M. Mohammad. 2025. SemEval-2025 Task 11: Bridging the Gap in Text-Based Emotion Detection. In *Proc. of SemEval-25*.
+
+Haiyun Peng, Lu Xu, Lidong Bing, Fei Huang, Wei Lu, and Luo Si. 2020. Knowing What, How and Why: A Near Complete Solution for Aspect-Based Sentiment Analysis. In *Proc. of AAAI-20*, pages 8600-8607.
 
 Maria Pontiki, Dimitrios Galanis, Haris Papageorgiou, Ion Androutsopoulos, Suresh Manandhar, Mohammad AL-Smadi, Mahmoud AI-Ayyoub, Yanyan Zhao, Bing Qin, Orphee De Clercq, Veronique Hoste, Marianna Apidianaki, Xavier Tannier, Natalia Loukachevitch. Evgeny Kotelnikov, Nuria Bel, Salud Maria Jimenez-Zafra and Gulsen Eryigit. 2016. SemEval-2016 Task 5: Aspect Based Sentiment Analysis. In *Proc. of SemEval-16*, pages 19-30.
 
@@ -705,19 +721,15 @@ Maria Pontiki, Dimitrios Galanis, Haris Papageorgiou, Suresh Manandhar and Ion A
 
 Maria Pontiki, Dimitrios Galanis, John Pavlopoulos, Haris Papageorgiou, Ion Androutsopoulos and Suresh Manandhar. 2014. SemEval-2014 Task 4: Aspect Based Sentiment Analysis. In *Proc. of SemEval-14*, pages 27-35. 
 
+Daniel Preot¸iuc-Pietro, H Andrew Schwartz, Gregory Park, Johannes Eichstaedt, Margaret Kern, Lyle Ungar, and Elisabeth Shulman. 2016. In *Proc. of WASSA-16*, pages 9-15.
+
 James A Russel. 1980. A circumplex model of affect. *Journal of Personality and Social Psychology*, 39(6):1161-1178.
 
 James A Russel. 2003. Core affect and the psychological construction of emotion. *Psychological Review*, 110(1):145172.
 
-Shuvam Shiwakoti, Surendrabikram Thapa, Kritesh Rauniyar, Akshyat Shah, Aashish Bhandari and Usman Naseem. 2024. Analyzing the Dynamics of Climate Change Discourse on Twitter: A New Annotated Corpus and Multi-Aspect Classification. In *Proceedings of LREC/COLING-24*, pages 984–994.
-
-Daniela Teodorescu, Tiffany Cheng, Alona Fyshe and Saif M. Mohammad. 2023. Language and Mental Health: Measures of Emotion Dynamics from Text as Linguistic Biosocial Markers. In *Proc. of EMNLP-23*, pages 3117-3133.
-
-Apoorva Upadhyaya, Marco Fisichella and Wolfgang Nejdl. Toxicity, Morality, and Speech Act Guided Stance Detection. In *Findings of the Association for Computational Linguistics: EMNLP 2023*, pages 4464–4478.
-
-Zhiyuan Wen, Jiannong Cao, Jiaxing Shen, Ruosong Yang, Shuaiqi Liu and Maosong Sun. 2024. Personality-affected Emotion Generation in Dialog Systems. *ACM Trans. Information Systems*, 42(5):134.
-
 Liang-Chih Yu, Lung-Hao Lee, Shuai Hao, Jin Wang, Yunchao He, Jun Hu, K Robert Lai, Xuejie Zhang. 2016. Building Chinese Affective Resources in Valence-Arousal Dimensions. In *Proc. of NAACL-16*, pages 540-545.
+
+Chen Zhang, Qiuchi Li, Dawei Song and Linqi Song. 2021. Aspect Sentiment Quad Prediction as Paraphrase Generation. In Proc. of EMNLP-21, pages 9209–9219.
 
 Wenxuan Zhang, Xin Li, Yang Deng, Lidong Bing and Wai Lam. 2023. A Survey on Aspect-Based Sentiment Analysis: Tasks, Methods, and Challenges. *IEEE Trans. Knowledge and Data Engineering*, 35(11):11019-11038.
 

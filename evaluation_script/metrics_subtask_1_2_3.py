@@ -54,6 +54,8 @@ def read_jsonl_file(file_path, task = 3, data_type = 'pred'):
                         exit("Error: ID value is missing!")
                     # Handle Quadruplet field (might not exist or be an empty list)
                     quadruplets = json_data.get(input_key, []) # Default to empty list
+                    if data_type == 'gold' and len(quadruplets)==0:
+                        quadruplets = json_data.get(output_key, [])
                     
                     if isinstance(quadruplets, list):
                         # Process each quadruplet
@@ -343,7 +345,7 @@ if __name__ == "__main__":
     gold_data = read_jsonl_file(gold_file_path, task = task, data_type="gold")
     print("Loading prediction data...")
     pred_data = read_jsonl_file(pred_file_path, task = task)
-
+    
     # Evaluate predictions
     if task == 1:
         results = evaluate_predictions_task1(gold_data, pred_data)
