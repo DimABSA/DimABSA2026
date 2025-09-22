@@ -52,6 +52,11 @@ To bridge this gap, this task introduces **Dimensional ABSA (DimABSA)**, a task 
 
 > Given a textual instance, participants are expected to predict real-valued **valence** and **arousal** scores for aspects and extract their associated information from text. 
 
+The proposed DimABSA task has the following features:
+- Fine-grained sentiment modelling: Replaces discrete sentiment labels with continuous VA scores, offering more nuanced emotional representation.
+- Multidomain coverage: Constructs review datasets across five distinct domains, restaurant, laptop, movie, hotel, and finance.
+- Stance-as-DimABSA Task: Extends ABSA beyond consumer reviews by introducing Dimensional Stance Detection (DimStance).
+
 
 # Task Description
 <!--  
