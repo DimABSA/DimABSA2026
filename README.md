@@ -22,11 +22,11 @@
 #  Quick Start
 
 - [Join the Google Group for the task](https://groups.google.com/g/dimabsa-participants) | [Join Discord](https://discord.gg/xWXDWtkMzu) 
-- **Track A** – Dimensional Aspect-Based Sentiment Analysis (DimABSA): Predict real-valued **valence–arousal (VA)** scores for aspects and extract their associated information from text. Its subtasks include:   
+- **Track A – Dimensional Aspect-Based Sentiment Analysis (DimABSA)**: Predict real-valued **valence–arousal (VA)** scores for aspects and extract their associated information from text. Its subtasks include:   
   1. Subtask 1: DimASR – Dimensional Aspect Sentiment Regression  
   2. Subtask 2: DimASTE – Dimensional Aspect Sentiment Triplet Extraction  
   3. Subtask 3: DimASQP – Dimensional Aspect Sentiment Quad Prediction  
-- **Track B** – Dimensional Stance Detection (DimStance): A Stance-as-DimABSA task, where the target in stance detection is treated as an aspect. Its subtasks include:
+- **Track B – Dimensional Stance Detection (DimStance)**: A Stance-as-DimABSA task, where the target in stance detection is treated as an aspect. Its subtasks include:
   1. Subtask 1: DimASR for stance analysis  
   2. Subtask 2: DimASTE for stance analysis  
 - **Data**: JSONL format (train/dev/test sets).  
