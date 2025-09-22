@@ -131,11 +131,6 @@ The input is in JSON Lines format and includes the following fields.
 - `ID` → Unique identifier for the instance
 - `Text` → A sentence or paragraph expressing subjective opinions
 - `Aspect` → A list of one or more target aspects mentioned in the text
-<!--  
-- "ID" – A unique identifier for the instance.
-- "Text" – A sentence or paragraph expressing subjective opinions.
-- "Aspect" – A list of one or more target aspects mentioned in the text.
--->
 
 <!--
 ```json
@@ -158,13 +153,10 @@ The output should be in JSON Lines format and include the following fields. All 
 - `ID` → A unique identifier that exactly matches the input ID.  
 - `Aspect_VA` → A list of objects, where each object contains:  
   - `Aspect` → The aspect name(s) exactly as they appear in the input (case-sensitive, same order).  
-  - `VA` → The valence–arousal score in V#A format.  
-    - Valence (V): ranges from 1.00 (very negative) to 9.00 (very positive).  
-    - Arousal (A): ranges from 1.00 (very calm) to 9.00 (very excited).  
-    - Both values are rounded to two decimal places.  
+  - `VA` → The valence-arousal score is a string in **V#A** format, with each value ranging from 1.00 to 9.00 and **rounded to two decimal places**.  
 
 <!--  
-- "ID" – A unique identifier that exactly matches the input ID.  
+- "ID" – Should match the input ID..  
 - "Aspect_VA" – A list of pairs, where each pair contains the following fields.
     - "Aspect" – Should be identical in content, case, and order to the Aspect list in the input.
     - "VA" – The valence-arousal score is a string in **V#A** format, with each value ranging from 1.00 to 9.00 and **rounded to two decimal places**.
