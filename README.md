@@ -136,11 +136,9 @@ The input is in JSON Lines format and includes the following fields.
 - "Text" – A sentence or paragraph expressing subjective opinions.
 - "Aspect" – A list of one or more target aspects mentioned in the text.
 -->
-The output should be in JSON Lines format and include the following fields. All textual outputs are **case-sensitive**.
-
-```json
 
 <!--
+```json
 {
   "ID": "001",
   "Aspect_VA": [
@@ -156,12 +154,13 @@ The output should be in JSON Lines format and include the following fields. All 
 }
 ```
 -->
-- **ID** → A unique identifier that exactly matches the input ID.  
-- **Aspect_VA** → A list of objects, where each object contains:  
-  - **Aspect** → The aspect name(s) exactly as they appear in the input (case-sensitive, same order).  
-  - **VA** → The valence–arousal score in `"V#A"` format.  
-    - **Valence (V):** ranges from `1.00` (very negative) to `9.00` (very positive).  
-    - **Arousal (A):** ranges from `1.00` (very calm) to `9.00` (very excited).  
+The output should be in JSON Lines format and include the following fields. All textual outputs are **case-sensitive**.
+- `ID` → A unique identifier that exactly matches the input ID.  
+- `Aspect_VA` → A list of objects, where each object contains:  
+  - `Aspect` → The aspect name(s) exactly as they appear in the input (case-sensitive, same order).  
+  - `VA` → The valence–arousal score in V#A format.  
+    - Valence (V): ranges from 1.00 (very negative) to 9.00 (very positive).  
+    - Arousal (A): ranges from 1.00 (very calm) to 9.00 (very excited).  
     - Both values are rounded to two decimal places.  
 
 <!--  
