@@ -30,7 +30,7 @@
   1. Subtask 1: DimASR for stance analysis  
   2. Subtask 2: DimASTE for stance analysis  
 - **Data**: JSONL format (train/dev/test sets).  
-- **Evaluation**: For both tracks, RMSE is used for Subtask 1 and a new metric (continuous F1) for Subtask 2&3.  
+- **Evaluation**: For both tracks, RMSE is used for Subtask 1, and a new metric (continuous F1) for Subtasks 2&3.  
 [Join the Google Group for the task](https://groups.google.com/g/dimabsa-participants)| [Join Discord](https://discord.gg/xWXDWtkMzu) | [Create an Issue](#) | [Contact Us](mailto:dimabsa-organizers@googlegroups.com) | [Download Dataset](#) | [How to Participate](#)|
 
 # Overview
