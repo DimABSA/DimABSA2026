@@ -581,7 +581,7 @@ Input:
 | 5 | [Kinyarwanda](https://en.wikipedia.org/wiki/Kinyarwanda)| kin | Stance | Stance |  |
 | 6 | [Portuguese<br>(Brazilian)](https://en.wikipedia.org/wiki/Brazilian_Portuguese) | ptb |  |  |  |
 | 7 | [Russian](https://en.wikipedia.org/wiki/Russian_language) | rus | Restaurant | Restaurant |  |
-| 8 | [Swahili](https://en.wikipedia.org/wiki/Swahili_language) | swa |  |  |  |
+| 8 | [Swahili](https://en.wikipedia.org/wiki/Swahili_language) | swa |Stance  | Stance  |  |
 | 9 | [Tatar](https://en.wikipedia.org/wiki/Tatar_language) | tat | Restaurant | Restaurant |  |
 | 10 | [Twi](https://en.wikipedia.org/wiki/Akan_language) | twi |  |  |  |
 | 11 | [Ukrainian](https://en.wikipedia.org/wiki/Ukrainian_language) | ukr | Restaurant | Restaurant |  |
