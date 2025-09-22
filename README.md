@@ -167,7 +167,7 @@ The output should be in JSON Lines format and include the following fields. All 
 - "ID" – A unique identifier that exactly matches the input ID.  
 - "Aspect_VA" – A list of pairs, where each pair contains the following fields.
     - "Aspect" – Should be identical in content, case, and order to the Aspect list in the input.
-    - "VA" – The valence-arousal score is a string in V#A format, with each value ranging from 1.00 to 9.00 and rounded to two decimal places.
+    - "VA" – The valence-arousal score is a string in **V#A** format, with each value ranging from 1.00 to 9.00 and **rounded to two decimal places**.
 -->
 Below are examples from different domains that are included in this subtask.
 
