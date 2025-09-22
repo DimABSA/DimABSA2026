@@ -94,7 +94,7 @@ The elements to be predicted in the new subtasks are described as follows.
 </details>
 -->
 
-**Dimensional Stance Detection (DimStance)**: Given an utterance or post and a target entity, stance detection involves determining whether the speaker is in favor or against the target (Mohammad et. al., 2016; Küçük and Can, 2020; Zhao and Caragea, 2024). This is similar to ABSA, if we treat the target as an aspect. Building on this conceptual similarity between stance detection and ABSA, we propose DimStance, a task that formulates stance detection under the ABSA schema in the VA space. In this task, the target in stance detection is treated as an aspect, categorical stance labels (e.g., Favor, Neutral, Against) are replaced with continuous VA scores, and opinion terms are incorporated to align with the ABSA schema. This new formulation of stance detection allows one to determine more nuanced information about the emotions of the speaker towards the target. (link to Codabench)
+**Dimensional Stance Detection (DimStance)**: Given an utterance or post and a target entity, stance detection involves determining whether the speaker is in favor or against the target (Mohammad et. al., 2017). This is similar to ABSA, if we treat the target as an aspect. Building on this conceptual similarity between stance detection and ABSA, we propose DimStance, a task that formulates stance detection under the ABSA schema in the VA space. In this task, the target in stance detection is treated as an aspect, categorical stance labels (e.g., Favor, Neutral, Against) are replaced with continuous VA scores, and opinion terms are incorporated to align with the ABSA schema. This new formulation of stance detection allows one to determine more nuanced information about the emotions of the speaker towards the target. (link to Codabench)
   
 Participants may choose to participate in one or more of these subtasks, depending on their research interest or application focus.
 
@@ -115,7 +115,7 @@ Given a textual instance and one or more target aspects, predict a real-valued *
 The input is in JSON Lines format and includes the following fields.
 
 
-
+<!--
 ```json
 {
   "ID": "001",
@@ -126,10 +126,11 @@ The input is in JSON Lines format and includes the following fields.
   ]
 }
 ```
+-->
 
-- ID → Unique identifier for the instance
-- Text → A sentence or paragraph expressing subjective opinions
-- Aspect → A list of one or more target aspects mentioned in the text
+- `ID` → Unique identifier for the instance
+- `Text` → A sentence or paragraph expressing subjective opinions
+- `Aspect` → A list of one or more target aspects mentioned in the text
 <!--  
 - "ID" – A unique identifier for the instance.
 - "Text" – A sentence or paragraph expressing subjective opinions.
@@ -139,7 +140,7 @@ The output should be in JSON Lines format and include the following fields. All 
 
 ```json
 
-
+<!--
 {
   "ID": "001",
   "Aspect_VA": [
@@ -154,6 +155,7 @@ The output should be in JSON Lines format and include the following fields. All 
   ]
 }
 ```
+-->
 - **ID** → A unique identifier that exactly matches the input ID.  
 - **Aspect_VA** → A list of objects, where each object contains:  
   - **Aspect** → The aspect name(s) exactly as they appear in the input (case-sensitive, same order).  
