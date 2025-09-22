@@ -312,7 +312,7 @@ Input:
 
 
 ## Subtask 2: Dimensional Aspect Sentiment Triplet Extraction (DimASTE)
-Given a textual instance, extract all `(A, O, VA)` triplets, where A denotes an aspect term, O an opinion term, and VA a valence-arousal score. 
+Given a textual instance, extract all **(A, O, VA)** triplets, where A denotes an aspect term, O an opinion term, and VA a valence-arousal score. 
 The input is in JSON Lines format and includes the following fields.
 - `ID` – A unique identifier for the instance.
 - `Text` – A sentence or paragraph expressing subjective opinions. 
@@ -320,7 +320,7 @@ The input is in JSON Lines format and includes the following fields.
 The output should be in JSON Lines format and include the following fields. All textual outputs are **case-sensitive**.
 
 - `ID` – A unique identifier that exactly matches the input ID.
-- `Triplet` – A list of extracted triplets, where each triplet contains the following fields.
+- `Triplet` – A list of extracted triplets, where each triplet contains:
     - `Aspect` – The aspect term, which should retain the same case as in the input text.
     - `Opinion` – The opinion term, which should retain the same case as in the input text.
     - `VA` – The valence-arousal score is represented in the `V#A` format, with each value ranging from 1.00 to 9.00 and **rounded to two decimal places**.
@@ -448,7 +448,7 @@ The input is in JSON Lines format and includes the following fields:
 
 The output should be in JSON Lines format and include the following fields. All textual outputs are **case-sensitive**.
 - `ID` – A unique identifier that exactly matches the input ID.
-- `Quadruplet` – A list of extracted quadruplets, where each quadruplet includes the following fields.
+- `Quadruplet` – A list of extracted quadruplets, where each quadruplet contains:
     - `Aspect` – The aspect term, which should retain the same case as in the input text.
     - `Category` – The aspect category, formatted as `ENTITY#ATTRIBUTE` and written in **UPPERCASE**. For all valid combinations, see the [full list of aspect categories](#full-list-of-aspect-categories).
     - `Opinion` – The opinion term, which should retain the same case as in the input text.
