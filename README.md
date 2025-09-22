@@ -56,13 +56,13 @@ The proposed DimABSA task has the following features:
 - Multidomain coverage: Constructs review datasets across five distinct domains, restaurant, laptop, movie, hotel, and finance.
 - Stance-as-DimABSA: Introduces Dimensional Stance Detection (DimStance), which broadens ABSA from consumer reviews to public-issue discourse (e.g., social, political, energy, climate) and also generalizes stance analysis from categorical labels to continuous VA scores.
 
-
-# Task Description
 <!--  
+# Task Description
+
 This shared task introduces **dimensional sentiment representation** into three established Aspect-Based Sentiment Analysis (ABSA) subtasks: **Aspect Sentiment Classification (ASC)**, **Aspect Sentiment Triplet Extraction (ASTE)**, and **Aspect Sentiment Quad Prediction (ASQP)**. Traditionally, these subtasks involve the identification of aspect terms, aspect categories, opinion terms, and the assignment of discrete sentiment polarity labels (e.g., positive, negative, neutral) within a given sentence.
 
 To enable a more fine-grained and psychologically grounded understanding of sentiment, we replace categorical polarity labels with continuous **valence-arousal (VA)** scores. These scores provide a two-dimensional representation of affective meaning, capturing both the **valence** (i.e., the positivity or negativity of the sentiment) and **arousal** (i.e., the degree of emotional intensity).
--->
+
  We define three subtasks, each corresponding to a traditional ABSA task but adapted to the dimensional sentiment paradigm:
 
 - **Dimensional Aspect Sentiment Regression (DimASR)**: Predict VA scores for given aspect terms in text, extending the traditional Aspect Sentiment Classification (ASC) task (Pontiki et al., 2014; 2015; 2016).
@@ -91,7 +91,7 @@ The elements to be predicted in the new subtasks are described as follows.
       </ul>
     </ul>
 </details>
--->
+
 
 **Dimensional Stance Detection (DimStance)**: Given an utterance or post and a target entity, stance detection involves determining whether the speaker is in favor or against the target (Mohammad et. al., 2017). This is similar to ABSA, if we treat the target as an aspect. Building on this conceptual similarity between stance detection and ABSA, we propose DimStance, a task that formulates stance detection under the ABSA schema in the VA space. In this task, the target in stance detection is treated as an aspect, categorical stance labels (e.g., Favor, Neutral, Against) are replaced with continuous VA scores, and opinion terms are incorporated to align with the ABSA schema. This new formulation of stance detection allows one to determine more nuanced information about the emotions of the speaker towards the target. (link to Codabench)
   
