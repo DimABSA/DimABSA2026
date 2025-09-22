@@ -27,7 +27,9 @@
   1. DimASR – Aspect Sentiment Regression  
   2. DimASTE – Aspect Sentiment Triplet Extraction  
   3. DimASQP – Aspect Sentiment Quad Prediction  
-- **Domains**: Restaurant, Laptop, Hotel, Movie, Finance.  
+- **Dimensional Stance Detection (DimStance)**: A Stance-as-DimABSA task. The target in stance detection is treated as an aspect. 
+  1. DimASR for DimStance  
+  2. DimASTE for DimStance  
 - **Data**: JSONL format (train/dev/test sets).  
 - **Evaluation**: RMSE for Subtask 1 and a new metric (continuous F1) for Subtask 2&3.  
 - **Important Dates**: Training data ( Sep 25, 2025) → Evaluation (Jan 2026).
