@@ -28,8 +28,8 @@
   2. DimASTE – Aspect Sentiment Triplet Extraction  
   3. DimASQP – Aspect Sentiment Quad Prediction  
 - **Dimensional Stance Detection (DimStance)**: A Stance-as-DimABSA task, where the target in stance detection is treated as an aspect. Its subtasks include:
-  1. DimASR for DimStance  
-  2. DimASTE for DimStance  
+  1. DimASR for stance analysis  
+  2. DimASTE for stance analysis  
 - **Data**: JSONL format (train/dev/test sets).  
 - **Evaluation**: RMSE for Subtask 1 and a new metric (continuous F1) for Subtask 2&3.  
 - **Important Dates**: Training data ( Sep 25, 2025) → Evaluation (Jan 2026).
@@ -55,7 +55,7 @@ To bridge this gap, this task introduces **Dimensional ABSA (DimABSA)**, a task 
 The proposed DimABSA task has the following features:
 - Fine-grained sentiment modelling: Replaces discrete sentiment labels with continuous VA scores, offering more nuanced emotional representation.
 - Multidomain coverage: Constructs review datasets across five distinct domains, restaurant, laptop, movie, hotel, and finance.
-- Stance-as-DimABSA Task: Extends ABSA beyond consumer reviews by introducing Dimensional Stance Detection (DimStance).
+- Stance-as-DimABSA: Introduces Dimensional Stance Detection (DimStance), which broadens ABSA from consumer reviews to public-issue discourse (e.g., social, political, energy, climate) and also generalizes stance analysis from categorical labels to continuous VA scores.
 
 
 # Task Description
