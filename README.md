@@ -64,7 +64,7 @@ This track extends traditional ABSA tasks by replacing categorical sentiment lab
 - **Subtask 3: Dimensional Aspect Sentiment Quad Prediction (DimASQP).**  
   Extract *(aspect category, aspect term, opinion term, VA score)* quadruplets from text. This extends Aspect Sentiment Quad Prediction (ASQP) [Cai et al., 2021; Zhang et al., 2021] into the dimensional space, jointly modeling opinion structure and affective intensity.  
 
----
+
 
 ## Track B: DimStance  
 
