@@ -49,8 +49,6 @@ This valence-arousal (VA) representation has inspired the rise of dimensional se
 
 The shared task is organized into two complementary tracks: **DimABSA** (dimensional aspect-based sentiment analysis) and **DimStance** (dimensional stance detection). Each track extends classical ABSA or stance subtasks into the VA space, providing a benchmark for evaluating fine-grained, structured, and affect-aware opinion mining systems.  
 
-# Tracks Description
-
 ## Track A: DimABSA  
 
 This track extends traditional ABSA tasks by replacing categorical sentiment labels with **continuous VA scores**, allowing for a more nuanced analysis of opinions tied to aspects.  
