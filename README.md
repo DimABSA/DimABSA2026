@@ -579,7 +579,6 @@ Input:
 | 3 | [Hausa](https://en.wikipedia.org/wiki/Hausa_language) | hau | stance | stance |  |
 | 4 | [Japanese](https://en.wikipedia.org/wiki/Japanese_language) | jpn | Hotel<br>Finance | Hotel<br>Finance | Hotel<br>Finance |
 | 5 | [Kinyarwanda](https://en.wikipedia.org/wiki/Kinyarwanda)| kin | Stance | Stance |  |
-| 6 | [Portuguese<br>(Brazilian)](https://en.wikipedia.org/wiki/Brazilian_Portuguese) | ptb |  |  |  |
 | 7 | [Russian](https://en.wikipedia.org/wiki/Russian_language) | rus | Restaurant | Restaurant |  |
 | 8 | [Swahili](https://en.wikipedia.org/wiki/Swahili_language) | swa |Stance  | Stance  |  |
 | 9 | [Tatar](https://en.wikipedia.org/wiki/Tatar_language) | tat | Restaurant | Restaurant |  |
