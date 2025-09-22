@@ -169,7 +169,7 @@ The output should be in JSON Lines format and include the following fields. All 
     - "Aspect" – Should be identical in content, case, and order to the Aspect list in the input.
     - "VA" – The valence-arousal score is a string in V#A format, with each value ranging from 1.00 to 9.00 and rounded to two decimal places.
 -->
-Below are some examples from domains included in this subtask, such as restaurant, laptop, and hotel reviews, and financial reports, and environmental stance detection.
+Below are examples from different domains that are included in this subtask.
 
 <details>
 <summary>Restaurant</summary>
@@ -320,10 +320,10 @@ Input:
 
 
 ## Subtask 2: Dimensional Aspect Sentiment Triplet Extraction (DimASTE)
-Given a textual instance, extract all **(A, O, VA)** triplets, where A denotes an aspect term, O an opinion term, and VA a valence-arousal score. 
+Given a textual instance, extract all `(A, O, VA)` triplets, where A denotes an aspect term, O an opinion term, and VA a valence-arousal score. 
 The input is in JSON Lines format and includes the following fields.
-- "ID" – A unique identifier for the instance.
-- "Text" – A sentence or paragraph expressing subjective opinions. 
+- `ID` – A unique identifier for the instance.
+- `Text` – A sentence or paragraph expressing subjective opinions. 
 
 The output should be in JSON Lines format and include the following fields. All textual outputs are **case-sensitive**.
 
@@ -332,7 +332,8 @@ The output should be in JSON Lines format and include the following fields. All 
     - "Aspect" – The aspect term (string), which should retain the same case as in the input text.
     - "Opinion" – The opinion term (string), which should retain the same case as in the input text.
     - "VA" – The valence-arousal score is a string in V#A format, with each value ranging from 1.00 to 9.00 and rounded to two decimal places.
-Below are some examples from domains included in this subtask, such as restaurant, laptop, and hotel reviews, and financial reports.
+
+Below are examples from different domains that are included in this subtask.
 
 <details>
 <summary>Restaurant</summary>
@@ -461,7 +462,7 @@ The output should be in JSON Lines format and include the following fields. All 
     - "Opinion" – The opinion term (string), which should retain the same case as in the input text.
     - "VA" – The valence-arousal score is a string in V#A format, with each value ranging from 1.00 to 9.00 and rounded to two decimal places.
 
-Below are some examples from domains included in this subtask, such as restaurant, laptop, and hotel reviews, and financial reports.
+Below are examples from different domains that are included in this subtask.
 
 <details>
 <summary>Restaurant</summary>
