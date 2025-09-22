@@ -641,7 +641,7 @@ Input:
 | 6 | [Russian](https://en.wikipedia.org/wiki/Russian_language) | rus | Restaurant | Restaurant |  |
 | 7 | [Swahili](https://en.wikipedia.org/wiki/Swahili_language) | swa |Stance  | Stance  |  |
 | 8 | [Tatar](https://en.wikipedia.org/wiki/Tatar_language) | tat | Restaurant | Restaurant |  |
-| 9 | [Twi](https://en.wikipedia.org/wiki/Akan_language) | twi |  |  |  |
+| 9 | [Twi](https://en.wikipedia.org/wiki/Akan_language) | twi | Stance  |  Stance |  |
 | 10 | [Ukrainian](https://en.wikipedia.org/wiki/Ukrainian_language) | ukr | Restaurant | Restaurant |  |
 | 11 | [Chinese](https://en.wikipedia.org/wiki/Chinese_language) | zho | Restaurant<br>Laptop |  Restaurant<br>Laptop | Restaurant<br>Laptop |
 
