@@ -80,6 +80,7 @@ This enables capturing not only whether a stance is favorable or unfavorable, bu
 - **Subtask 2: Dimensional Stance Triplet Extraction (DimStE).**  
   Extract *(target/aspect term, opinion term, VA score)* triplets from text, extending stance detection with opinion extraction and dimensional sentiment values.  
 
+The elements to be predicted in the new subtasks are described as follows.
 
 - **Aspect Term**: A word or phrase indicating an opinion target, such as *appetizer*, *waiter*, *battery*, or *screen*.
 - **Aspect Category**: An abstract or predefined category to which an aspect term belongs. It follows the format *Entity#Attribute*, where the *Entity* (e.g., `FOOD`, `SERVICE`) and *Attribute* (e.g., `PRICES`, `QUALITY`) are selected from predefined lists (Pontiki et al., 2015; 2016). For all valid combinations, see the [full list of aspect categories](#full-list-of-aspect-categories).
