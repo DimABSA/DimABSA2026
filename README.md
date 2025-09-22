@@ -576,7 +576,7 @@ Input:
 |:-----:|:----------:|:------:|:------------------:|:-------------------:|:------------------:|
 | 1 | [German](https://en.wikipedia.org/wiki/German_language) | deu | Stance | Stance |  |
 | 2 | [English](https://en.wikipedia.org/wiki/English_language) | eng | Restaurant<br>Laptop<br>Stance | Restaurant<br>Laptop<br>Stance | Restaurant<br>Laptop |
-| 3 | [Hausa](https://en.wikipedia.org/wiki/Hausa_language) | hau |  |  |  |
+| 3 | [Hausa](https://en.wikipedia.org/wiki/Hausa_language) | hau | stance | stance |  |
 | 4 | [Japanese](https://en.wikipedia.org/wiki/Japanese_language) | jpn | Hotel<br>Finance | Hotel<br>Finance | Hotel<br>Finance |
 | 5 | [Kinyarwanda](https://en.wikipedia.org/wiki/Kinyarwanda)| kin | Stance | Stance |  |
 | 6 | [Portuguese<br>(Brazilian)](https://en.wikipedia.org/wiki/Brazilian_Portuguese) | ptb |  |  |  |
