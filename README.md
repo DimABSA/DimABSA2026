@@ -153,7 +153,7 @@ The output should be in JSON Lines format and include the following fields. All 
 - `ID` → A unique identifier that exactly matches the input ID.  
 - `Aspect_VA` → A list of objects, where each object contains:  
   - `Aspect` → The aspect name(s) exactly as they appear in the input (case-sensitive, same order).  
-  - `VA` → The valence-arousal score is a string in **V#A** format, with each value ranging from 1.00 to 9.00 and **rounded to two decimal places**.  
+  - `VA` → The valence-arousal score is represented in the `V#A` format, with each value ranging from 1.00 to 9.00 and **rounded to two decimal places**..  
 
 <!--  
 - "ID" – Should match the input ID..  
@@ -319,11 +319,11 @@ The input is in JSON Lines format and includes the following fields.
 
 The output should be in JSON Lines format and include the following fields. All textual outputs are **case-sensitive**.
 
-- "ID" – Should match the input ID.
-- "Triplet" – A list of extracted triplets, where each triplet contains the following fields.
-    - "Aspect" – The aspect term (string), which should retain the same case as in the input text.
-    - "Opinion" – The opinion term (string), which should retain the same case as in the input text.
-    - "VA" – The valence-arousal score is a string in V#A format, with each value ranging from 1.00 to 9.00 and rounded to two decimal places.
+- `ID` – A unique identifier that exactly matches the input ID.
+- `Triplet` – A list of extracted triplets, where each triplet contains the following fields.
+    - `Aspect` – The aspect term, which should retain the same case as in the input text.
+    - `Opinion` – The opinion term, which should retain the same case as in the input text.
+    - `VA` – The valence-arousal score is represented in the `V#A` format, with each value ranging from 1.00 to 9.00 and **rounded to two decimal places**.
 
 Below are examples from different domains that are included in this subtask.
 
@@ -443,16 +443,16 @@ Input:
 ## Subtask 3: Dimensional Aspect Sentiment Quad Prediction (DimASQP)
 Given a textual instance, extract all **(A, C, O, VA)** quadruplets, where A denotes an aspect term, C an aspect category, O an opinion term, and VA a valence-arousal score. This task is an extension of Subtask 2 (triplet extraction), with the addition of the aspect category element.
 The input is in JSON Lines format and includes the following fields:
-- "ID" – A unique identifier for the instance.
-- "Text" – A sentence or paragraph expressing subjective opinions.
+- `ID` – A unique identifier for the instance.
+- `Text` – A sentence or paragraph expressing subjective opinions.
 
 The output should be in JSON Lines format and include the following fields. All textual outputs are **case-sensitive**.
-- "ID" – Should match the input ID.
-- "Quadruplet" – A list of extracted quadruplets, where each quadruplet includes the following fields.
-    - "Aspect" – The aspect term (string), which should retain the same case as in the input text.
-    - "Category" – The aspect category (string), formatted as ENTITY#ATTRIBUTE and written in UPPERCASE. For all valid combinations, see the [full list of aspect categories](#full-list-of-aspect-categories).
-    - "Opinion" – The opinion term (string), which should retain the same case as in the input text.
-    - "VA" – The valence-arousal score is a string in V#A format, with each value ranging from 1.00 to 9.00 and rounded to two decimal places.
+- `ID` – A unique identifier that exactly matches the input ID.
+- `Quadruplet` – A list of extracted quadruplets, where each quadruplet includes the following fields.
+    - `Aspect` – The aspect term, which should retain the same case as in the input text.
+    - `Category` – The aspect category, formatted as `ENTITY#ATTRIBUTE` and written in **UPPERCASE**. For all valid combinations, see the [full list of aspect categories](#full-list-of-aspect-categories).
+    - `Opinion` – The opinion term, which should retain the same case as in the input text.
+    - `VA` – The valence-arousal score is represented in the `V#A` format, with each value ranging from 1.00 to 9.00 and **rounded to two decimal places**.
 
 Below are examples from different domains that are included in this subtask.
 
