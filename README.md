@@ -51,7 +51,7 @@ The shared task is organized into two complementary tracks: **DimABSA** (dimensi
 
 ## Track A: DimABSA  
 
-This track extends traditional ABSA tasks by replacing categorical sentiment labels with **continuous VA scores**, allowing for a more nuanced analysis of opinions tied to aspects.  
+This track extends traditional ABSA tasks by replacing categorical sentiment labels with **continuous VA scores**, allowing for a more nuanced analysis of opinions tied to aspects. We have 3 sub-task under this track:
 
 - **Subtask 1: Dimensional Aspect Sentiment Regression (DimASR).**  
   Given an input text and an aspect term, predict its Valence–Arousal (VA) scores. This extends Aspect Sentiment Classification (ASC) [Pontiki et al., 2014; 2015; 2016] to the dimensional affective space.  
@@ -72,8 +72,8 @@ This track reformulates **stance detection** under the ABSA schema in the VA spa
 2. Discrete stance labels are replaced with continuous VA scores.  
 3. Opinion terms are incorporated to align with the ABSA structure.  
 
-This enables capturing not only whether a stance is favorable or unfavorable, but also its **emotional intensity and subtlety**.  
-
+ We have 2 sub-tasks under this track:
+ 
 - **Subtask 1: Dimensional Stance Regression (DimStR).**  
   Given a text and a target entity, predict continuous VA scores reflecting the stance of the speaker toward the target.  
 
