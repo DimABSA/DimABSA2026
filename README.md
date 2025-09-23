@@ -54,7 +54,11 @@ This shared task is organized into two complementary tracks: **DimABSA** and **D
 
 ## Track A: DimABSA  
 
-This track extends traditional ABSA tasks by replacing categorical sentiment labels with **continuous VA scores**, allowing for a more nuanced analysis of opinions tied to aspects. We have 3 sub-task under this track:
+This track extends traditional ABSA tasks by replacing categorical sentiment labels with real-valued VA scores, enabling more nuanced analysis of opinions tied to aspects. We define three subtasks, each adapted from a traditional ABSA task to the dimensional sentiment paradigm:
+
+- **Dimensional Aspect Sentiment Regression (DimASR)**: Predict VA scores for given aspect terms in text, extending the traditional Aspect Sentiment Classification (ASC) task (Pontiki et al., 2014; 2015; 2016).
+- **Dimensional Aspect Sentiment Triplet Extraction (DimASTE)**: Extract (aspect term, opinion term, VA score) triplets from text, extending the traditional Aspect Sentiment Triplet Extraction (ASTE) task (Peng et al., 2020).
+- **Dimensional Aspect Sentiment Quad Prediction (DimASQP)**: Extract (aspect category, aspect term, opinion term, VA score) quadruplets from text, extending the traditional Aspect Sentiment Quad Prediction (ASQP) task (Cai et al., 2021; Zhang et al., 2021).
 
 - **Subtask 1: Dimensional Aspect Sentiment Regression (DimASR).**  
   Given an input text and an aspect term, predict its Valence–Arousal (VA) scores. This extends Aspect Sentiment Classification (ASC) [Pontiki et al., 2014; 2015; 2016] to the dimensional affective space.  
@@ -115,9 +119,7 @@ To enable a more fine-grained and psychologically grounded understanding of sent
 
 
 
-- **Dimensional Aspect Sentiment Regression (DimASR)**: Predict VA scores for given aspect terms in text, extending the traditional Aspect Sentiment Classification (ASC) task (Pontiki et al., 2014; 2015; 2016).
-- **Dimensional Aspect Sentiment Triplet Extraction (DimASTE)**: Extract (aspect term, opinion term, VA score) triplets from text, extending the traditional Aspect Sentiment Triplet Extraction (ASTE) task (Peng et al., 2020).
-- **Dimensional Aspect Sentiment Quad Prediction (DimASQP)**: Extract (aspect category, aspect term, opinion term, VA score) quadruplets from text, extending the traditional Aspect Sentiment Quad Prediction (ASQP) task (Cai et al., 2021; Zhang et al., 2021).
+
 - **Dimensional Stance Detection (DimStance)**: Given an utterance or post and a target entity, stance detection involves determining whether the speaker is in favor or against the target (Mohammad et. al., 2017). This is similar to ABSA, if we treat the target as an aspect. Building on this conceptual similarity between stance detection and ABSA, we propose DimStance, a task that formulates stance detection under the ABSA schema in the VA space. In this task, the target in stance detection is treated as an aspect, categorical stance labels (e.g., Favor, Neutral, Against) are replaced with continuous VA scores, and opinion terms are incorporated to align with the ABSA schema. This new formulation of stance detection allows one to determine more nuanced information about the emotions of the speaker towards the target. (link to Codabench)
 
 
