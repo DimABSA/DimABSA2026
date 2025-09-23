@@ -57,17 +57,17 @@ This shared task is organized into two complementary tracks: **DimABSA** and **D
 This track extends traditional ABSA tasks by replacing categorical sentiment labels with real-valued VA scores, enabling more nuanced analysis of opinions tied to aspects. We have three subtasks under this track:
 
 - **Subtask 1: Dimensional Aspect Sentiment Regression (DimASR).**  
-  Given a text and one or more aspects, predict a real-valued VA score for each aspect. This extends Aspect Sentiment Classification (ASC) [Pontiki et al., 2014; 2015; 2016].  
+  Given a text and one or more aspects, predict a real-valued `VA score` for each aspect. This extends Aspect Sentiment Classification (ASC) [Pontiki et al., 2014; 2015; 2016].  
 
 - **Subtask 2: Dimensional Aspect Sentiment Triplet Extraction (DimASTE).**  
-  Extract *(aspect term, opinion term, VA score)* triplets from text. This extends Aspect Sentiment Triplet Extraction (ASTE) [Peng et al., 2020].  
+  Extract `(aspect term, opinion term, VA score)` triplets from text. This extends Aspect Sentiment Triplet Extraction (ASTE) [Peng et al., 2020].  
 
 - **Subtask 3: Dimensional Aspect Sentiment Quad Prediction (DimASQP).**  
-  Extract *(aspect term, aspect category, opinion term, VA score)* quadruplets from text. This extends Aspect Sentiment Quad Prediction (ASQP) [Cai et al., 2021; Zhang et al., 2021].  
+  Extract `(aspect term, aspect category, opinion term, VA score)` quadruplets from text. This extends Aspect Sentiment Quad Prediction (ASQP) [Cai et al., 2021; Zhang et al., 2021].  
 
 The elements to be predicted in the new subtasks are described as follows.
 - **Aspect Term**: A word or phrase indicating an opinion target, such as *appetizer*, *waiter*, *battery*, or *screen*.
-- **Aspect Category**: An abstract or predefined category to which an aspect term belongs. It follows the format *Entity#Attribute*, where the *Entity* (e.g., `FOOD`, `SERVICE`) and *Attribute* (e.g., `PRICES`, `QUALITY`) are selected from predefined lists (Pontiki et al., 2015; 2016). For all valid combinations, see the [full list of aspect categories](#full-list-of-aspect-categories).
+- **Aspect Category**: An abstract or predefined category to which an aspect term belongs. It follows the format *Entity#Attribute*, where the *Entity* (e.g., FOOD, SERVICE) and *Attribute* (e.g., PRICES, QUALITY) are selected from predefined lists (Pontiki et al., 2015; 2016). For all valid combinations, see the [full list of aspect categories](#full-list-of-aspect-categories).
 - **Opinion Term**: A sentiment-bearing word or phrase associated with a specific aspect term, such as *great*, *terrible*, or *satisfactory*.
 - **Valence-Arousal (VA)**: A pair of real-valued scores, each ranging from **1.00 to 9.00**, rounded to two decimal places.  
     - **Valence (V)**: Measures the degree of positivity or negativity.  
