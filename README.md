@@ -46,7 +46,9 @@ This valence-arousal (VA) representation has inspired the rise of dimensional se
 </p>
 
 
-The shared task is organized into two complementary tracks: **DimABSA** (dimensional aspect-based sentiment analysis) and **DimStance** (dimensional stance detection). Each track extends classical ABSA or stance subtasks into the VA space, providing a benchmark for evaluating fine-grained, structured, and affect-aware opinion mining systems.  
+To bridge this gap, we propose **Dimensional ABSA (DimABSA)**, a shared task that integrates dimensional sentiment analysis into the traditional ABSA framework. Furthermore, there is a conceptual similarity between stance detection and ABSA when the stance target is treated as an aspect. Building on this, we introduce **Dimensional Stance Detection (DimStance)**, a Stance-as-DimABSA task that reformulates stance detection under the ABSA schema in the VA space. This new formulation extends ABSA beyond consumer reviews to public-issue discourse (e.g., social, political, energy, climate) and also generalizes stance analysis from categorical labels to continuous VA scores. 
+
+
 
 ## Track A: DimABSA  
 
@@ -91,18 +93,6 @@ The elements to be predicted in the new subtasks are described as follows.
 
 
 <!--
-
-
-To bridge this gap, this task introduces **Dimensional ABSA (DimABSA)**, a task that integrates dimensional sentiment analysis into the traditional ABSA framework and is defined as:
-
-> Given a textual instance, participants are expected to predict real-valued **valence** and **arousal** scores for aspects and extract their associated information from text. 
-
-The proposed DimABSA task has the following features:
-- Fine-grained sentiment modelling: Replaces discrete sentiment labels with continuous VA scores, offering more nuanced emotional representation.
-- Multidomain coverage: Constructs review datasets across five distinct domains, restaurant, laptop, movie, hotel, and finance.
-- Stance-as-DimABSA: Introduces Dimensional Stance Detection (DimStance), which broadens ABSA from consumer reviews to public-issue discourse (e.g., social, political, energy, climate) and also generalizes stance analysis from categorical labels to continuous VA scores.
-
-
 
 - **Aspect Term**: A word or phrase indicating an opinion target, such as *appetizer*, *waiter*, *battery*, or *screen*.
 - **Aspect Category**: An abstract or predefined category to which an aspect term belongs. It follows the format *Entity#Attribute*, where the *Entity* (e.g., `FOOD`, `SERVICE`) and *Attribute* (e.g., `PRICES`, `QUALITY`) are selected from predefined lists (Pontiki et al., 2015; 2016). For all valid combinations, see the [full list of aspect categories](#full-list-of-aspect-categories).
