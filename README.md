@@ -76,72 +76,27 @@ The elements to be predicted in the new subtasks are described as follows.
 
 ## Track B: DimStance  
 
-This track reformulates **stance detection** under the ABSA schema in the VA space. Traditional stance detection identifies whether a speaker is *in favor of*, *neutral toward*, or *against* a target entity [Mohammad et al., 2017]. We introduce **DimStance**, which adapts this task as follows:  
+<!--
+This track reformulates **stance detection** under the ABSA schema in the VA space. Traditional stance detection identifies whether a speaker is *in favor of*, *neutral toward*, or *against* a target entity [Mohammad et al., 2017]. We introduce **DimStance**, which adapts this task as follows:
+-->
+
+Given an utterance or post and a target entity, stance detection involves determining whether the speaker is in favor or against the target (Mohammad et. al., 2017). This track reformulates stance detection as a **Stance-as-DimABSA** task with the following transformations: 
 
 1. The stance target is treated as an aspect.  
 2. Discrete stance labels are replaced with continuous VA scores.  
 3. Opinion terms are incorporated to align with the ABSA structure.  
 
- We have 2 sub-tasks under this track:
+Based on this formulation, we define two subtasks derived from Track A:
  
-- **Subtask 1: Dimensional Stance Regression (DimStR).**  
-  Given a text and a target entity, predict continuous VA scores reflecting the stance of the speaker toward the target.  
+- **Subtask 1: Dimensional Aspect Sentiment Regression (DimASR).**  
+  Given a text and one or more aspects (targets), predict a real-valued VA score for each aspect, reflecting the stance expressed by the speaker toward it. This subtask is the same as in Track A.   
 
-- **Subtask 2: Dimensional Stance Triplet Extraction (DimStE).**  
-  Extract *(target/aspect term, opinion term, VA score)* triplets from text, extending stance detection with opinion extraction and dimensional sentiment values.  
+- **Subtask 2: Dimensional Aspect Sentiment Triplet Extraction (DimASTE).**  
+  Extract *(target/aspect term, opinion term, VA score)* triplets from text. This subtask is the same as in Track A.  
 
-
-
-<!--
-This shared task introduces **dimensional sentiment representation** into three established Aspect-Based Sentiment Analysis (ABSA) subtasks: **Aspect Sentiment Classification (ASC)**, **Aspect Sentiment Triplet Extraction (ASTE)**, and **Aspect Sentiment Quad Prediction (ASQP)**. Traditionally, these subtasks involve the identification of aspect terms, aspect categories, opinion terms, and the assignment of discrete sentiment polarity labels (e.g., positive, negative, neutral) within a given sentence.
-
-To enable a more fine-grained and psychologically grounded understanding of sentiment, we replace categorical polarity labels with continuous **valence-arousal (VA)** scores. These scores provide a two-dimensional representation of affective meaning, capturing both the **valence** (i.e., the positivity or negativity of the sentiment) and **arousal** (i.e., the degree of emotional intensity).
-
- We define two subtasks, each corresponding to a traditional ABSA task but adapted to the dimensional sentiment paradigm:
-
-
-
-
-- **Dimensional Stance Detection (DimStance)**: Given an utterance or post and a target entity, stance detection involves determining whether the speaker is in favor or against the target (Mohammad et. al., 2017). This is similar to ABSA, if we treat the target as an aspect. Building on this conceptual similarity between stance detection and ABSA, we propose DimStance, a task that formulates stance detection under the ABSA schema in the VA space. In this task, the target in stance detection is treated as an aspect, categorical stance labels (e.g., Favor, Neutral, Against) are replaced with continuous VA scores, and opinion terms are incorporated to align with the ABSA schema. This new formulation of stance detection allows one to determine more nuanced information about the emotions of the speaker towards the target. (link to Codabench)
-
-
-The elements to be predicted in the new subtasks are described as follows.
-
-- **Aspect Term**: A word or phrase indicating an opinion target, such as *appetizer*, *waiter*, *battery*, or *screen*.
-- **Aspect Category**: An abstract or predefined category to which an aspect term belongs. It follows the format *Entity#Attribute*, where the *Entity* (e.g., `FOOD`, `SERVICE`) and *Attribute* (e.g., `PRICES`, `QUALITY`) are selected from predefined lists (Pontiki et al., 2015; 2016). For all valid combinations, see the [full list of aspect categories](#full-list-of-aspect-categories).
-- **Opinion Term**: A sentiment-bearing word or phrase associated with a specific aspect term, such as *great*, *terrible*, or *satisfactory*.
-- **Valence-Arousal (VA)**: A pair of real-valued scores, each ranging from **1.00 to 9.00**, rounded to two decimal places.  
-    - **Valence (V)**: Measures the degree of positivity or negativity.  
-    - **Arousal (A)**: Measures the intensity of emotion.  
-    A score of **1.00** indicates extremely negative valence or very low arousal, **9.00** indicates extremely positive valence or very high arousal, and **5.00** represents a neutral valence or medium arousal.
-<!--
-<details>
-    <summary><strong>Example (Customer Review):</strong></summary>
-    <ul>
-      <li><strong>Sentence:</strong> "The battery life of this laptop is impressive, but the keyboard feels cheap."</li>
-      <li><strong>Annotations:</strong></li>
-      <ul>
-        <li>(battery life, DEVICE#BATTERY, impressive, 8.20#6.00)</li>
-        <li>(keyboard, DEVICE#KEYBOARD, feels cheap, 3.00#5.00)</li>
-      </ul>
-    </ul>
-</details>
-
--->
   
 Participants may choose to participate in one or more of these subtasks, depending on their research interest or application focus.
 
- <!--
-
-We introduce dimensional sentiment representation into three traditional ABSA subtasks: Aspect Sentiment Classification (ASC), Aspect Sentiment Triplet Extraction (ASTE), and Aspect Sentiment Quad Prediction (ASQP), which involve the analysis of aspect terms, aspect categories, opinion terms, and sentiment polarity in given sentences. By replacing sentiment polarity with valence-arousal scores, we propose three new corresponding dimensional subtasks: Dimensional Aspect Sentiment Regression (DimASR), Dimensional Aspect Sentiment Triplet Extraction (DimASTE), and Dimensional Aspect Sentiment Quad Prediction (DimASQP). The resulting elements to be predicted in the new subtasks are described as follows. Among them, only the Valence-Arousal (VA) element is newly introduced; the others are identical to those in traditional ABSA.
-
-- Aspect Term: refers to a word or phrase indicating an opinion target, such as *appetizer*, *waiter*, *battery*, or *screen*.
-- Aspect Category: refers to the abstract or predefined category to which an aspect term belongs. It is denoted in the format *Entity#Attribute*, where the Entity (e.g., FOOD, SERVICE) and the Attribute (e.g., PRICES, QUALITY) are both selected from predefined lists (Pontiki et al., 2015). For all valid combinations, see the [full list of aspect categories](#full-list-of-aspect-categories).
-- Opinion Term: refers to a sentiment-bearing word or phrase associated with a specific aspect term, such as *great*, *terrible*, or *satisfactory*.
-- Valence-Arousal (VA): Both valence (V) and arousal (A) are real numbers ranging from 1.00 to 9.00, rounded to two decimal places. A score of 1.00 indicates extremely negative valence or very low arousal; 9.00 indicates extremely positive valence or very high arousal; and 5.00 represents neutral valence or medium arousal.
-
-Different subtasks involve different combinations of the above elements. Participants may choose to participate in one or more of these subtasks.
--->
 ## Subtask 1: Dimensional Aspect Sentiment Regression (DimASR)
 
 Given a text and one or more aspects, predict a real-valued **valence-arousal (VA)** score for each aspect. 
