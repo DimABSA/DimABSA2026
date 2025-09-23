@@ -574,14 +574,14 @@ Input:
 | 6 | [Chinese](https://en.wikipedia.org/wiki/Chinese_language) | zho | Restaurant<br>Laptop |  Restaurant<br>Laptop | Restaurant<br>Laptop |
 
 ## Track B: DimStance
-| No. | Language | Code | Subtask 1<br>DimASR | Subtask 2<br>DimASTE | Subtask 3<br>DimASQP |
-|:-----:|:----------:|:------:|:------------------:|:-------------------:|:------------------:|
-| 1 | [German](https://en.wikipedia.org/wiki/German_language) | deu | Politics | Politics |  |
-| 2 | [English](https://en.wikipedia.org/wiki/English_language) | eng | Environmental Protection | Environmental Protection | Restaurant<br>Laptop |
-| 3 | [Hausa](https://en.wikipedia.org/wiki/Hausa_language) | hau | Politics | Politics |  |
-| 4 | [Kinyarwanda](https://en.wikipedia.org/wiki/Kinyarwanda)| kin | Politics | Politics |  |
-| 5 | [Swahili](https://en.wikipedia.org/wiki/Swahili_language) | swa | Politics | Politics |  |
-| 6 | [Twi](https://en.wikipedia.org/wiki/Akan_language) | twi | Politics | Politics |  |
+| No. | Language | Code | Subtask 1<br>DimASR | Subtask 2<br>DimASTE |
+|:-----:|:----------:|:------:|:------------------:|:-------------------:|
+| 1 | [German](https://en.wikipedia.org/wiki/German_language) | deu | Politics | Politics |
+| 2 | [English](https://en.wikipedia.org/wiki/English_language) | eng | Environmental Protection | Environmental Protection |
+| 3 | [Hausa](https://en.wikipedia.org/wiki/Hausa_language) | hau | Politics | Politics |
+| 4 | [Kinyarwanda](https://en.wikipedia.org/wiki/Kinyarwanda)| kin | Politics | Politics |
+| 5 | [Swahili](https://en.wikipedia.org/wiki/Swahili_language) | swa | Politics | Politics |
+| 6 | [Twi](https://en.wikipedia.org/wiki/Akan_language) | twi | Politics | Politics |
 
 # Evaluation
 
