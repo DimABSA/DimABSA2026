@@ -56,18 +56,14 @@ This shared task is organized into two complementary tracks: **DimABSA** and **D
 
 This track extends traditional ABSA tasks by replacing categorical sentiment labels with real-valued VA scores, enabling more nuanced analysis of opinions tied to aspects. We define three subtasks, each adapted from a traditional ABSA task to the dimensional sentiment paradigm:
 
-- **Dimensional Aspect Sentiment Regression (DimASR)**: Predict VA scores for given aspect terms in text, extending the traditional Aspect Sentiment Classification (ASC) task (Pontiki et al., 2014; 2015; 2016).
-- **Dimensional Aspect Sentiment Triplet Extraction (DimASTE)**: Extract (aspect term, opinion term, VA score) triplets from text, extending the traditional Aspect Sentiment Triplet Extraction (ASTE) task (Peng et al., 2020).
-- **Dimensional Aspect Sentiment Quad Prediction (DimASQP)**: Extract (aspect category, aspect term, opinion term, VA score) quadruplets from text, extending the traditional Aspect Sentiment Quad Prediction (ASQP) task (Cai et al., 2021; Zhang et al., 2021).
-
 - **Subtask 1: Dimensional Aspect Sentiment Regression (DimASR).**  
-  Given an input text and an aspect term, predict its Valence–Arousal (VA) scores. This extends Aspect Sentiment Classification (ASC) [Pontiki et al., 2014; 2015; 2016] to the dimensional affective space.  
+  Given a text and one or more aspects, predict a real-valued VA score for each aspect. This extends Aspect Sentiment Classification (ASC) [Pontiki et al., 2014; 2015; 2016].  
 
 - **Subtask 2: Dimensional Aspect Sentiment Triplet Extraction (DimASTE).**  
-  Extract *(aspect term, opinion term, VA score)* triplets from text. This builds on Aspect Sentiment Triplet Extraction (ASTE) [Peng et al., 2020], replacing categorical sentiment with VA scores.  
+  Extract *(aspect term, opinion term, VA score)* triplets from text. This extends Aspect Sentiment Triplet Extraction (ASTE) [Peng et al., 2020].  
 
 - **Subtask 3: Dimensional Aspect Sentiment Quad Prediction (DimASQP).**  
-  Extract *(aspect category, aspect term, opinion term, VA score)* quadruplets from text. This extends Aspect Sentiment Quad Prediction (ASQP) [Cai et al., 2021; Zhang et al., 2021] into the dimensional space, jointly modeling opinion structure and affective intensity.  
+  Extract *(aspect term, aspect category, opinion term, VA score)* quadruplets from text. This extends Aspect Sentiment Quad Prediction (ASQP) [Cai et al., 2021; Zhang et al., 2021].  
 
 
 
@@ -162,7 +158,7 @@ Different subtasks involve different combinations of the above elements. Partici
 -->
 ## Subtask 1: Dimensional Aspect Sentiment Regression (DimASR)
 
-Given a textual instance and one or more target aspects, predict a real-valued **valence-arousal (VA)** score for each aspect. 
+Given a text and one or more aspects, predict a real-valued **valence-arousal (VA)** score for each aspect. 
 The input is in JSON Lines format and includes the following fields.
 
 
@@ -363,7 +359,7 @@ Input:
 
 
 ## Subtask 2: Dimensional Aspect Sentiment Triplet Extraction (DimASTE)
-Given a textual instance, extract all **(A, O, VA)** triplets, where A denotes an aspect term, O an opinion term, and VA a valence-arousal score. 
+Given a text, extract all **(A, O, VA)** triplets, where A denotes an aspect term, O an opinion term, and VA a valence-arousal score. 
 The input is in JSON Lines format and includes the following fields.
 - `ID` – A unique identifier for the instance.
 - `Text` – A sentence or paragraph expressing subjective opinions. 
@@ -492,7 +488,7 @@ Input:
 
 
 ## Subtask 3: Dimensional Aspect Sentiment Quad Prediction (DimASQP)
-Given a textual instance, extract all **(A, C, O, VA)** quadruplets, where A denotes an aspect term, C an aspect category, O an opinion term, and VA a valence-arousal score. This task is an extension of Subtask 2 (triplet extraction), with the addition of the aspect category element.
+Given a text, extract all **(A, C, O, VA)** quadruplets, where A denotes an aspect term, C an aspect category, O an opinion term, and VA a valence-arousal score. This task is an extension of Subtask 2 (triplet extraction), with the addition of the aspect category element.
 The input is in JSON Lines format and includes the following fields:
 - `ID` – A unique identifier for the instance.
 - `Text` – A sentence or paragraph expressing subjective opinions.
