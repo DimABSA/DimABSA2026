@@ -54,7 +54,7 @@ This shared task is organized into two complementary tracks: **DimABSA** and **D
 
 ## Track A: DimABSA  
 
-This track extends traditional ABSA tasks by replacing categorical sentiment labels with real-valued VA scores, enabling more nuanced analysis of opinions tied to aspects. We have 3 subtasks under this track:
+This track extends traditional ABSA tasks by replacing categorical sentiment labels with real-valued VA scores, enabling more nuanced analysis of opinions tied to aspects. We have three subtasks under this track:
 
 - **Subtask 1: Dimensional Aspect Sentiment Regression (DimASR).**  
   Given a text and one or more aspects, predict a real-valued VA score for each aspect. This extends Aspect Sentiment Classification (ASC) [Pontiki et al., 2014; 2015; 2016].  
