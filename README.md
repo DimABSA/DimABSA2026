@@ -86,13 +86,13 @@ Given an utterance or post and a target entity, stance detection involves determ
 2. Discrete stance labels are replaced with continuous VA scores.  
 3. Opinion terms are incorporated to align with the ABSA structure.  
 
-Based on this formulation, we define two subtasks derived from Track A:
+Based on this formulation, we define two subtasks equivalent to those in Track A, with the stance target regarded as the aspect.
  
 - **Subtask 1: Dimensional Aspect Sentiment Regression (DimASR).**  
-  Given a text and one or more aspects (targets), predict a real-valued VA score for each aspect, reflecting the stance expressed by the speaker toward it. This subtask is the same as in Track A.   
+  Given a text and one or more aspects (targets), predict a real-valued VA score for each aspect, reflecting the stance expressed by the speaker toward it.   
 
 - **Subtask 2: Dimensional Aspect Sentiment Triplet Extraction (DimASTE).**  
-  Extract *(target/aspect term, opinion term, VA score)* triplets from text. This subtask is the same as in Track A.  
+  Extract *(target/aspect term, opinion term, VA score)* triplets from text.  
 
   
 Participants may choose to participate in one or more of these subtasks, depending on their research interest or application focus.
