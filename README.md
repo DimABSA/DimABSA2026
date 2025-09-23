@@ -48,7 +48,9 @@ This valence-arousal (VA) representation has inspired the rise of dimensional se
 
 To bridge this gap, we propose **Dimensional ABSA (DimABSA)**, a shared task that integrates dimensional sentiment analysis into the traditional ABSA framework. Furthermore, there is a conceptual similarity between stance detection and ABSA when the stance target is treated as an aspect. Building on this, we introduce **Dimensional Stance Detection (DimStance)**, a Stance-as-DimABSA task that reformulates stance detection under the ABSA schema in the VA space. This new formulation extends ABSA beyond consumer reviews to public-issue discourse (e.g., social, political, energy, climate) and also generalizes stance analysis from categorical labels to continuous VA scores. 
 
+# Task Description
 
+This shared task is organized into two complementary tracks: **DimABSA** and **DimStance**. Each track provides a benchmark for evaluating fine-grained, structured, and affect-aware opinion mining systems.
 
 ## Track A: DimABSA  
 
@@ -103,7 +105,7 @@ The elements to be predicted in the new subtasks are described as follows.
     A score of **1.00** indicates extremely negative valence or very low arousal, **9.00** indicates extremely positive valence or very high arousal, and **5.00** represents a neutral valence or medium arousal.
 
 <!--
-# Task Description
+
 <!--
 This shared task introduces **dimensional sentiment representation** into three established Aspect-Based Sentiment Analysis (ABSA) subtasks: **Aspect Sentiment Classification (ASC)**, **Aspect Sentiment Triplet Extraction (ASTE)**, and **Aspect Sentiment Quad Prediction (ASQP)**. Traditionally, these subtasks involve the identification of aspect terms, aspect categories, opinion terms, and the assignment of discrete sentiment polarity labels (e.g., positive, negative, neutral) within a given sentence.
 
