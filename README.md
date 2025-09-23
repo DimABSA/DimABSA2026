@@ -571,7 +571,7 @@ Input:
 | 3 | [Russian](https://en.wikipedia.org/wiki/Russian_language) | rus | Restaurant | Restaurant |  |
 | 4 | [Tatar](https://en.wikipedia.org/wiki/Tatar_language) | tat | Restaurant | Restaurant |  |
 | 5 | [Ukrainian](https://en.wikipedia.org/wiki/Ukrainian_language) | ukr | Restaurant | Restaurant |  |
-| 6 | [Chinese](https://en.wikipedia.org/wiki/Chinese_language) | zho | Restaurant<br>Laptop |  Restaurant<br>Laptop | Restaurant<br>Laptop |
+| 6 | [Chinese](https://en.wikipedia.org/wiki/Chinese_language) | zho | Restaurant<br>Laptop<br>Finance |  Restaurant<br>Laptop<br>Finance | Restaurant<br>Laptop<br>Finance |
 
 ## Track B: DimStance
 | No. | Language | Code | Subtask 1<br>DimASR | Subtask 2<br>DimASTE |
