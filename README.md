@@ -94,8 +94,9 @@ Based on this formulation, we define two subtasks equivalent to those in Track A
 - **Subtask 2: Dimensional Aspect Sentiment Triplet Extraction (DimASTE).**  
   Extract *(target/aspect term, opinion term, VA score)* triplets from text.  
 
+
   
-Participants may choose to participate in one or more of these subtasks, depending on their research interest or application focus.
+The subtasks shared in both Track A and Track B are described below. Participants may choose to participate in one or more, depending on their research interests or application focus.
 
 ## Subtask 1: Dimensional Aspect Sentiment Regression (DimASR)
 
