@@ -529,9 +529,9 @@ Based on this formulation, we define two subtasks equivalent to those in Track A
   ```json
   {
       "ID": "S001",
-      "Text": "We must walk door to door in our communities even as ws demand change form the top.",
+      "Text": "The Office of Science has worked so hard to lay the groundwork.",
       "Aspect": [
-          "communities"
+          "Office of Science"
       ]
   }
   ```
@@ -542,8 +542,8 @@ Based on this formulation, we define two subtasks equivalent to those in Track A
       "Aspect_VA":[
   
           {
-              "Aspect": "communities",
-              "VA": "6.83#7.30"
+              "Aspect": "Office of Science",
+              "VA": "7.00#7.17"
           }
       ]
   }
@@ -552,7 +552,33 @@ Based on this formulation, we define two subtasks equivalent to those in Track A
 
 
 - **Subtask 2: Dimensional Aspect Sentiment Triplet Extraction (DimASTE).**  
-  Extract *(target/aspect term, opinion term, VA score)* triplets from text.   
+  Extract *(target/aspect term, opinion term, VA score)* triplets from text.
+
+<details>
+<summary>Example</summary>
+
+Input:
+  ```json
+  
+  {
+      "ID": "S001",
+      "Text": "The Office of Science has worked so hard to lay the groundwork."
+  }
+  ```
+  Output:
+  ```json
+  {
+      "ID": "S001",
+      "Triplet":[
+          {
+              "Aspect": "Office of Science",
+              "Opinion": "worked so hard",
+              "VA": "7.00#7.17"
+          }
+      ]
+  }
+  ```
+</details>
 
 # Datasets
 
