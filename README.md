@@ -38,12 +38,10 @@ Aspect-Based Sentiment Analysis (ABSA) is the task of identifying aspect terms i
 
 This valence-arousal (VA) representation has inspired the rise of dimensional sentiment analysis as an emerging research paradigm (Mohammad, 2018; Lee et al., 2022, 2024; Muhammad et al., 2025), enabling more nuanced distinctions in emotional expression and supporting a broader range of applications.
 
-
 <p align="center">
   <img src="https://github.com/DimABSA/DimABSA2026/blob/main/VA.png" width="500"><br>
   Fig. 1. Two-dimensional valence-arousal space (Yu et al., 2016).
 </p>
-
 
 To bridge this gap, we propose **Dimensional ABSA (DimABSA)**, a shared task that integrates dimensional sentiment analysis into the traditional ABSA framework. Furthermore, there is a conceptual similarity between stance detection and ABSA when the stance target is treated as an aspect. Building on this, we introduce **Dimensional Stance Detection (DimStance)**, a Stance-as-DimABSA task that reformulates stance detection under the ABSA schema in the VA space. This new formulation extends ABSA beyond consumer reviews to public-issue discourse (e.g., social, political, energy, climate) and also generalizes stance analysis from categorical labels to continuous VA scores. 
 
@@ -53,53 +51,26 @@ This shared task is organized into two complementary tracks: **DimABSA** and **D
 
 ## Track A: DimABSA  
 
-This track extends traditional ABSA tasks by replacing categorical sentiment labels with real-valued VA scores, enabling more nuanced analysis of opinions tied to aspects. We have three subtasks under this track:
+Current ABSA research typically focuses on identifying four key sentiment elements: **aspect terms**, **aspect categories**, **opinion terms**, and **sentiment polarity**. DimABSA extends traditional ABSA by replacing categorical sentiment polarity with  continuous VA scores, enabling more nuanced analysis of opinions tied to aspects. For example, given the sentence “*The salads are fantastic.*”, the extracted elements under the two settings would be:
 
-- **Subtask 1: Dimensional Aspect Sentiment Regression (DimASR).**  
-  Given a text and one or more aspects, predict a real-valued *VA score* for each aspect. This extends Aspect Sentiment Classification (ASC) [Pontiki et al., 2014; 2015; 2016].  
+- **ABSA**: `salads`, `FOOD#QUALITY`, `fantastic`, `positive`  
+- **DimABSA**: `salads`, `FOOD#QUALITY`, `fantastic`, `7.88#7.75`  
 
-- **Subtask 2: Dimensional Aspect Sentiment Triplet Extraction (DimASTE).**  
-  Extract *(aspect term, opinion term, VA score)* triplets from text. This extends Aspect Sentiment Triplet Extraction (ASTE) [Peng et al., 2020].  
+The details of each element involved in this task are described below.
 
-- **Subtask 3: Dimensional Aspect Sentiment Quad Prediction (DimASQP).**  
-  Extract *(aspect term, aspect category, opinion term, VA score)* quadruplets from text. This extends Aspect Sentiment Quad Prediction (ASQP) [Cai et al., 2021; Zhang et al., 2021].  
-
-The elements to be predicted in the new subtasks are described as follows.
 - **Aspect Term**: A word or phrase indicating an opinion target, such as *appetizer*, *waiter*, *battery*, or *screen*.
 - **Aspect Category**: An abstract or predefined category to which an aspect term belongs. It follows the format *Entity#Attribute*, where the *Entity* (e.g., FOOD, SERVICE) and *Attribute* (e.g., PRICES, QUALITY) are selected from predefined lists (Pontiki et al., 2015; 2016). For all valid combinations, see the [full list of aspect categories](#full-list-of-aspect-categories).
 - **Opinion Term**: A sentiment-bearing word or phrase associated with a specific aspect term, such as *great*, *terrible*, or *satisfactory*.
 - **Valence-Arousal (VA)**: A pair of real-valued scores, each ranging from **1.00 to 9.00**, rounded to two decimal places.  
-    - **Valence (V)**: Measures the degree of positivity or negativity.  
-    - **Arousal (A)**: Measures the intensity of emotion.  
+    - Valence: Measures the degree of positivity or negativity.  
+    - Arousal: Measures the intensity of emotion.  
     A score of **1.00** indicates extremely negative valence or very low arousal, **9.00** indicates extremely positive valence or very high arousal, and **5.00** represents a neutral valence or medium arousal.
 
-## Track B: DimStance  
-
-<!--
-This track reformulates **stance detection** under the ABSA schema in the VA space. Traditional stance detection identifies whether a speaker is *in favor of*, *neutral toward*, or *against* a target entity [Mohammad et al., 2017]. We introduce **DimStance**, which adapts this task as follows:
--->
-
-Given an utterance or post and a target entity, stance detection involves determining whether the speaker is in favor or against the target (Mohammad et. al., 2017). This track reformulates stance detection as a **Stance-as-DimABSA** task with the following transformations: 
-
-1. The stance target is treated as an aspect.  
-2. Discrete stance labels are replaced with continuous VA scores.  
-3. Opinion terms are incorporated to align with the ABSA structure.  
-
-Based on this formulation, we define two subtasks equivalent to those in Track A, with the stance target regarded as the aspect.
- 
-- **Subtask 1: Dimensional Aspect Sentiment Regression (DimASR).**  
-  Given a text and one or more aspects (targets), predict a real-valued *VA score* for each aspect, reflecting the stance expressed by the speaker toward it.   
-
-- **Subtask 2: Dimensional Aspect Sentiment Triplet Extraction (DimASTE).**  
-  Extract *(target/aspect term, opinion term, VA score)* triplets from text.  
-
-
-  
-The subtasks shared in both Track A and Track B are described below. Participants may choose to participate in one or more, depending on their research interests or application focus.
+Based on the above elements, we define three subtasks, each adapted from a traditional ABSA task to the dimensional sentiment paradigm. Participants may choose to participate in one or more of the following subtasks, depending on their research interest or application focus.
 
 ## Subtask 1: Dimensional Aspect Sentiment Regression (DimASR)
 
-Given a text and one or more aspects, predict a real-valued **valence-arousal (VA)** score for each aspect. 
+Given a text and one or more aspects, predict a real-valued **valence-arousal (VA)** score for each aspect. This extends Aspect Sentiment Classification (ASC) (Pontiki et al., 2014; 2015; 2016).
 The input is in JSON Lines format and includes the following fields.
 
 
@@ -300,7 +271,7 @@ Input:
 
 
 ## Subtask 2: Dimensional Aspect Sentiment Triplet Extraction (DimASTE)
-Given a text, extract all **(A, O, VA)** triplets, where A denotes an aspect term, O an opinion term, and VA a valence-arousal score. 
+Given a text, extract all **(A, O, VA)** triplets, where A denotes an aspect term, O an opinion term, and VA a valence-arousal score. This extends Aspect Sentiment Triplet Extraction (ASTE) (Peng et al., 2020).
 The input is in JSON Lines format and includes the following fields.
 - `ID` – A unique identifier for the instance.
 - `Text` – A sentence or paragraph expressing subjective opinions. 
@@ -559,6 +530,26 @@ Input:
   }
   ```
 </details>
+
+## Track B: DimStance  
+
+<!--
+This track reformulates **stance detection** under the ABSA schema in the VA space. Traditional stance detection identifies whether a speaker is *in favor of*, *neutral toward*, or *against* a target entity [Mohammad et al., 2017]. We introduce **DimStance**, which adapts this task as follows:
+-->
+
+Given an utterance or post and a target entity, stance detection involves determining whether the speaker is in favor or against the target (Mohammad et. al., 2017). This track reformulates stance detection as a **Stance-as-DimABSA** task with the following transformations: 
+
+1. The stance target is treated as an aspect.  
+2. Discrete stance labels are replaced with continuous VA scores.  
+3. Opinion terms are incorporated to align with the ABSA structure.  
+
+Based on this formulation, we define two subtasks equivalent to those in Track A, with the stance target regarded as the aspect.
+ 
+- **Subtask 1: Dimensional Aspect Sentiment Regression (DimASR).**  
+  Given a text and one or more aspects (targets), predict a real-valued *VA score* for each aspect, reflecting the stance expressed by the speaker toward it.   
+
+- **Subtask 2: Dimensional Aspect Sentiment Triplet Extraction (DimASTE).**  
+  Extract *(target/aspect term, opinion term, VA score)* triplets from text.   
 
 # Datasets
 
