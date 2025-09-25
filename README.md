@@ -68,7 +68,7 @@ The details of each element involved in this task are described below.
 
 Based on the above elements, we define three subtasks, each adapted from a traditional ABSA task to the dimensional sentiment paradigm. Participants may choose to participate in one or more of the following subtasks, depending on their research interest or application focus.
 
-## Subtask 1: Dimensional Aspect Sentiment Regression (DimASR)
+### Subtask 1: Dimensional Aspect Sentiment Regression (DimASR)
 
 Given a text and one or more aspects, predict a real-valued **valence-arousal (VA)** score for each aspect. This extends Aspect Sentiment Classification (ASC) (Pontiki et al., 2014; 2015; 2016).  
 
@@ -242,7 +242,7 @@ Input:
 </details>
 
 
-## Subtask 2: Dimensional Aspect Sentiment Triplet Extraction (DimASTE)
+### Subtask 2: Dimensional Aspect Sentiment Triplet Extraction (DimASTE)
 Given a text, extract all **(A, O, VA)** triplets, where A denotes an aspect term, O an opinion term, and VA a valence-arousal score. This extends Aspect Sentiment Triplet Extraction (ASTE) (Peng et al., 2020).  
 
 The input is in JSON Lines format and includes the following fields.
@@ -372,7 +372,7 @@ Input:
 </details>
 
 
-## Subtask 3: Dimensional Aspect Sentiment Quad Prediction (DimASQP)
+### Subtask 3: Dimensional Aspect Sentiment Quad Prediction (DimASQP)
 Given a text, extract all **(A, C, O, VA)** quadruplets, where A denotes an aspect term, C an aspect category, O an opinion term, and VA a valence-arousal score. This extends Aspect Sentiment Quad Prediction (ASQP) (Cai et al., 2021; Zhang et al., 2021). The only difference between this subtask and Subtask 2 (triplet extraction) is the addition of the aspect category element.  
 
 The input is in JSON Lines format and includes the following fields:
@@ -519,7 +519,7 @@ Given an utterance or post and a target entity, stance detection involves determ
 
 Based on this formulation, we define two subtasks equivalent to those in Track A, with the stance target regarded as the aspect.
  
-- **Subtask 1: Dimensional Aspect Sentiment Regression (DimASR).**  
+### Subtask 1: Dimensional Aspect Sentiment Regression (DimASR)  
   Given a text and one or more aspects (targets), predict a real-valued *VA score* for each aspect, reflecting the stance expressed by the speaker toward it.   
 
 <details>
@@ -551,7 +551,7 @@ Based on this formulation, we define two subtasks equivalent to those in Track A
 </details>
 
 
-- **Subtask 2: Dimensional Aspect Sentiment Triplet Extraction (DimASTE).**  
+### Subtask 2: Dimensional Aspect Sentiment Triplet Extraction (DimASTE)  
   Extract *(target/aspect term, opinion term, VA score)* triplets from text.
 
 <details>
