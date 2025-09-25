@@ -8,8 +8,8 @@
 # Content
 - [Overview](#overview)
 - [Task Description](#task-description)
-    - [Track A: DimABSA](#track-a-dimabsa) (Subtask 1, Subtask 2, Subtask 3)
-    - [Track B: DimStance](#track-b-dimstance) (Subtask 1, Subtask 2)
+    - [Track A: DimABSA](#track-a-dimabsa)
+    - [Track B: DimStance](#track-b-dimstance)
 - [Evaluation](#evaluation)
 - [Full List of Aspect Categories](#full-list-of-aspect-categories)
 - [Important Dates and Task Phases](#important-dates-and-task-phases)
