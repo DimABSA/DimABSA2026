@@ -8,9 +8,8 @@
 # Content
 - [Overview](#overview)
 - [Task Description](#task-description)
-    - [Track A: DimABSA](#track-a-dimabsa) ([Subtask 1](#subtask-1-dimensional-aspect-sentiment-regression-dimasr), [Subtask 2](#subtask-2-dimensional-aspect-sentiment-triplet-extraction-dimaste), [Subtask 3](#subtask-3-dimensional-aspect-sentiment-quad-prediction-dimasqp))
-    - [Track B: DimStance](#track-b-dimstance) ([Subtask 1](#subtask-1-dimensional-aspect-sentiment-regression-dimasr), [Subtask 2](#subtask-2-dimensional-aspect-sentiment-triplet-extraction-dimaste)) 
-- [Datasets](#datasets)
+    - [Track A: DimABSA](#track-a-dimabsa) (Subtask 1, Subtask 2, Subtask 3)
+    - [Track B: DimStance](#track-b-dimstance) (Subtask 1, Subtask 2)
 - [Evaluation](#evaluation)
 - [Full List of Aspect Categories](#full-list-of-aspect-categories)
 - [Important Dates and Task Phases](#important-dates-and-task-phases)
