@@ -73,53 +73,16 @@ Based on the above elements, we define three subtasks, each adapted from a tradi
 Given a text and one or more aspects, predict a real-valued **valence-arousal (VA)** score for each aspect. This extends Aspect Sentiment Classification (ASC) (Pontiki et al., 2014; 2015; 2016).  
 
 The input is in JSON Lines format and includes the following fields.
-
-<!--
-```json
-{
-  "ID": "001",
-  "Text": "The laptop battery lasts very long, but the keyboard feels uncomfortable.",
-  "Aspect": [
-    "battery",
-    "keyboard"
-  ]
-}
-```
--->
-
 - `ID` → Unique identifier for the instance
 - `Text` → A sentence or paragraph expressing subjective opinions
 - `Aspect` → A list of one or more target aspects mentioned in the text
 
-<!--
-```json
-{
-  "ID": "001",
-  "Aspect_VA": [
-    {
-      "Aspect": "battery",
-      "VA": "7.80#6.20"
-    },
-    {
-      "Aspect": "keyboard",
-      "VA": "3.40#4.50"
-    }
-  ]
-}
-```
--->
 The output should be in JSON Lines format and include the following fields. All textual outputs are **case-sensitive**.
 - `ID` → A unique identifier that exactly matches the input ID.  
 - `Aspect_VA` → A list of objects, where each object contains:  
   - `Aspect` → The aspect name(s) exactly as they appear in the input (case-sensitive, same order).  
-  - `VA` → The valence-arousal score is represented in the `V#A` format, with each value ranging from 1.00 to 9.00 and **rounded to two decimal places**..  
+  - `VA` → The valence-arousal score is represented in the `V#A` format, with each value ranging from 1.00 to 9.00 and **rounded to two decimal places**.  
 
-<!--  
-- "ID" – Should match the input ID..  
-- "Aspect_VA" – A list of pairs, where each pair contains the following fields.
-    - "Aspect" – Should be identical in content, case, and order to the Aspect list in the input.
-    - "VA" – The valence-arousal score is a string in **V#A** format, with each value ranging from 1.00 to 9.00 and **rounded to two decimal places**.
--->
 Below are examples from different domains that are included in this subtask.
 
 <details>
@@ -520,7 +483,19 @@ Given an utterance or post and a target entity, stance detection involves determ
 Based on this formulation, we define two subtasks equivalent to those in Track A, with the stance target regarded as the aspect.
  
 ### Subtask 1: Dimensional Aspect Sentiment Regression (DimASR)  
-  Given a text and one or more aspects (targets), predict a real-valued *VA score* for each aspect, reflecting the stance expressed by the speaker toward it.   
+
+Given a text and one or more aspects (targets), predict a real-valued **valence-arousal (VA)** score for each aspect, reflecting the stance expressed by the speaker toward it.  
+
+The input is in JSON Lines format and includes the following fields.
+- `ID` → Unique identifier for the instance
+- `Text` → A sentence or paragraph expressing subjective opinions
+- `Aspect` → A list of one or more target aspects mentioned in the text
+
+The output should be in JSON Lines format and include the following fields. All textual outputs are **case-sensitive**.
+- `ID` → A unique identifier that exactly matches the input ID.  
+- `Aspect_VA` → A list of objects, where each object contains:  
+  - `Aspect` → The aspect name(s) exactly as they appear in the input (case-sensitive, same order).  
+  - `VA` → The valence-arousal score is represented in the `V#A` format, with each value ranging from 1.00 to 9.00 and **rounded to two decimal places**.
 
 <details>
 <summary>Example</summary>
@@ -552,7 +527,20 @@ Based on this formulation, we define two subtasks equivalent to those in Track A
 
 
 ### Subtask 2: Dimensional Aspect Sentiment Triplet Extraction (DimASTE)  
-  Extract *(target/aspect term, opinion term, VA score)* triplets from text.
+
+Given a text, extract all **(A, O, VA)** triplets, where A denotes an aspect (target) term, O an opinion term, and VA a valence-arousal score.  
+
+The input is in JSON Lines format and includes the following fields.
+- `ID` – A unique identifier for the instance.
+- `Text` – A sentence or paragraph expressing subjective opinions. 
+
+The output should be in JSON Lines format and include the following fields. All textual outputs are **case-sensitive**.
+
+- `ID` – A unique identifier that exactly matches the input ID.
+- `Triplet` – A list of extracted triplets, where each triplet contains:
+    - `Aspect` – The aspect term, which should retain the same case as in the input text.
+    - `Opinion` – The opinion term, which should retain the same case as in the input text.
+    - `VA` – The valence-arousal score is represented in the `V#A` format, with each value ranging from 1.00 to 9.00 and **rounded to two decimal places**.
 
 <details>
 <summary>Example</summary>
