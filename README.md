@@ -62,17 +62,17 @@ The details of each element involved in this task are described below.
 - **Aspect Category**: An abstract or predefined category to which an aspect term belongs. It follows the format *Entity#Attribute*, where the *Entity* (e.g., FOOD, SERVICE) and *Attribute* (e.g., PRICES, QUALITY) are selected from predefined lists (Pontiki et al., 2015; 2016). For all valid combinations, see the [full list of aspect categories](#full-list-of-aspect-categories).
 - **Opinion Term**: A sentiment-bearing word or phrase associated with a specific aspect term, such as *great*, *terrible*, or *satisfactory*.
 - **Valence-Arousal (VA)**: A pair of real-valued scores, each ranging from **1.00 to 9.00**, rounded to two decimal places.  
-    - Valence: Measures the degree of positivity or negativity.  
-    - Arousal: Measures the intensity of emotion.  
+    - **Valence**: Measures the degree of positivity or negativity.  
+    - **Arousal**: Measures the intensity of emotion.  
     A score of **1.00** indicates extremely negative valence or very low arousal, **9.00** indicates extremely positive valence or very high arousal, and **5.00** represents a neutral valence or medium arousal.
 
 Based on the above elements, we define three subtasks, each adapted from a traditional ABSA task to the dimensional sentiment paradigm. Participants may choose to participate in one or more of the following subtasks, depending on their research interest or application focus.
 
 ## Subtask 1: Dimensional Aspect Sentiment Regression (DimASR)
 
-Given a text and one or more aspects, predict a real-valued **valence-arousal (VA)** score for each aspect. This extends Aspect Sentiment Classification (ASC) (Pontiki et al., 2014; 2015; 2016).
-The input is in JSON Lines format and includes the following fields.
+Given a text and one or more aspects, predict a real-valued **valence-arousal (VA)** score for each aspect. This extends Aspect Sentiment Classification (ASC) (Pontiki et al., 2014; 2015; 2016).  
 
+The input is in JSON Lines format and includes the following fields.
 
 <!--
 ```json
@@ -214,34 +214,6 @@ Input:
 </details>
 
 <details>
-<summary>Stance</summary>
-
-  Input:
-  ```json
-  {
-      "ID": "S001",
-      "Text": "We must walk door to door in our communities even as ws demand change form the top.",
-      "Aspect": [
-          "communities"
-      ]
-  }
-  ```
-  Output:
-  ```json
-  {
-      "ID": "S001",
-      "Aspect_VA":[
-  
-          {
-              "Aspect": "communities",
-              "VA": "6.83#7.30"
-          }
-      ]
-  }
-  ```
-</details>
-
-<details>
 <summary>Finance</summary>
 
 Input:
@@ -271,7 +243,8 @@ Input:
 
 
 ## Subtask 2: Dimensional Aspect Sentiment Triplet Extraction (DimASTE)
-Given a text, extract all **(A, O, VA)** triplets, where A denotes an aspect term, O an opinion term, and VA a valence-arousal score. This extends Aspect Sentiment Triplet Extraction (ASTE) (Peng et al., 2020).
+Given a text, extract all **(A, O, VA)** triplets, where A denotes an aspect term, O an opinion term, and VA a valence-arousal score. This extends Aspect Sentiment Triplet Extraction (ASTE) (Peng et al., 2020).  
+
 The input is in JSON Lines format and includes the following fields.
 - `ID` – A unique identifier for the instance.
 - `Text` – A sentence or paragraph expressing subjective opinions. 
@@ -400,7 +373,8 @@ Input:
 
 
 ## Subtask 3: Dimensional Aspect Sentiment Quad Prediction (DimASQP)
-Given a text, extract all **(A, C, O, VA)** quadruplets, where A denotes an aspect term, C an aspect category, O an opinion term, and VA a valence-arousal score. This task is an extension of Subtask 2 (triplet extraction), with the addition of the aspect category element.
+Given a text, extract all **(A, C, O, VA)** quadruplets, where A denotes an aspect term, C an aspect category, O an opinion term, and VA a valence-arousal score. This extends Aspect Sentiment Quad Prediction (ASQP) (Cai et al., 2021; Zhang et al., 2021). The only difference between this subtask and Subtask 2 (triplet extraction) is the addition of the aspect category element.  
+
 The input is in JSON Lines format and includes the following fields:
 - `ID` – A unique identifier for the instance.
 - `Text` – A sentence or paragraph expressing subjective opinions.
@@ -547,6 +521,35 @@ Based on this formulation, we define two subtasks equivalent to those in Track A
  
 - **Subtask 1: Dimensional Aspect Sentiment Regression (DimASR).**  
   Given a text and one or more aspects (targets), predict a real-valued *VA score* for each aspect, reflecting the stance expressed by the speaker toward it.   
+
+<details>
+<summary>Stance</summary>
+
+  Input:
+  ```json
+  {
+      "ID": "S001",
+      "Text": "We must walk door to door in our communities even as ws demand change form the top.",
+      "Aspect": [
+          "communities"
+      ]
+  }
+  ```
+  Output:
+  ```json
+  {
+      "ID": "S001",
+      "Aspect_VA":[
+  
+          {
+              "Aspect": "communities",
+              "VA": "6.83#7.30"
+          }
+      ]
+  }
+  ```
+</details>
+
 
 - **Subtask 2: Dimensional Aspect Sentiment Triplet Extraction (DimASTE).**  
   Extract *(target/aspect term, opinion term, VA score)* triplets from text.   
