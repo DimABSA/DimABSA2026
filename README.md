@@ -523,7 +523,7 @@ Based on this formulation, we define two subtasks equivalent to those in Track A
   Given a text and one or more aspects (targets), predict a real-valued *VA score* for each aspect, reflecting the stance expressed by the speaker toward it.   
 
 <details>
-<summary>Stance</summary>
+<summary>Example</summary>
 
   Input:
   ```json
