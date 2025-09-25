@@ -51,7 +51,7 @@ This shared task is organized into two complementary tracks: **DimABSA** and **D
 
 ## Track A: DimABSA  
 
-Current ABSA research typically focuses on identifying four key sentiment elements: **aspect terms**, **aspect categories**, **opinion terms**, and **sentiment polarity**. DimABSA extends traditional ABSA by replacing categorical sentiment polarity with continuous **VA scores**, enabling more nuanced analysis of opinions tied to aspects. For example, given the sentence “*The salads are fantastic.*”, the extracted elements under the two settings would be:
+Current ABSA research typically focuses on identifying four key sentiment elements: **aspect terms**, **aspect categories**, **opinion terms**, and **sentiment polarity**. DimABSA extends traditional ABSA by replacing categorical sentiment polarity with continuous **VA scores**. For example, given the sentence “*The salads are fantastic.*”, the extracted elements under the two settings would be:
 
 - **ABSA**: `salads`, `FOOD#QUALITY`, `fantastic`, `positive`  
 - **DimABSA**: `salads`, `FOOD#QUALITY`, `fantastic`, `7.88#7.75`  
