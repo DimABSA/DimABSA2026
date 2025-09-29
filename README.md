@@ -596,14 +596,14 @@ The performance of the submitted systems will be evaluated based on the followin
 
 **Subtask 1: DimASR (RMSE)** 
 
-DimASR is a sentiment regression task evaluated using the normalized ***Root Mean Square Error (RMSE)*** between the predicted and gold VA values:
+DimASR is a sentiment regression task evaluated using ***Root Mean Square Error (RMSE)*** between the predicted and gold VA values:
 
 $$
-RMSE_{VA} = \sqrt{\frac{1}{N} \sum_{i=1}^N 
-   \frac{(V_p^{(i)} - V_g^{(i)})^2 + (A_p^{(i)} - A_g^{(i)})^2}{D_{\max}} }
+RMSE_{VA} = \sqrt{\sum_{i=1}^N 
+   \frac{(V_p^{(i)} - V_g^{(i)})^2 + (A_p^{(i)} - A_g^{(i)})^2}{N} }
 $$
 
-where $N$ is the total number of instances; ${V_p^{(i)}}$ and ${A_p^{(i)}}$ denote the predicted valence and arousal values for instance $i$; ${V_g^{(i)}}$ and ${A_g^{(i)}}$ denote the corresponding gold values; and $D_{\max} = 8^2 + 8^2 = 128$ is the maximum possible squared distance in the VA space on the [1, 9] scale, ensuring that *RMSE* is bounded within [0,1], with 0 indicating perfect prediction and 1 corresponding to the maximum error.
+where $N$ is the total number of instances; ${V_p^{(i)}}$ and ${A_p^{(i)}}$ denote the predicted valence and arousal values for instance $i$; and ${V_g^{(i)}}$ and ${A_g^{(i)}}$ denote the corresponding gold values.
 
 Notes: VA outputs must be within [1, 9], rounded to two decimals. 
 
