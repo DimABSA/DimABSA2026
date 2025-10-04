@@ -4,7 +4,6 @@
 {"ID": "rest16_quad_dev_17", "Triplet": [{"Aspect": "raga ' s", "Opinion": "cozy", "VA": "7.67#7.83"}, {"Aspect": "raga ' s", "Category": "AMBIENCE#GENERAL", "Opinion": "romantic", "VA": "7.50#7.67"}]}
 {"ID": "rest16_quad_dev_18", "Triplet": [{"Aspect": "jekyll and hyde", "Opinion": "great", "VA": "9.15#7.95"}]}
 {"ID": "rest16_quad_dev_20", "Triplet": [{"Aspect": "dining", "Opinion": "fine", "VA": "6.78#6.54"}, {"Aspect": "dining", "Category": "FOOD#QUALITY", "Opinion": "fine", "VA": "6.28#6.4"}]}
-{"ID": "rest16_quad_dev_23", "Triplet": [{"Aspect": "none", "Opinion": "fantastic", "VA": "8.25#8.12"}, {"Aspect": "jekyll and hyde pub", "Category": "RESTAURANT#GENERAL", "Opinion": "great", "VA": "7.66#7.63"}]}
 {"ID": "rest16_quad_dev_27", "Triplet": [{"Aspect": "restaurant", "Opinion": "fresh", "VA": "7.73#7.06"}, {"Aspect": "restaurant", "Category": "RESTAURANT#GENERAL", "Opinion": "amazing", "VA": "7.75#7.50"}, {"Aspect": "none", "Category": "FOOD#QUALITY", "Opinion": "fresh", "VA": "7.38#7.00"}, {"Aspect": "food", "Category": "FOOD#QUALITY", "Opinion": "delicious", "VA": "7.24#6.95"}]}
 {"ID": "rest16_quad_dev_28", "Triplet": [{"Aspect": "chef", "Opinion": "hats off", "VA": "7.88#7.10"}]}
 {"ID": "rest16_quad_dev_29", "Triplet": [{"Aspect": "sushi", "Opinion": "really good", "VA": "7.36#7.94"}, {"Aspect": "sushi", "Category": "FOOD#PRICES", "Opinion": "inexpensive", "VA": "8.09#7.65"}]}
