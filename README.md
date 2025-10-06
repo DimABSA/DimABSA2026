@@ -730,7 +730,7 @@ Notes:
 
 3.	Resources for Beginners
 - [Starter kit (Subtask 1)](https://colab.research.google.com/drive/17MfZI7a6zokHCKNiBWdKc5L9iT5r37bP?usp=sharing)
-- [Starter kit (Subtask 2 & 3)](https://colab.research.google.com/drive/17MfZI7a6zokHCKNiBWdKc5L9iT5r37bP?usp=sharing)
+- [Starter kit (Subtask 2 & 3)](https://github.com/DimABSA/DimABSA2026/tree/main/starter_kit/task2task3)
 
 # References
 
