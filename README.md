@@ -729,7 +729,8 @@ Notes:
 - [COMETA (German)](https://link.springer.com/article/10.3758/s13428-019-01300-7)
 
 3.	Resources for Beginners
-- [Starter kit (Subtask 1)]([https://github.com/JULIELab/EmoBank](https://colab.research.google.com/drive/17MfZI7a6zokHCKNiBWdKc5L9iT5r37bP?usp=sharing))
+- [Starter kit (Subtask 1)](https://colab.research.google.com/drive/17MfZI7a6zokHCKNiBWdKc5L9iT5r37bP?usp=sharing)
+- [Starter kit (Subtask 2 & 3)](https://colab.research.google.com/drive/17MfZI7a6zokHCKNiBWdKc5L9iT5r37bP?usp=sharing)
 
 # References
 
