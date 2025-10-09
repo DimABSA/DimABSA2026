@@ -575,9 +575,9 @@ Input:
 |:-----:|:----------:|:------:|:------------------:|:-------------------:|:------------------:|
 | 1 | [English](https://en.wikipedia.org/wiki/English_language) | eng | Restaurant<br>Laptop | Restaurant<br>Laptop | Restaurant<br>Laptop |
 | 2 | [Japanese](https://en.wikipedia.org/wiki/Japanese_language) | jpn | Hotel<br>Finance | Hotel<br>Finance | Hotel |
-| 3 | [Russian](https://en.wikipedia.org/wiki/Russian_language) | rus | Restaurant | Restaurant |  |
-| 4 | [Tatar](https://en.wikipedia.org/wiki/Tatar_language) | tat | Restaurant | Restaurant |  |
-| 5 | [Ukrainian](https://en.wikipedia.org/wiki/Ukrainian_language) | ukr | Restaurant | Restaurant |  |
+| 3 | [Russian](https://en.wikipedia.org/wiki/Russian_language) | rus | Restaurant | Restaurant | Restaurant |
+| 4 | [Tatar](https://en.wikipedia.org/wiki/Tatar_language) | tat | Restaurant | Restaurant | Restaurant |
+| 5 | [Ukrainian](https://en.wikipedia.org/wiki/Ukrainian_language) | ukr | Restaurant | Restaurant | Restaurant |
 | 6 | [Chinese](https://en.wikipedia.org/wiki/Chinese_language) | zho | Restaurant<br>Laptop<br>Finance |  Restaurant<br>Laptop<br>Finance | Restaurant<br>Laptop |
 
 ## Track B: DimStance
