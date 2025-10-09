@@ -1200,7 +1200,10 @@ def load_train_data_multilingual(args):
 
     for i, data in enumerate(all_data):
         text = data['Text']
-        quadruplets = data['Quadruplet']
+        if 'Quadruplet' in data:
+            quadruplets = data['Quadruplet']
+        else:
+            quadruplets = data['Triplet']
         quintuplets = []
         for quad in quadruplets:
             if 'Category' in quad and args.task == 3:
