@@ -326,8 +326,8 @@ def evaluate_predictions_task1(gold_data, pred_data, is_norm = True):
     def rmse_norm(gold_va, pred_va, is_normalization = True):
         result = [(a - b)**2 for a, b in zip(gold_va, pred_va)]
         if is_normalization:
-            return math.sqrt(sum(result)/len(gold_v))/math.sqrt(128)
-        return math.sqrt(sum(result)/len(gold_v))
+            return math.sqrt(sum(result)/len(gold_va))/math.sqrt(128)
+        return math.sqrt(sum(result)/len(gold_va))
     rmse_va = rmse_norm(gold_va, pred_va, is_norm)
     return {
         'PCC_V': pcc_v,
@@ -356,11 +356,3 @@ if __name__ == "__main__":
     # You can use 'results' for further analysis or reporting
     if results:
         print(f"\nFinal Results: {results}")
-    
-
-
-
-
-    
-
-    
