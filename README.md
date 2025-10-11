@@ -686,6 +686,17 @@ Notes:
 - For details about the evaluation script and the submission file format checker, check this [guide](#).
 -->
 
+
+
+# Shared Task Starter kit
+
+We provide a starter kit for the competition to create a baseline result. The resultant experiment can be submitted to codalab to ensure all submission format is clear. You can then work on your own system towards the competition. 
+
+- **Task 1 **: [Task 1 Starter Kit](https://github.com/DimABSA/DimABSA2026/tree/main/starter_kit/task1)
+
+- **Task 2 and 3 **: [Task 2 and 3 Starter Kit](https://github.com/DimABSA/DimABSA2026/tree/main/starter_kit/task2task3)
+
+
 # Important Dates and Task Phases
 
 | Description                   | Deadline                                        |
