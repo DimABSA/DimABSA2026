@@ -587,24 +587,29 @@ You can find the datasets [here](https://github.com/DimABSA/DimABSA2026/tree/mai
 
 ## Track A: DimABSA
 
-| No. | Language | Code | Subtask 1<br>DimASR | Subtask 2<br>DimASTE | Subtask 3<br>DimASQP |
-|:-----:|:----------:|:------:|:------------------:|:-------------------:|:------------------:|
-| 1 | [English](https://en.wikipedia.org/wiki/English_language) | eng | Restaurant<br>Laptop | Restaurant<br>Laptop | Restaurant<br>Laptop |
-| 2 | [Japanese](https://en.wikipedia.org/wiki/Japanese_language) | jpn | Hotel<br>Finance | Hotel<br>Finance | Hotel |
-| 3 | [Russian](https://en.wikipedia.org/wiki/Russian_language) | rus | Restaurant | Restaurant | Restaurant |
-| 4 | [Tatar](https://en.wikipedia.org/wiki/Tatar_language) | tat | Restaurant | Restaurant | Restaurant |
-| 5 | [Ukrainian](https://en.wikipedia.org/wiki/Ukrainian_language) | ukr | Restaurant | Restaurant | Restaurant |
-| 6 | [Chinese](https://en.wikipedia.org/wiki/Chinese_language) | zho | Restaurant<br>Laptop<br>Finance |  Restaurant<br>Laptop<br>Finance | Restaurant<br>Laptop |
+| No. | Language | Code | Subtask 1<br>DimASR | Subtask 2<br>DimASTE | Subtask 3<br>DimASQP | Dataset Release |
+|:---:|:----------:|:------:|:------------------:|:-------------------:|:------------------:|:----------------:|
+| 1 | [English](https://en.wikipedia.org/wiki/English_language) | eng | Restaurant<br>Laptop | Restaurant<br>Laptop | Restaurant<br>Laptop | ✅ Released |
+| 2 | [Japanese](https://en.wikipedia.org/wiki/Japanese_language) | jpn | Hotel<br>Finance | Hotel<br>Finance | Hotel |  Coming soon |
+| 3 | [Russian](https://en.wikipedia.org/wiki/Russian_language) | rus | Restaurant | Restaurant | Restaurant |  Coming soon |
+| 4 | [Tatar](https://en.wikipedia.org/wiki/Tatar_language) | tat | Restaurant | Restaurant | Restaurant |  Coming soon |
+| 5 | [Ukrainian](https://en.wikipedia.org/wiki/Ukrainian_language) | ukr | Restaurant | Restaurant | Restaurant |  Coming soon |
+| 6 | [Chinese](https://en.wikipedia.org/wiki/Chinese_language) | zho | Restaurant<br>Laptop<br>Finance | Restaurant<br>Laptop<br>Finance | Restaurant<br>Laptop |  Coming soon |
+
+
+
 
 ## Track B: DimStance
-| No. | Language | Code | Subtask 1<br>DimASR | Subtask 2<br>DimASTE |
-|:-----:|:----------:|:------:|:------------------:|:-------------------:|
-| 1 | [German](https://en.wikipedia.org/wiki/German_language) | deu | Politics | Politics |
-| 2 | [English](https://en.wikipedia.org/wiki/English_language) | eng | Environmental Protection | Environmental Protection |
-| 3 | [Hausa](https://en.wikipedia.org/wiki/Hausa_language) | hau | Politics | Politics |
-| 4 | [Kinyarwanda](https://en.wikipedia.org/wiki/Kinyarwanda)| kin | Politics | Politics |
-| 5 | [Swahili](https://en.wikipedia.org/wiki/Swahili_language) | swa | Politics | Politics |
-| 6 | [Twi](https://en.wikipedia.org/wiki/Akan_language) | twi | Politics | Politics |
+
+| No. | Language | Code | Subtask 1<br>DimASR | Subtask 2<br>DimASTE | Dataset Release |
+|:---:|:----------:|:------:|:------------------:|:-------------------:|:----------------:|
+| 1 | [German](https://en.wikipedia.org/wiki/German_language) | deu | Politics | Politics | Coming soon |
+| 2 | [English](https://en.wikipedia.org/wiki/English_language) | eng | Environmental Protection | Environmental Protection | Coming soon |
+| 3 | [Hausa](https://en.wikipedia.org/wiki/Hausa_language) | hau | Politics | Politics | Coming soon |
+| 4 | [Kinyarwanda](https://en.wikipedia.org/wiki/Kinyarwanda) | kin | Politics | Politics |  Coming soon |
+| 5 | [Swahili](https://en.wikipedia.org/wiki/Swahili_language) | swa | Politics | Politics | Coming soon |
+| 6 | [Twi](https://en.wikipedia.org/wiki/Akan_language) | twi | Politics | Politics |  Coming soon |
+
 
 # Evaluation
 
