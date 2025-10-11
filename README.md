@@ -25,7 +25,7 @@
 # 📢 **News**
 
 
-## **11 September 2024**
+## **11 October 2025**
 
 -  We have release Compettion website for [Track A](https://www.codabench.org/competitions/10918/#/results-tab). 
 
