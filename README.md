@@ -14,7 +14,8 @@
 - [Overview](#overview)
 - [Task Description](#task-description)
     - [Track A: DimABSA](#track-a-dimabsa) 
-    - [Track B: DimStance](#track-b-dimstance) 
+    - [Track B: DimStance](#track-b-dimstance)
+-  [Dataset](#Datasets)
 - [Evaluation](#evaluation)
 - [Full List of Aspect Categories](#full-list-of-aspect-categories)
 - [Important Dates and Task Phases](#important-dates-and-task-phases)
@@ -28,7 +29,7 @@
 
 -  We have released the compettion website for [Track A](https://www.codabench.org/competitions/10918/#/results-tab). 
 
-- We have also released the training and development datasets for [Lian Chin — add details here]. More languages are on the way, and we will be updating the table below with release information over the next few days.
+- We have also released the training and development datasets for [Lian Chin — add details here]. More languages are on the way, and we will be updating the below with [release information](#Datasets) over the next few days.
 
 
 
