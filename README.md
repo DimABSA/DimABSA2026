@@ -687,14 +687,20 @@ Notes:
 -->
 
 
+# Shared Task Starter Kit
 
-# Shared Task Starter kit
+We provide a **starter kit** to help participants get started with the competition and reproduce a simple **baseline system**.  
+The baseline scripts demonstrate the required input–output format and submission procedure on **Codabench**, ensuring that participants clearly understand the submission pipeline before developing their own models.
 
-We provide a starter kit for the competition to create a baseline result. The resultant experiment can be submitted to codalab to ensure all submission format is clear. You can then work on your own system towards the competition. 
+You can use the provided examples as a reference and then extend or replace them with your own approaches for the final competition submissions.
 
-- **Task 1 **: [Task 1 Starter Kit](https://github.com/DimABSA/DimABSA2026/tree/main/starter_kit/task1)
 
-- **Task 2 and 3 **: [Task 2 and 3 Starter Kit](https://github.com/DimABSA/DimABSA2026/tree/main/starter_kit/task2task3)
+- **Task 1 – DimASR:**  
+  [Starter Kit for Task 1](https://github.com/DimABSA/DimABSA2026/tree/main/starter_kit/task1)
+
+- **Tasks 2 & 3 – DimASTE and DimASQP:**  
+  [Starter Kit for Tasks 2 & 3](https://github.com/DimABSA/DimABSA2026/tree/main/starter_kit/task2task3)
+
 
 
 # Important Dates and Task Phases
