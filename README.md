@@ -568,7 +568,7 @@ Input:
 </details>
 
 # Datasets
-You can find the evaluation script [here](https://github.com/DimABSA/DimABSA2026/tree/main/task-dataset).
+You can find the datasets [here](https://github.com/DimABSA/DimABSA2026/tree/main/task-dataset).
 
 ## Track A: DimABSA
 
