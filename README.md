@@ -61,7 +61,7 @@ To bridge this gap, we propose **Dimensional ABSA (DimABSA)**, a shared task tha
 
 # Task Description
 
-This shared task is organized into two complementary tracks: **DimABSA** and **DimStance**. Each track provides a benchmark for evaluating fine-grained, structured, and affect-aware opinion mining systems.
+This shared task is organized into two complementary tracks: **DimABSA** and **DimStance**. 
 
 ## Track A: DimABSA  
 
