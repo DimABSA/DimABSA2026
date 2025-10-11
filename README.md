@@ -26,10 +26,10 @@
 
 ## **11 October 2025**
 
--  We have release Compettion website for [Track A](https://www.codabench.org/competitions/10918/#/results-tab). 
+-  We have released the compettion website for [Track A](https://www.codabench.org/competitions/10918/#/results-tab). 
 
-- We have released the training and development datasets for [.Lian Chin add dertails]. More languages are on the way, and we’ll be updating the table below table with release information over the next few days.
- Stay tuned for more updates!
+- We have also released the training and development datasets for [Lian Chin — add details here]. More languages are on the way, and we will be updating the table below with release information over the next few days.
+
 
 
 #  Quick Start
