@@ -13,8 +13,8 @@
 
 - [Overview](#overview)
 - [Task Description](#task-description)
-    - [Track A: DimABSA](#track-a-dimabsa) (Codabench page: [https://www.codabench.org/competitions/10918/](https://www.codabench.org/competitions/10918/))
-    - [Track B: DimStance](#track-b-dimstance) (Codabench page: TBA)
+    - [Track A: DimABSA](#track-a-dimabsa) 
+    - [Track B: DimStance](#track-b-dimstance) 
 - [Evaluation](#evaluation)
 - [Full List of Aspect Categories](#full-list-of-aspect-categories)
 - [Important Dates and Task Phases](#important-dates-and-task-phases)
