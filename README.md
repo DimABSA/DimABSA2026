@@ -17,6 +17,7 @@
     - [Track B: DimStance](#track-b-dimstance)
 -  [Dataset](#Datasets)
 - [Evaluation](#evaluation)
+-  [Starter Kit](#-Starter-Kit)
 - [Full List of Aspect Categories](#full-list-of-aspect-categories)
 - [Important Dates and Task Phases](#important-dates-and-task-phases)
 - [Resources](#resources)
@@ -687,7 +688,7 @@ Notes:
 -->
 
 
-# Shared Task Starter Kit
+# Starter Kit
 
 We provide a **starter kit** to help participants get started with the competition and reproduce a simple **baseline system**. The baseline scripts demonstrate the required input–output format and submission procedure on **Codabench**, ensuring that participants clearly understand the submission pipeline before developing their own models.
 
