@@ -689,8 +689,7 @@ Notes:
 
 # Shared Task Starter Kit
 
-We provide a **starter kit** to help participants get started with the competition and reproduce a simple **baseline system**.  
-The baseline scripts demonstrate the required input–output format and submission procedure on **Codabench**, ensuring that participants clearly understand the submission pipeline before developing their own models.
+We provide a **starter kit** to help participants get started with the competition and reproduce a simple **baseline system**. The baseline scripts demonstrate the required input–output format and submission procedure on **Codabench**, ensuring that participants clearly understand the submission pipeline before developing their own models.
 
 You can use the provided examples as a reference and then extend or replace them with your own approaches for the final competition submissions.
 
