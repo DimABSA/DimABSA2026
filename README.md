@@ -30,7 +30,7 @@
 
 -  We have released the compettion website for [Track A](https://www.codabench.org/competitions/10918/#/results-tab). 
 
-- We have also released the training and development datasets for [Lian Chin — add details here]. More languages are on the way, and we will be updating the below with [release information](#Datasets) over the next few days.
+- We have also released the training and development datasets for English and Chinese. More languages are on the way, and we will be updating the below with [release information](#Datasets) over the next few days.
 
 
 
