@@ -592,31 +592,7 @@ Input:
 
 # Evaluation
 
-The performance of the submitted systems will be evaluated based on the following metrics:
-
-<details>
-<summary><b>DimASR: Evaluation Metric</b></summary>
-
-DimASR is a sentiment regression task evaluated using ***Root Mean Square Error (RMSE)*** between the predicted and gold VA values:
-
-<p>$$
-RMSE_{VA} = \sqrt{\sum_{i=1}^N 
-   \frac{(V_p^{(i)} - V_g^{(i)})^2 + (A_p^{(i)} - A_g^{(i)})^2}{N} }
-$$</p>
-
-where $N$ is the total number of instances; ${V_p^{(i)}}$ and ${A_p^{(i)}}$ denote the predicted valence and arousal values for instance $i$; and ${V_g^{(i)}}$ and ${A_g^{(i)}}$ denote the corresponding gold values.
-
-**Notes:** VA outputs must be within [1, 9], rounded to two decimals.
-
-</details>
-
-
-1. Task 1: RSMS (Existing RMES )
-2. Task2: XXXgsgss (New Metric Devloped)
-3. Task 33,,    
-
-You cna find the evaluation script [here](https://github.com/DimABSA/DimABSA2026/tree/main/evaluation_script). 
-To learn mroe about evaluation metrics and mathematical intuition behind it, click to expand below:
+The performance of the submitted systems will be evaluated based on the following metrics. You can find the evaluation script [here](https://github.com/DimABSA/DimABSA2026/tree/main/evaluation_script). 
 
 **Subtask 1: DimASR (RMSE)** 
 
