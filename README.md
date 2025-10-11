@@ -6,6 +6,11 @@
 </figure> -->
 
 # Content
+
+- [📢 **News**](#-news)
+
+    - [**11 October 2025**](#11-october-2025)
+
 - [Overview](#overview)
 - [Task Description](#task-description)
     - [Track A: DimABSA](#track-a-dimabsa) (Codabench page: [https://www.codabench.org/competitions/10918/](https://www.codabench.org/competitions/10918/))
@@ -15,6 +20,18 @@
 - [Important Dates and Task Phases](#important-dates-and-task-phases)
 - [Resources](#resources)
 - [References](#references)
+
+
+# 📢 **News**
+
+
+## **11 September 2024**
+
+-  We have release Compettion website for [Track A](https://www.codabench.org/competitions/10918/#/results-tab). 
+
+- We have released the training and development datasets for [.Lian Chin add dertails]. More languages are on the way, and we’ll be updating the table below table with release information over the next few days.
+ Stay tuned for more updates!
+
 
 
 #  Quick Start
