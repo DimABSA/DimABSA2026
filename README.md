@@ -34,7 +34,6 @@
 
 #  Quick Start
 
-- [Join the Google Group for the task](https://groups.google.com/g/dimabsa-participants) | [Join Discord](https://discord.gg/xWXDWtkMzu) | [Registration and Submission](https://www.codabench.org/competitions/10918/)
 - **Track A – Dimensional Aspect-Based Sentiment Analysis (DimABSA)**: Predict real-valued **valence–arousal (VA)** scores for aspects and extract their associated information from text. Its subtasks include:   
   1. Subtask 1: DimASR – Dimensional Aspect Sentiment Regression  
   2. Subtask 2: DimASTE – Dimensional Aspect Sentiment Triplet Extraction  
