@@ -594,6 +594,13 @@ Input:
 
 The performance of the submitted systems will be evaluated based on the following metrics:
 
+1. Task 1: RSMS (Existing RMES )
+2. Task2: XXXgsgss (New Metric Devloped)
+3. Task 33,,    
+
+You cna find the evaluation script [here](https://github.com/DimABSA/DimABSA2026/tree/main/evaluation_script). 
+To learn mroe about evaluation metrics and mathematical intuition behind it, click to expand below:
+
 **Subtask 1: DimASR (RMSE)** 
 
 DimASR is a sentiment regression task evaluated using ***Root Mean Square Error (RMSE)*** between the predicted and gold VA values:
