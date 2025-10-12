@@ -9,7 +9,7 @@ For Subtask 1:
 - Prediction data should contain the columns: [ID (str), Aspect_VA (list)]  
 
 For Subtask 2:  
-- Gold data should contain the columns: [ID (str), Quadruplet (list)]  
+- Gold data should contain the columns: [ID (str), Triplet (list)]  
 - Prediction data should contain the columns: [ID (str), Triplet (list)]  
 
 For Subtask 3:  
