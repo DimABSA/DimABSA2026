@@ -17,7 +17,7 @@
     - [Track B: DimStance](#track-b-dimstance)
 -  [Dataset](#Datasets)
 - [Evaluation](#evaluation)
--  [Starter Kit](#-Starter-Kit)
+-  [Starter Kit](#starter-kit)
 - [Full List of Aspect Categories](#full-list-of-aspect-categories)
 - [Important Dates and Task Phases](#important-dates-and-task-phases)
 - [Resources](#resources)
