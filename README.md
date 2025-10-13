@@ -44,7 +44,10 @@
   1. Subtask 1: DimASR for stance analysis  
   2. Subtask 2: DimASTE for stance analysis  
 - **Data**: JSONL format (train/dev/test sets).  
-- **Evaluation**: For both tracks, RMSE is used for Subtask 1, and a new metric (continuous F1) for Subtasks 2&3.  
+- **Evaluation**: For both tracks, RMSE is used for Subtask 1, and a new metric (continuous F1) for Subtasks 2&3.
+- Competition website:
+  - Track A Codabench: [Track A](https://www.codabench.org/competitions/10918/#/results-tab)
+  - Track B Codabench: To be annouced soon. 
 [Join the Google Group for the task](https://groups.google.com/g/dimabsa-participants)| [Join Discord](https://discord.gg/xWXDWtkMzu) | [Create an Issue](https://github.com/DimABSA/DimABSA2026/issues) | [Contact Us](mailto:dimabsa-organizers@googlegroups.com) | [Download Dataset](https://github.com/DimABSA/DimABSA2026/tree/main/task-dataset) | [How to Participate](https://docs.google.com/document/d/e/2PACX-1vSYXB5xQxcgKm237yO5KfawFajiYbTebKukrVKuwPkYR7RxRzdYiYZRU7OLBbNs6mv0KCoNSOqn0blz/pubg) | [Starter Kit](#starter-kit)| 
 
 # Overview
