@@ -722,6 +722,30 @@ You can use the provided examples as a reference and then extend or replace them
 
 
 
+# How to Participate
+
+1. **Register**: Sign up on the CodaBench competition platform.
+2. **Track**: Decide on the track(s) you want to participate in (Track A, and/or B).
+3. **Download**: Access to the datasets for each track will be provided in this repository.
+4. **Develop**: Build your models using the provided data.
+5. **Submit**: Submit your predictions on the CodaBench competition platform.
+
+Please follow the guidelines shared [here](https://docs.google.com/document/d/e/2PACX-1vSYXB5xQxcgKm237yO5KfawFajiYbTebKukrVKuwPkYR7RxRzdYiYZRU7OLBbNs6mv0KCoNSOqn0blz/pubg). 
+
+# Dataset paper
+
+We will soon release a dataset paper that describes the data collection, annotation process, and baseline experiments. This paper will provide additional details and information that will be useful for the task participants.
+
+
+# Communication
+
+- Join our [Discord Channel](https://discord.gg/xWXDWtkMzu) to ask questions and receive updates (coming soon).
+- If you have any questions or issues, please feel free to [create an issue](https://github.com/DimABSA/DimABSA2026/issues).
+- Contact organizers at: dimabsa-organizers[at]googlegroups[dot]com
+
+
+dimabsa-organizers@googlegroups.com
+
 # Full List of Aspect Categories 
 > from [SemEval-2016 Task 5](https://aclanthology.org/S16-1002.pdf)
 
