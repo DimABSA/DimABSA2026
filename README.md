@@ -40,7 +40,7 @@
   1. Subtask 1: DimASR – Dimensional Aspect Sentiment Regression  
   2. Subtask 2: DimASTE – Dimensional Aspect Sentiment Triplet Extraction  
   3. Subtask 3: DimASQP – Dimensional Aspect Sentiment Quad Prediction  
-- **Track B – Dimensional Stance Detection (DimStance)**: A Stance-as-DimABSA task, where the target in stance detection is treated as an aspect. Its subtasks include:
+- **Track B – Dimensional Stance Analysis (DimStance)**: A Stance-as-DimABSA task, where the target in stance detection is treated as an aspect. Its subtasks include:
   1. Subtask 1: DimASR for stance analysis  
   2. Subtask 2: DimASTE for stance analysis  
 - **Data**: JSONL format (train/dev/test sets).  
@@ -62,7 +62,7 @@ This valence-arousal (VA) representation has inspired the rise of dimensional se
   Fig. 1. Two-dimensional valence-arousal space (Yu et al., 2016).
 </p>
 
-To bridge this gap, we propose **Dimensional ABSA (DimABSA)**, a shared task that integrates dimensional sentiment analysis into the traditional ABSA framework. Furthermore, there is a conceptual similarity between stance detection and ABSA when the stance target is treated as an aspect. Building on this, we introduce **Dimensional Stance Detection (DimStance)**, a Stance-as-DimABSA task that reformulates stance detection under the ABSA schema in the VA space. This new formulation extends ABSA beyond consumer reviews to public-issue discourse (e.g., social, political, energy, climate) and also generalizes stance analysis from categorical labels to continuous VA scores. 
+To bridge this gap, we propose **Dimensional ABSA (DimABSA)**, a shared task that integrates dimensional sentiment analysis into the traditional ABSA framework. Furthermore, there is a conceptual similarity between stance detection and ABSA when the stance target is treated as an aspect. Building on this, we introduce **Dimensional Stance Analysis (DimStance)**, a Stance-as-DimABSA task that reformulates stance detection under the ABSA schema in the VA space. This new formulation extends ABSA beyond consumer reviews to public-issue discourse (e.g., social, political, energy, climate) and also generalizes stance analysis from categorical labels to continuous VA scores. 
 
 # Task Description
 
