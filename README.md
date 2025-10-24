@@ -617,7 +617,7 @@ You can find the datasets [here](https://github.com/DimABSA/DimABSA2026/tree/mai
 | 4 | [Kinyarwanda](https://en.wikipedia.org/wiki/Kinyarwanda) | kin | Politics | Coming soon |
 | 5 | [Swahili](https://en.wikipedia.org/wiki/Swahili_language) | swa | Politics | Coming soon |
 | 6 | [Twi](https://en.wikipedia.org/wiki/Akan_language) | twi | Politics | Coming soon |
-| 6 | [Chinese](https://en.wikipedia.org/wiki/Chinese_language) | zho | Environmental Protection | Coming soon |
+| 7 | [Chinese](https://en.wikipedia.org/wiki/Chinese_language) | zho | Environmental Protection | Coming soon |
 
 
 # Evaluation
