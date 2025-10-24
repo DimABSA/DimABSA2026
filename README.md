@@ -496,8 +496,10 @@ This track reformulates **stance detection** under the ABSA schema in the VA spa
 Given an utterance or post and a target entity, stance detection involves determining whether the speaker is in favor or against the target (Mohammad et. al., 2017). This track reformulates stance detection as a **Stance-as-DimABSA** task with the following transformations: 
 
 1. The stance target is treated as an aspect.  
-2. Discrete stance labels are replaced with continuous VA scores.  
-3. Opinion terms are incorporated to align with the ABSA structure.  
+2. Discrete stance labels are replaced with continuous VA scores.
+<!--  
+4. Opinion terms are incorporated to align with the ABSA structure.  
+-->
 
 Based on this formulation, we define two subtasks equivalent to those in Track A, with the stance target regarded as the aspect.
  
