@@ -544,7 +544,7 @@ The output should be in JSON Lines format and include the following fields. All 
   ```
 </details>
 
-
+<!--
 ### Subtask 2: Dimensional Aspect Sentiment Triplet Extraction (DimASTE)  
 
 Given a text, extract all **(A, O, VA)** triplets, where A denotes an aspect (target) term, O an opinion term, and VA a valence-arousal score.  
@@ -586,6 +586,7 @@ Input:
   }
   ```
 </details>
+-->
 
 # Datasets
 You can find the datasets [here](https://github.com/DimABSA/DimABSA2026/tree/main/task-dataset).
