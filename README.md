@@ -58,7 +58,7 @@ Aspect-Based Sentiment Analysis (ABSA) is a widely used technique for analyzing 
 This valence-arousal (VA) representation has inspired the rise of dimensional sentiment analysis as an emerging research paradigm (Mohammad, 2018; Lee et al., 2022, 2024; Muhammad et al., 2025), enabling more nuanced distinctions in emotional expression and supporting a broader range of applications.
 
 <p align="center">
-  <img src="https://github.com/DimABSA/DimABSA2026/blob/main/VA.png" width="500"><br>
+  <img src="./assets/VA.png" width="500"><br>
   Fig. 1. Two-dimensional valence-arousal space (Yu et al., 2016).
 </p>
 
