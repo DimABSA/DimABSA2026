@@ -682,7 +682,7 @@ $$
 
 <p align="center">
   <br>
-  <img width="672" height="345" alt="image" src="https://github.com/DimABSA/DimABSA2026/blob/main/continuous TP example.png" /><br>  
+  <img width="672" height="345" alt="image" src="https://github.com/DimABSA/DimABSA2026/blob/main/assets/continuous_TP_example.png"/><br>  
   Fig. 2. Example of calculating cTP, cRecall, and cPrecision.
 </p>
 
