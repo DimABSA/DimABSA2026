@@ -41,8 +41,7 @@
   2. Subtask 2: DimASTE – Dimensional Aspect Sentiment Triplet Extraction  
   3. Subtask 3: DimASQP – Dimensional Aspect Sentiment Quad Prediction  
 - **Track B – Dimensional Stance Analysis (DimStance)**: A Stance-as-DimABSA task, where the target in stance detection is treated as an aspect. Its subtasks include:
-  1. Subtask 1: DimASR for stance analysis  
-  2. Subtask 2: DimASTE for stance analysis  
+  1. Subtask 1: DimASR for stance analysis   
 - **Data**: JSONL format (train/dev/test sets).  
 - **Evaluation**: For both tracks, RMSE is used for Subtask 1, and a new metric (continuous F1) for Subtasks 2&3.
 - Competition website:
