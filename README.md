@@ -9,6 +9,7 @@
 
 - [📢 **News**](#-news)
 
+    - [**5 November 2025**](#5-November-2025)
     - [**11 October 2025**](#11-october-2025)
 
 - [Overview](#overview)
@@ -26,9 +27,13 @@
 
 # 📢 **News**
 
+## **5 November 2025**
+-  We have now released all Track A datasets except the Chinese Finance set.
+-  We have also made some updates to the train and dev sets. It is recommended to re-download all datasets and disregard the previous versions.
+
 ## **11 October 2025**
 
--  We have released the compettion website for [Track A](https://www.codabench.org/competitions/10918/#/results-tab). Track B will be released soon.
+- We have released the compettion website for [Track A](https://www.codabench.org/competitions/10918/#/results-tab). Track B will be released soon.
 
 - We have also released the training and development datasets for English and Chinese. More languages are on the way, and we will be updating the below with [release information](#Datasets) over the next few days.
 
@@ -597,10 +602,10 @@ You can find the datasets [here](https://github.com/DimABSA/DimABSA2026/tree/mai
 | No. | Language | Code | Subtask 1<br>DimASR | Subtask 2<br>DimASTE | Subtask 3<br>DimASQP | Dataset Release |
 |:---:|:----------:|:------:|:------------------:|:-------------------:|:------------------:|:----------------:|
 | 1 | [English](https://en.wikipedia.org/wiki/English_language) | eng | Restaurant<br>Laptop | Restaurant<br>Laptop | Restaurant<br>Laptop | ✅ Released |
-| 2 | [Japanese](https://en.wikipedia.org/wiki/Japanese_language) | jpn | Hotel<br>Finance | Hotel | Hotel |  Coming soon |
+| 2 | [Japanese](https://en.wikipedia.org/wiki/Japanese_language) | jpn | Hotel<br>Finance | Hotel | Hotel |  ✅ Released |
 | 3 | [Russian](https://en.wikipedia.org/wiki/Russian_language) | rus | Restaurant | Restaurant | Restaurant |  ✅ Released |
 | 4 | [Tatar](https://en.wikipedia.org/wiki/Tatar_language) | tat | Restaurant | Restaurant | Restaurant |  ✅ Released |
-| 5 | [Ukrainian](https://en.wikipedia.org/wiki/Ukrainian_language) | ukr | Restaurant | Restaurant | Restaurant |  Coming soon |
+| 5 | [Ukrainian](https://en.wikipedia.org/wiki/Ukrainian_language) | ukr | Restaurant | Restaurant | Restaurant |  ✅ Released |
 | 6 | [Chinese](https://en.wikipedia.org/wiki/Chinese_language) | zho | Restaurant<br>Laptop<br>Finance | Restaurant<br>Laptop | Restaurant<br>Laptop |  ✅ Released  |
 
 
