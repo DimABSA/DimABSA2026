@@ -606,7 +606,7 @@ You can find the datasets [here](https://github.com/DimABSA/DimABSA2026/tree/mai
 | 3 | [Russian](https://en.wikipedia.org/wiki/Russian_language) | rus | Restaurant | Restaurant | Restaurant |  ✅ Released |
 | 4 | [Tatar](https://en.wikipedia.org/wiki/Tatar_language) | tat | Restaurant | Restaurant | Restaurant |  ✅ Released |
 | 5 | [Ukrainian](https://en.wikipedia.org/wiki/Ukrainian_language) | ukr | Restaurant | Restaurant | Restaurant |  ✅ Released |
-| 6 | [Chinese](https://en.wikipedia.org/wiki/Chinese_language) | zho | Restaurant<br>Laptop<br>Finance | Restaurant<br>Laptop | Restaurant<br>Laptop |  ✅ Released  |
+| 6 | [Chinese](https://en.wikipedia.org/wiki/Chinese_language) | zho | Restaurant<br>Laptop<br>Finance | Restaurant<br>Laptop | Restaurant<br>Laptop |  ✅ Released <br>(except Finance) |
 
 
 
