@@ -32,12 +32,8 @@
 -  We have also made some updates to the train and dev sets. It is recommended to re-download all datasets and disregard the previous versions.
 
 ## **11 October 2025**
-
 - We have released the compettion website for [Track A](https://www.codabench.org/competitions/10918/#/results-tab). Track B will be released soon.
-
 - We have also released the training and development datasets for English and Chinese. More languages are on the way, and we will be updating the below with [release information](#Datasets) over the next few days.
-
-
 
 #  Quick Start
 
