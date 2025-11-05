@@ -20,10 +20,10 @@
 {"ID": "rest26_aspect_va_dev_20", "Text": "This place is amazing", "Aspect": ["place"]}
 {"ID": "rest26_aspect_va_dev_21", "Text": "The management is always very attentive and the service is excellent", "Aspect": ["management", "service"]}
 {"ID": "rest26_aspect_va_dev_22", "Text": "Good Chinese food and really nice beer selection", "Aspect": ["Chinese food", "beer selection"]}
-{"ID": "rest26_aspect_va_dev_23", "Text": "Great quality food", "Aspect": ["Food"]}
+{"ID": "rest26_aspect_va_dev_23", "Text": "Great quality food", "Aspect": ["food"]}
 {"ID": "rest26_aspect_va_dev_24", "Text": "THE FOOD was fantastic", "Aspect": ["FOOD"]}
 {"ID": "rest26_aspect_va_dev_25", "Text": "Friendly wait staff and prices are reasonable", "Aspect": ["wait staff", "prices"]}
-{"ID": "rest26_aspect_va_dev_26", "Text": "crappy restarurant with awful service and rude waiter", "Aspect": ["restaurant", "service", "waiter"]}
+{"ID": "rest26_aspect_va_dev_26", "Text": "crappy restarurant with awful service and rude waiter", "Aspect": ["restarurant", "service", "waiter"]}
 {"ID": "rest26_aspect_va_dev_27", "Text": "The food was pretty tasty", "Aspect": ["food"]}
 {"ID": "rest26_aspect_va_dev_28", "Text": "The service was lacking and the pizza sucked", "Aspect": ["service", "pizza"]}
 {"ID": "rest26_aspect_va_dev_29", "Text": "Sorry to say this curry was not great , the sauce was very heavy on the salt and tomato and the goat was tough as an old boot , the naan bread was below mediocre", "Aspect": ["curry", "sauce", "goat", "naan bread"]}
