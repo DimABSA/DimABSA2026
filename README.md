@@ -1,14 +1,15 @@
-<figure>
+<!--<figure>
   <img src="https://github.com/DimABSA/DimABSA2026/blob/main/banner.png" width="100%">
-</figure>
-<!-- <figure>
+</figure>-->
+<figure>
   <img src="./assets/banner.png" width="100%">
-</figure> -->
+</figure>
 
 # Content
 
 - [📢 **News**](#-news)
 
+    - [**5 November 2025**](#5-November-2025)
     - [**11 October 2025**](#11-october-2025)
 
 - [Overview](#overview)
@@ -29,8 +30,11 @@
 ## **11 November 2025**
 
 - We have released the compettion website for [Track B](https://www.codabench.org/competitions/11139/#/results-tab). Both Track A and Track B are released now.
-
 - We have also released the training and development datasets for English and German for Track B.
+
+## **5 November 2025**
+-  We have now released all Track A datasets except the Chinese Finance set.
+-  We have also made some updates to the train and dev sets. It is recommended to re-download all datasets and disregard the previous versions.
 
 ## **11 October 2025**
 
@@ -38,17 +42,14 @@
 
 - We have also released the training and development datasets for English and Chinese. More languages are on the way, and we will be updating the below with [release information](#Datasets) over the next few days.
 
-
-
 #  Quick Start
 
 - **Track A – Dimensional Aspect-Based Sentiment Analysis (DimABSA)**: Predict real-valued **valence–arousal (VA)** scores for aspects and extract their associated information from text. Its subtasks include:   
   1. Subtask 1: DimASR – Dimensional Aspect Sentiment Regression  
   2. Subtask 2: DimASTE – Dimensional Aspect Sentiment Triplet Extraction  
   3. Subtask 3: DimASQP – Dimensional Aspect Sentiment Quad Prediction  
-- **Track B – Dimensional Stance Detection (DimStance)**: A Stance-as-DimABSA task, where the target in stance detection is treated as an aspect. Its subtasks include:
-  1. Subtask 1: DimASR for stance analysis  
-  2. Subtask 2: DimASTE for stance analysis  
+- **Track B – Dimensional Stance Analysis (DimStance)**: A Stance-as-DimABSA task, where the target in stance detection is treated as an aspect. Its subtasks include:
+  1. Subtask 1: DimASR for stance analysis   
 - **Data**: JSONL format (train/dev/test sets).  
 - **Evaluation**: For both tracks, RMSE is used for Subtask 1, and a new metric (continuous F1) for Subtasks 2&3.
 - Competition website:
@@ -64,11 +65,11 @@ Aspect-Based Sentiment Analysis (ABSA) is a widely used technique for analyzing 
 This valence-arousal (VA) representation has inspired the rise of dimensional sentiment analysis as an emerging research paradigm (Mohammad, 2018; Lee et al., 2022, 2024; Muhammad et al., 2025), enabling more nuanced distinctions in emotional expression and supporting a broader range of applications.
 
 <p align="center">
-  <img src="https://github.com/DimABSA/DimABSA2026/blob/main/VA.png" width="500"><br>
+  <img src="./assets/VA.png" width="500"><br>
   Fig. 1. Two-dimensional valence-arousal space (Yu et al., 2016).
 </p>
 
-To bridge this gap, we propose **Dimensional ABSA (DimABSA)**, a shared task that integrates dimensional sentiment analysis into the traditional ABSA framework. Furthermore, there is a conceptual similarity between stance detection and ABSA when the stance target is treated as an aspect. Building on this, we introduce **Dimensional Stance Detection (DimStance)**, a Stance-as-DimABSA task that reformulates stance detection under the ABSA schema in the VA space. This new formulation extends ABSA beyond consumer reviews to public-issue discourse (e.g., social, political, energy, climate) and also generalizes stance analysis from categorical labels to continuous VA scores. 
+To bridge this gap, we propose **Dimensional ABSA (DimABSA)**, a shared task that integrates dimensional sentiment analysis into the traditional ABSA framework. Furthermore, there is a conceptual similarity between stance detection and ABSA when the stance target is treated as an aspect. Building on this, we introduce **Dimensional Stance Analysis (DimStance)**, a Stance-as-DimABSA task that reformulates stance detection under the ABSA schema in the VA space. This new formulation extends ABSA beyond consumer reviews to public-issue discourse (e.g., social, political, energy, climate) and also generalizes stance analysis from categorical labels to continuous VA scores. 
 
 # Task Description
 
@@ -502,8 +503,10 @@ This track reformulates **stance detection** under the ABSA schema in the VA spa
 Given an utterance or post and a target entity, stance detection involves determining whether the speaker is in favor or against the target (Mohammad et. al., 2017). This track reformulates stance detection as a **Stance-as-DimABSA** task with the following transformations: 
 
 1. The stance target is treated as an aspect.  
-2. Discrete stance labels are replaced with continuous VA scores.  
-3. Opinion terms are incorporated to align with the ABSA structure.  
+2. Discrete stance labels are replaced with continuous VA scores.
+<!--  
+4. Opinion terms are incorporated to align with the ABSA structure.  
+-->
 
 Based on this formulation, we define two subtasks equivalent to those in Track A, with the stance target regarded as the aspect.
  
@@ -550,7 +553,7 @@ The output should be in JSON Lines format and include the following fields. All 
   ```
 </details>
 
-
+<!--
 ### Subtask 2: Dimensional Aspect Sentiment Triplet Extraction (DimASTE)  
 
 Given a text, extract all **(A, O, VA)** triplets, where A denotes an aspect (target) term, O an opinion term, and VA a valence-arousal score.  
@@ -592,6 +595,7 @@ Input:
   }
   ```
 </details>
+-->
 
 # Datasets
 You can find the datasets [here](https://github.com/DimABSA/DimABSA2026/tree/main/task-dataset).
@@ -601,11 +605,11 @@ You can find the datasets [here](https://github.com/DimABSA/DimABSA2026/tree/mai
 | No. | Language | Code | Subtask 1<br>DimASR | Subtask 2<br>DimASTE | Subtask 3<br>DimASQP | Dataset Release |
 |:---:|:----------:|:------:|:------------------:|:-------------------:|:------------------:|:----------------:|
 | 1 | [English](https://en.wikipedia.org/wiki/English_language) | eng | Restaurant<br>Laptop | Restaurant<br>Laptop | Restaurant<br>Laptop | ✅ Released |
-| 2 | [Japanese](https://en.wikipedia.org/wiki/Japanese_language) | jpn | Hotel<br>Finance | Hotel | Hotel |  Coming soon |
-| 3 | [Russian](https://en.wikipedia.org/wiki/Russian_language) | rus | Restaurant | Restaurant | Restaurant |  Coming soon |
-| 4 | [Tatar](https://en.wikipedia.org/wiki/Tatar_language) | tat | Restaurant | Restaurant | Restaurant |  Coming soon |
-| 5 | [Ukrainian](https://en.wikipedia.org/wiki/Ukrainian_language) | ukr | Restaurant | Restaurant | Restaurant |  Coming soon |
-| 6 | [Chinese](https://en.wikipedia.org/wiki/Chinese_language) | zho | Restaurant<br>Laptop<br>Finance | Restaurant<br>Laptop | Restaurant<br>Laptop |  ✅ Released  |
+| 2 | [Japanese](https://en.wikipedia.org/wiki/Japanese_language) | jpn | Hotel<br>Finance | Hotel | Hotel |  ✅ Released |
+| 3 | [Russian](https://en.wikipedia.org/wiki/Russian_language) | rus | Restaurant | Restaurant | Restaurant |  ✅ Released |
+| 4 | [Tatar](https://en.wikipedia.org/wiki/Tatar_language) | tat | Restaurant | Restaurant | Restaurant |  ✅ Released |
+| 5 | [Ukrainian](https://en.wikipedia.org/wiki/Ukrainian_language) | ukr | Restaurant | Restaurant | Restaurant |  ✅ Released |
+| 6 | [Chinese](https://en.wikipedia.org/wiki/Chinese_language) | zho | Restaurant<br>Laptop<br>Finance | Restaurant<br>Laptop | Restaurant<br>Laptop |  ✅ Released <br>(except Finance) |
 
 
 
@@ -620,6 +624,7 @@ You can find the datasets [here](https://github.com/DimABSA/DimABSA2026/tree/mai
 | 4 | [Kinyarwanda](https://en.wikipedia.org/wiki/Kinyarwanda) | kin | Politics |  Coming soon |
 | 5 | [Swahili](https://en.wikipedia.org/wiki/Swahili_language) | swa | Politics | Coming soon |
 | 6 | [Twi](https://en.wikipedia.org/wiki/Akan_language) | twi | Politics |  Coming soon |
+| 7 | [Chinese](https://en.wikipedia.org/wiki/Chinese_language) | zho | Environmental Protection | Coming soon |
 
 
 # Evaluation
@@ -684,7 +689,7 @@ $$
 
 <p align="center">
   <br>
-  <img width="672" height="345" alt="image" src="https://github.com/DimABSA/DimABSA2026/blob/main/continuous TP example.png" /><br>  
+  <img width="672" height="345" alt="image" src="./assets/continuous_TP_example.png"/><br>  
   Fig. 2. Example of calculating cTP, cRecall, and cPrecision.
 </p>
 

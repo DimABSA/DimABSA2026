@@ -61,8 +61,10 @@ category_map = {
 
 out_put_file_name_map = {
     'res_eng': "pred_eng_restaurant.jsonl",
+    'res_zho': "pred_zho_restaurant.jsonl",
     'lap_eng': "pred_eng_laptop.jsonl",
     'lap_zho': "pred_zho_laptop.jsonl",
+    'hot_jpn': "pred_jpn_hotel.jsonl",
 }
 
 lap_filter_from_category = ["HARD_DISC", "PRICES","OPERATION&PERFORMANCE","FANS&COOLING", "FANS & COOLING", "FANS_&_COOLING", "HARD DISK", "MULTIMEDIA DEVICES", "POWER SUPPLY", "DESIGN & FEATURES"]
@@ -73,7 +75,7 @@ def parser_getting():
     parser = argparse.ArgumentParser(description='Bidirectional MRC-based sentiment triplet extraction')
     parser.add_argument('--task', type=int, default=3, choices=[2, 3])
     parser.add_argument('--domain', type=str, default='res', choices=['res', 'lap', 'hot', 'fin'])
-    parser.add_argument('--language', type=str, default='eng', choices=['eng', 'zho'])
+    parser.add_argument('--language', type=str, default='eng', choices=['eng', 'zho', 'jpn'])
 
     parser.add_argument('--data_path', type=str, default="./data/")
     parser.add_argument('--log_path', type=str, default="./log/")
@@ -99,7 +101,7 @@ def parser_getting():
     # training hyper-parameter
     parser.add_argument('--gpu', type=bool, default=True)
     parser.add_argument('--epoch_num', type=int, default=3)
-    parser.add_argument('--batch_size', type=int, default=4)
+    parser.add_argument('--batch_size', type=int, default=8)
     parser.add_argument('--learning_rate', type=float, default=1e-3)
     parser.add_argument('--tuning_bert_rate', type=float, default=1e-5)
     parser.add_argument('--warm_up', type=float, default=0.1)
@@ -855,7 +857,7 @@ def inference(args, model, tokenize, batch_generator, beta, logger, gpu, max_len
             meta_triplet["Aspect"] = tokenize.decode(word_list_ids[triplet[0]:triplet[1] + 1])
             meta_triplet["Opinion"] = tokenize.decode(word_list_ids[triplet[2]:triplet[3]+1])
             meta_triplet["VA"] = triplet[5] + "#" + triplet[6]
-            if args.language in ['zho']:
+            if args.language in ['zho', 'jpn']:
                 meta_triplet["Aspect"] = meta_triplet["Aspect"].replace(" ", "")
                 meta_triplet["Opinion"] = meta_triplet["Opinion"].replace(" ", "")
             dump_data_triple['Triplet'].append(meta_triplet)
@@ -1200,10 +1202,7 @@ def load_train_data_multilingual(args):
 
     for i, data in enumerate(all_data):
         text = data['Text']
-        if 'Quadruplet' in data:
-            quadruplets = data['Quadruplet']
-        else:
-            quadruplets = data['Triplet']
+        quadruplets = data['Quadruplet']
         quintuplets = []
         for quad in quadruplets:
             if 'Category' in quad and args.task == 3:
