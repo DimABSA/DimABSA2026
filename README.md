@@ -29,7 +29,7 @@
 
 ## **11 November 2025**
 
-- We have released the compettion website for [Track B](https://www.codabench.org/competitions/11139/#/results-tab). Both Track A and Track B are released now.
+- We have released the competition website for [Track B](https://www.codabench.org/competitions/11139/#/results-tab). Both Track A and Track B are released now.
 - We have also released the training and development datasets for English and German for Track B.
 
 ## **5 November 2025**
@@ -38,7 +38,7 @@
 
 ## **11 October 2025**
 
-- We have released the compettion website for [Track A](https://www.codabench.org/competitions/10918/#/results-tab). Track B will be released soon.
+- We have released the competition website for [Track A](https://www.codabench.org/competitions/10918/#/results-tab). Track B will be released soon.
 
 - We have also released the training and development datasets for English and Chinese. More languages are on the way, and we will be updating the below with [release information](#Datasets) over the next few days.
 
