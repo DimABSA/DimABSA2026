@@ -26,9 +26,15 @@
 
 # 📢 **News**
 
+## **11 November 2025**
+
+- We have released the compettion website for [Track B](https://www.codabench.org/competitions/11139/#/results-tab). Both Track A and Track B are released now.
+
+- We have also released the training and development datasets for English and German for Track B.
+
 ## **11 October 2025**
 
--  We have released the compettion website for [Track A](https://www.codabench.org/competitions/10918/#/results-tab). Track B will be released soon.
+- We have released the compettion website for [Track A](https://www.codabench.org/competitions/10918/#/results-tab). Track B will be released soon.
 
 - We have also released the training and development datasets for English and Chinese. More languages are on the way, and we will be updating the below with [release information](#Datasets) over the next few days.
 
@@ -47,7 +53,7 @@
 - **Evaluation**: For both tracks, RMSE is used for Subtask 1, and a new metric (continuous F1) for Subtasks 2&3.
 - Competition website:
   - Track A Codabench: [Track A](https://www.codabench.org/competitions/10918/#/results-tab)
-  - Track B Codabench: To be annouced soon.
+  - Track B Codabench: [Track B](https://www.codabench.org/competitions/11139/#/results-tab)
     
 [Join the Google Group for the task](https://groups.google.com/g/dimabsa-participants)| [Join Discord](https://discord.gg/xWXDWtkMzu) | [Create an Issue](https://github.com/DimABSA/DimABSA2026/issues) | [Contact Us](mailto:dimabsa-organizers@googlegroups.com) | [Download Dataset](https://github.com/DimABSA/DimABSA2026/tree/main/task-dataset) | [How to Participate](https://docs.google.com/document/d/e/2PACX-1vSYXB5xQxcgKm237yO5KfawFajiYbTebKukrVKuwPkYR7RxRzdYiYZRU7OLBbNs6mv0KCoNSOqn0blz/pubg) | [Starter Kit](#starter-kit)| 
 
@@ -606,14 +612,14 @@ You can find the datasets [here](https://github.com/DimABSA/DimABSA2026/tree/mai
 
 ## Track B: DimStance
 
-| No. | Language | Code | Subtask 1<br>DimASR | Subtask 2<br>DimASTE | Dataset Release |
-|:---:|:----------:|:------:|:------------------:|:-------------------:|:----------------:|
-| 1 | [German](https://en.wikipedia.org/wiki/German_language) | deu | Politics | Politics | Coming soon |
-| 2 | [English](https://en.wikipedia.org/wiki/English_language) | eng | Environmental Protection | Environmental Protection | Coming soon |
-| 3 | [Hausa](https://en.wikipedia.org/wiki/Hausa_language) | hau | Politics | Politics | Coming soon |
-| 4 | [Kinyarwanda](https://en.wikipedia.org/wiki/Kinyarwanda) | kin | Politics | Politics |  Coming soon |
-| 5 | [Swahili](https://en.wikipedia.org/wiki/Swahili_language) | swa | Politics | Politics | Coming soon |
-| 6 | [Twi](https://en.wikipedia.org/wiki/Akan_language) | twi | Politics | Politics |  Coming soon |
+| No. | Language | Code | Subtask 1<br>DimASR | Dataset Release |
+|:---:|:----------:|:------:|:------------------:|:----------------:|
+| 1 | [German](https://en.wikipedia.org/wiki/German_language) | deu | Politics | ✅ Released |
+| 2 | [English](https://en.wikipedia.org/wiki/English_language) | eng | Environmental Protection | ✅ Released |
+| 3 | [Hausa](https://en.wikipedia.org/wiki/Hausa_language) | hau | Politics | Coming soon |
+| 4 | [Kinyarwanda](https://en.wikipedia.org/wiki/Kinyarwanda) | kin | Politics |  Coming soon |
+| 5 | [Swahili](https://en.wikipedia.org/wiki/Swahili_language) | swa | Politics | Coming soon |
+| 6 | [Twi](https://en.wikipedia.org/wiki/Akan_language) | twi | Politics |  Coming soon |
 
 
 # Evaluation
