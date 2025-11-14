@@ -34,7 +34,7 @@
 - We have also released the training and development datasets for English and German for Track B.
 
 ## **5 November 2025**
--  We have now released all Track A datasets except the Chinese Finance set.
+-  We have now released all Track A datasets.
 -  We have also made some updates to the train and dev sets. It is recommended to re-download all datasets and disregard the previous versions.
 
 ## **11 October 2025**
@@ -610,7 +610,7 @@ You can find the datasets [here](https://github.com/DimABSA/DimABSA2026/tree/mai
 | 3 | [Russian](https://en.wikipedia.org/wiki/Russian_language) | rus | Restaurant | Restaurant | Restaurant |  ✅ Released |
 | 4 | [Tatar](https://en.wikipedia.org/wiki/Tatar_language) | tat | Restaurant | Restaurant | Restaurant |  ✅ Released |
 | 5 | [Ukrainian](https://en.wikipedia.org/wiki/Ukrainian_language) | ukr | Restaurant | Restaurant | Restaurant |  ✅ Released |
-| 6 | [Chinese](https://en.wikipedia.org/wiki/Chinese_language) | zho | Restaurant<br>Laptop<br>Finance | Restaurant<br>Laptop | Restaurant<br>Laptop |  ✅ Released <br>(except Finance) |
+| 6 | [Chinese](https://en.wikipedia.org/wiki/Chinese_language) | zho | Restaurant<br>Laptop<br>Finance | Restaurant<br>Laptop | Restaurant<br>Laptop |  ✅ Released |
 
 
 
