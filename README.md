@@ -57,7 +57,7 @@
   - Track A Codabench: [Track A](https://www.codabench.org/competitions/10918/#/results-tab)
   - Track B Codabench: [Track B](https://www.codabench.org/competitions/11139/#/results-tab)
     
-[Join the Google Group for the task](https://groups.google.com/g/dimabsa-participants)| [Join Discord](https://discord.gg/xWXDWtkMzu) | [Create an Issue](https://github.com/DimABSA/DimABSA2026/issues) | [Contact Us](mailto:dimabsa-organizers@googlegroups.com) | [Download Dataset](https://github.com/DimABSA/DimABSA2026/tree/main/task-dataset) | [How to Participate](https://docs.google.com/document/d/e/2PACX-1vSYXB5xQxcgKm237yO5KfawFajiYbTebKukrVKuwPkYR7RxRzdYiYZRU7OLBbNs6mv0KCoNSOqn0blz/pubg) | [Starter Kit](#starter-kit)| 
+[Join the Google Group for the task](https://groups.google.com/g/dimabsa-participants)| [Join Discord](https://discord.gg/xWXDWtkMzu) | [Create an Issue](https://github.com/DimABSA/DimABSA2026/issues) | [Contact Us](mailto:dimabsa-organizers@googlegroups.com) | [Download Dataset](https://github.com/DimABSA/DimABSA2026/tree/main/task-dataset) | [How to Participate](https://docs.google.com/document/d/1ILQ9PaU6FafgSuNgKEl2PUywvdyJZw_0Cdji8Xd-UVw/edit?usp=sharing) | [Starter Kit](#starter-kit)| 
 
 # Overview
 
