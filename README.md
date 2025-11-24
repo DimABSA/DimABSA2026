@@ -742,7 +742,7 @@ You can use the provided examples as a reference and then extend or replace them
 4. **Develop**: Build your models using the provided data.
 5. **Submit**: Submit your predictions on the CodaBench competition platform.
 
-Please follow the guidelines shared [here](https://docs.google.com/document/d/e/2PACX-1vSYXB5xQxcgKm237yO5KfawFajiYbTebKukrVKuwPkYR7RxRzdYiYZRU7OLBbNs6mv0KCoNSOqn0blz/pubg). 
+Please follow the guidelines shared [here](https://docs.google.com/document/d/1ILQ9PaU6FafgSuNgKEl2PUywvdyJZw_0Cdji8Xd-UVw/edit?usp=sharing). 
 
 # Dataset paper
 
