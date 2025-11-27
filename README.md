@@ -749,6 +749,133 @@ Please follow the guidelines shared [here](https://docs.google.com/document/d/1I
 We will soon release a dataset paper that describes the data collection, annotation process, and baseline experiments. This paper will provide additional details and information that will be useful for the task participants.
 
 
+# Competition Rules and Terms
+
+<details>
+  <summary>1. Consent to Public Release of Scores</summary>
+  <ul>
+    <li>By submitting results, you consent to the public release of your scores on:
+      <ul>
+        <li>the competition website,</li>
+        <li>at the designated workshop,</li>
+        <li>in associated proceedings.</li>
+      </ul>
+    </li>
+    <li>Task organizers have discretion over the release and choice of metrics.</li>
+    <li>Scores may include:
+      <ul>
+        <li>automatic and manual quantitative judgments,</li>
+        <li>qualitative judgments,</li>
+        <li>other metrics as deemed appropriate.</li>
+      </ul>
+    </li>
+  </ul>
+</details>
+
+<details>
+  <summary>2. Score Release and Validity</summary>
+  <ul>
+    <li>Task organizers reserve the right to withhold scores for:
+      <ul>
+        <li>incomplete submissions,</li>
+        <li>erroneous submissions,</li>
+        <li>deceptive submissions,</li>
+        <li>rule-violating submissions.</li>
+      </ul>
+    </li>
+    <li>Inclusion of a submission's scores does not constitute endorsement.</li>
+  </ul>
+</details>
+
+<details>
+  <summary>3. Team Participation Rules</summary>
+  <ul>
+    <li>Participants may be involved in only one team.</li>
+    <li>Exceptions may be granted with prior approval from organizers.</li>
+  </ul>
+</details>
+
+<details>
+  <summary>4. Account Management</summary>
+  <ul>
+    <li>Each team must create and use exactly one account on the designated platform.</li>
+  </ul>
+</details>
+
+<details>
+  <summary>5. Team Constitution</summary>
+  <ul>
+    <li>Team membership cannot be changed after the evaluation period begins.</li>
+  </ul>
+</details>
+
+<details>
+  <summary>6. Development Period Rules</summary>
+  <ul>
+    <li>Teams can submit up to 999 submissions.</li>
+    <li>Results are visible only to the submitting team.</li>
+    <li>Leaderboard is disabled.</li>
+    <li>Warnings and errors are visible for each submission.</li>
+  </ul>
+</details>
+
+<details>
+  <summary>7. Evaluation Period Rules</summary>
+  <ul>
+    <li>Teams are limited to 3 submissions.</li>
+    <li>Only the last submission is considered official.</li>
+    <li>Warnings and errors are visible for each submission.</li>
+  </ul>
+</details>
+
+<details>
+  <summary>8. Post-Competition</summary>
+  <ul>
+    <li>Gold labels will be released after the competition.</li>
+    <li>Teams are encouraged to report results on all system variants in their description paper.</li>
+    <li>Official submission results must be clearly indicated.</li>
+  </ul>
+</details>
+
+<details>
+  <summary>9. Public Release of Submissions</summary>
+  <ul>
+    <li>Final team submissions may be made public after the evaluation period.</li>
+  </ul>
+</details>
+
+<details>
+  <summary>10. Disclaimer about the Datasets</summary>
+  <ul>
+    <li>Organizers and affiliated institutions provide no warranties on dataset correctness or completeness.</li>
+    <li>They are not liable for dataset access or usage.</li>
+  </ul>
+</details>
+
+<details>
+  <summary>11. Peer Review Process</summary>
+  <ul>
+    <li>Each participant will review another team's system description paper.</li>
+  </ul>
+</details>
+
+<details>
+  <summary>12. Dataset Usage Restrictions</summary>
+  <ul>
+    <li>Datasets should only be used for scientific or research purposes.</li>
+    <li>Any other use is explicitly prohibited.</li>
+    <li>Datasets must not be redistributed or shared with third parties.</li>
+    <li>Interested parties should be directed to the official website.</li>
+  </ul>
+</details>
+<details>
+  <summary>13. Final ranking</summary>
+  <ul>
+    <li>To be included in the official task ranking, you **MUST** submit a system description paper.</li>
+  </ul>
+</details>
+
+
 # Communication
 
 - Join our [Discord Channel](https://discord.gg/xWXDWtkMzu) to ask questions and receive updates (coming soon).
