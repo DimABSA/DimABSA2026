@@ -725,8 +725,8 @@ You can use the provided examples as a reference and then extend or replace them
 |-------------------------------|------------------------------------------------|
 | Sample Data Ready             | ~15 July 2025~                                    |
 | Training Data Ready           | 30 September 2025                                |
-| Evaluation Start              | 10 January 2026                                 |
-| Evaluation End                | 31 January 2026                                 |
+| Evaluation Start              | 12 January 2026                                 |
+| Evaluation End                | 30 January 2026                                 |
 | System Description Paper Due  | February 2026                                   |
 | Notification to Authors       | March 2026                                      |
 | Camera Ready Due              | April 2026                                      |
