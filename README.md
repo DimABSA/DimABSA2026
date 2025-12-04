@@ -909,16 +909,6 @@ dimabsa-organizers@googlegroups.com
 |**Attribute Labels**|
 |GENERAL, PRICE, COMFORT, CLEANLINESS, QUALITY, DESIGN_FEATURES, STYLE_OPTIONS, MISCELLANEOUS|
 
-## Finance
-|Entity Labels|
-|-------------|
-|MARKET, COMPANY, BUSINESS, PRODUCT|
-|**Attribute Labels**|
-|GENERAL, SALES, PROFIT, AMOUNT, PRICE, COST|
-> https://github.com/chakki-works/chABSA-dataset
-
-
-
 # Resources
 
 1. Previous shared tasks on sentiment regression
