@@ -626,7 +626,7 @@ You can find the datasets [here](https://github.com/DimABSA/DimABSA2026/tree/mai
 | 1 | [English](https://en.wikipedia.org/wiki/English_language) | eng | Environmental Protection | ✅ Released |
 | 2 | [German](https://en.wikipedia.org/wiki/German_language) | deu | Politics | ✅ Released |
 | 3 | [Chinese](https://en.wikipedia.org/wiki/Chinese_language) | zho | Environmental Protection | ✅ Released |
-| 4 | [Nigerian-Pidgin](https://en.wikipedia.org/wiki/Nigerian_Pidgin) | PCM | Politics | ✅ Released |
+| 4 | [Nigerian-Pidgin](https://en.wikipedia.org/wiki/Nigerian_Pidgin) | pcm | Politics | ✅ Released |
 | 5 | [Swahili](https://en.wikipedia.org/wiki/Swahili_language) | swa | Politics | Coming soon |
 
 
