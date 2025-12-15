@@ -622,7 +622,7 @@ You can find the datasets [here](https://github.com/DimABSA/DimABSA2026/tree/mai
 | 1 | [English](https://en.wikipedia.org/wiki/English_language) | eng | Environmental Protection | ✅ Released |
 | 2 | [German](https://en.wikipedia.org/wiki/German_language) | deu | Politics | ✅ Released |
 | 3 | [Chinese](https://en.wikipedia.org/wiki/Chinese_language) | zho | Environmental Protection | ✅ Released |
-| 4 | [Hausa](https://en.wikipedia.org/wiki/Hausa_language) | hau | Politics | Coming soon |
+| 4 | [Nigerian-Pidgin](https://en.wikipedia.org/wiki/Nigerian_Pidgin) | PCM | Politics | Coming soon |
 | 5 | [Swahili](https://en.wikipedia.org/wiki/Swahili_language) | swa | Politics | Coming soon |
 
 
