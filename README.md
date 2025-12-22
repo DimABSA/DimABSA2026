@@ -28,6 +28,10 @@
 
 # 📢 **News**
 
+## **22 December 2025**
+
+- We have now released the training and development dataset for Swahili for [Track B](https://www.codabench.org/competitions/11139/#/results-tab). Train and dev splits are available for all languages.
+
 ## **15 December 2025**
 
 - We have now released the training and development dataset for Nigerian Pidgin for [Track B](https://www.codabench.org/competitions/11139/#/results-tab).
@@ -627,7 +631,7 @@ You can find the datasets [here](https://github.com/DimABSA/DimABSA2026/tree/mai
 | 2 | [German](https://en.wikipedia.org/wiki/German_language) | deu | Politics | ✅ Released |
 | 3 | [Chinese](https://en.wikipedia.org/wiki/Chinese_language) | zho | Environmental Protection | ✅ Released |
 | 4 | [Nigerian-Pidgin](https://en.wikipedia.org/wiki/Nigerian_Pidgin) | pcm | Politics | ✅ Released |
-| 5 | [Swahili](https://en.wikipedia.org/wiki/Swahili_language) | swa | Politics | Coming soon |
+| 5 | [Swahili](https://en.wikipedia.org/wiki/Swahili_language) | swa | Politics | ✅ Released |
 
 
 
