@@ -343,32 +343,6 @@ Input:
   ```
 </details>
 
-<details>
-<summary>Finance</summary>
-
-Input:
-  ```json
-  
-  {
-      "ID": "F001",
-      "Text": "The pandemic led to a record low in net income."
-  }
-  ```
-  Output:
-  ```json
-  {
-      "ID": "F001",
-      "Triplet":[
-          {
-              "Aspect": "net income",
-              "Opinion": "record low",
-              "VA": "2.14#7.67"
-          }
-      ]
-  }
-  ```
-</details>
-
 
 ### Subtask 3: Dimensional Aspect Sentiment Quad Prediction (DimASQP)
 Given a text, extract all **(A, C, O, VA)** quadruplets, where A denotes an aspect term, C an aspect category, O an opinion term, and VA a valence-arousal score. This extends Aspect Sentiment Quad Prediction (ASQP) (Cai et al., 2021; Zhang et al., 2021). The only difference between this subtask and Subtask 2 (triplet extraction) is the addition of the aspect category element.  
@@ -471,32 +445,6 @@ Input:
               "Category": "ROOMS#CLEANLINESS",
               "Opinion": "perfectly clean",
               "VA": "7.88#8.33"
-          }
-      ]
-  }
-  ```
-</details>
-
-<details>
-<summary>Finance</summary>
-
-Input:
-  ```json
-  {
-      "ID": "F001",
-      "Text": "The pandemic led to a record low in net income."
-  }
-  ```
-  Output:
-  ```json
-  {
-      "ID": "F001",
-      "Quadruplet":[
-          {
-              "Aspect": "net income",
-              "Category": "NULL#PROFIT"
-              "Opinion": "record low",
-              "VA": "2.14#7.67"
           }
       ]
   }
