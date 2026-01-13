@@ -28,6 +28,10 @@
 
 # 📢 **News**
 
+## **12 January 2026**
+
+- Update: Evaluation starts on 20 January, instead of 12 January.
+
 ## **22 December 2025**
 
 - We have now released the training and development dataset for Swahili for [Track B](https://www.codabench.org/competitions/11139/#/results-tab). Train and dev splits are available for all languages.
