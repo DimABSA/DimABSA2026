@@ -6,13 +6,13 @@
 </figure>
 
 # Content
-
+<!--
 - [📢 **News**](#-news)
 
     - [**11 November 2025**](#11-November-2025)
     - [**5 November 2025**](#5-November-2025)
     - [**11 October 2025**](#11-october-2025)
-
+-->
 - [Overview](#overview)
 - [Task Description](#task-description)
     - [Track A: DimABSA](#track-a-dimabsa) 
