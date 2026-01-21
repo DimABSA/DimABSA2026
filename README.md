@@ -28,6 +28,11 @@
 
 # 📢 **News**
 
+## **21 January 2026**
+
+- The test files and dev labels have been released.
+- Please fill out the form: [Registration and System Description Details](https://forms.gle/6j9pQe99PzL4AD4fA).
+
 ## **12 January 2026**
 
 - Update: Evaluation starts on 20 January, instead of 12 January.
