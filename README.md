@@ -28,6 +28,12 @@
 
 # 📢 **News**
 
+## **4 Februrary 2026**
+
+- We have release the dataset papers (Track A and Track B).
+- Track A - [DimABSA: Building Multilingual and Multidomain Datasets for Dimensional Aspect-Based Sentiment Analysis](https://arxiv.org/abs/2601.23022)
+- Track B - [DimStance: Multilingual Datasets for Dimensional Stance Analysis](https://arxiv.org/abs/2601.21483)
+
 ## **21 January 2026**
 
 - The test files and dev labels have been released.
