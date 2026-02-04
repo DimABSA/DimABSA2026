@@ -31,8 +31,34 @@
 ## **4 Februrary 2026**
 
 - We have release the dataset papers (Track A and Track B).
-- Track A - [DimABSA: Building Multilingual and Multidomain Datasets for Dimensional Aspect-Based Sentiment Analysis](https://arxiv.org/abs/2601.23022)
-- Track B - [DimStance: Multilingual Datasets for Dimensional Stance Analysis](https://arxiv.org/abs/2601.21483)
+  - Track A - [DimABSA: Building Multilingual and Multidomain Datasets for Dimensional Aspect-Based Sentiment Analysis](https://arxiv.org/abs/2601.23022)
+  - Track B - [DimStance: Multilingual Datasets for Dimensional Stance Analysis](https://arxiv.org/abs/2601.21483)
+
+- You can use the BibTeX below to cite the task paper and dataset papers.
+
+
+```bibtex
+@misc{lee2026dimabsabuildingmultilingualmultidomain,
+      title={DimABSA: Building Multilingual and Multidomain Datasets for Dimensional Aspect-Based Sentiment Analysis}, 
+      author={Lung-Hao Lee and Liang-Chih Yu and Natalia Loukashevich and Ilseyar Alimova and Alexander Panchenko and Tzu-Mi Lin and Zhe-Yu Xu and Jian-Yu Zhou and Guangmin Zheng and Jin Wang and Sharanya Awasthi and Jonas Becker and Jan Philip Wahle and Terry Ruas and Shamsuddeen Hassan Muhammad and Saif M. Mohammed},
+      year={2026},
+      eprint={2601.23022},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2601.23022}, 
+}
+```
+```bibtex
+@misc{becker2026dimstancemultilingualdatasetsdimensional,
+      title={DimStance: Multilingual Datasets for Dimensional Stance Analysis}, 
+      author={Jonas Becker and Liang-Chih Yu and Shamsuddeen Hassan Muhammad and Jan Philip Wahle and Terry Ruas and Idris Abdulmumin and Lung-Hao Lee and Wen-Ni Liu and Tzu-Mi Lin and Zhe-Yu Xu and Ying-Lung Lin and Jin Wang and Maryam Ibrahim Mukhtar and Bela Gipp and Saif M. Mohammed},
+      year={2026},
+      eprint={2601.21483},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2601.21483}, 
+}
+```
 
 ## **21 January 2026**
 
