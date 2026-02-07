@@ -28,6 +28,19 @@
 
 # 📢 **News**
 
+## **7 Februrary 2026**
+
+- We release the task unofficial ranking. The ranking is tentative and may be subject to modifications.
+  - Track A:
+    - Subtask 1: [Unofficial Ranking](https://docs.google.com/spreadsheets/d/1TciBVY24keG8bTyFiDr1eIOwPGYm5k6h/edit?usp=sharing&ouid=114645364135358994391&rtpof=true&sd=true)
+    - Subtask 2: [Unofficial Ranking](https://docs.google.com/spreadsheets/d/1uhMbgan-f8F_4682F_U6Pz_9uHoY-d4E/edit?usp=sharing&ouid=114645364135358994391&rtpof=true&sd=true)
+    - Subtask 3: [Unofficial Ranking](https://docs.google.com/spreadsheets/d/1geyC9aFjAmXFE_7w1LnjGYX4F0y2jttN/edit?usp=sharing&ouid=114645364135358994391&rtpof=true&sd=true)
+  - Track B:
+    - Subtask 1: [Unofficial Ranking](https://docs.google.com/spreadsheets/d/1uwyT7IS7Ynelsgf3SH5HhvKu_gD6lr9a/edit?usp=sharing&ouid=114645364135358994391&rtpof=true&sd=true)
+   
+- Please complete the forms. Only teams that fill out the forms will appear in the official ranking of our task paper.
+- Each team that submits a system paper will be assigned papers to review from other submissions.
+
 ## **4 Februrary 2026**
 
 - We have release the dataset papers (Track A and Track B).
