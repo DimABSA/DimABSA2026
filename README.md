@@ -28,7 +28,7 @@
 
 # 📢 **News**
 
-## **8 Februrary 2026  SemEval System Paper Timeline (AoE / Anywhere on Earth)**
+## **8 Februrary 2026**
 
 SemEval has released the timeline for system paper submission and publication:
 
