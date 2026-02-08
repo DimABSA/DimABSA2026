@@ -920,19 +920,34 @@ dimabsa-organizers@googlegroups.com
 
 # Resources
 
-1. Previous shared tasks on sentiment regression
+
+
+
+#  Resources
+
+1. Writting System paper
+
+1. Writing tutorial: [Blogpost](https://github.com/nedjmaou/Writing_a_task_description_paper)
+2. [SemEval 2025 Shared Tasks](https://semeval.github.io/SemEval2025/tasks)
+3. [Frequently Asked Questions about SemEval](https://semeval.github.io/faq.html)
+4. [Paper Submission Requirements](https://semeval.github.io/paper-requirements.html)
+5. [Guidelines for Writing Papers](https://semeval.github.io/system-paper-template.html)
+6. [Paper style files](https://github.com/acl-org/acl-style-files)
+
+
+2. Previous shared tasks on sentiment regression
 - [SemEval-2025 Task 11](https://github.com/emotion-analysis-project/SemEval2025-task11) (Track B)
 - [SIGHAN-2024 Shared Tasks](https://github.com/NYCU-NLP/SIGHAN2024-dimABSA) (Chinese)
 - [SemEval-2018 Task 1](https://competitions.codalab.org/competitions/17751) (EI-reg, V-reg)
 - [WASSA-2017 Shared Task](https://saifmohammad.com/WebPages/EmotionIntensity-SharedTask.html)
 
-2.	Dimensional Sentiment Corpora
+3.	Dimensional Sentiment Corpora
 - [EmoBank](https://github.com/JULIELab/EmoBank)
 - [Chinese Emobank](http://nlp.innobic.yzu.edu.tw/resources/ChineseEmoBank.html)
 - [Facebook Posts](https://github.com/wwbp/additional_data_sets/tree/master/valence_arousal)
 - [COMETA (German)](https://link.springer.com/article/10.3758/s13428-019-01300-7)
 
-3.	Resources for Beginners
+4.	Resources for Beginners
 - [Starter kit (Subtask 1)](https://colab.research.google.com/drive/17MfZI7a6zokHCKNiBWdKc5L9iT5r37bP?usp=sharing)
 - [Starter kit (Subtask 2 & 3)](https://github.com/DimABSA/DimABSA2026/tree/main/starter_kit/task2task3)
 
