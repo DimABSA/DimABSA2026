@@ -28,6 +28,18 @@
 
 # 📢 **News**
 
+## **8 Februrary 2026  SemEval System Paper Timeline (AoE / Anywhere on Earth)**
+
+SemEval has released the timeline for system paper submission and publication:
+
+- **System paper submission deadline:** **2 March 2026**
+- **Notification to authors:** **9 April 2026**
+- **Camera-ready deadline:** **30 April 2026**
+- **SemEval workshop:** **July 2026** (co-located with **ACL 2026**)
+
+**Deadline:** All deadlines follow **Anywhere on Earth (AoE)** — **23:59 (UTC−12)**.
+
+
 ## **7 Februrary 2026**
 
 - We release the task unofficial ranking. The ranking is tentative and may be subject to modifications.
