@@ -141,7 +141,7 @@ This valence-arousal (VA) representation has inspired the rise of dimensional se
 
 <p align="center">
   <img src="./assets/VA.png" width="500"><br>
-  Fig. 1. Two-dimensional valence-arousal space (Yu et al., 2016).
+  Fig. 1. Two-dimensional valence-arousal (VA) space.
 </p>
 
 To bridge this gap, we propose **Dimensional ABSA (DimABSA)**, a shared task that integrates dimensional sentiment analysis into the traditional ABSA framework. Furthermore, there is a conceptual similarity between stance detection and ABSA when the stance target is treated as an aspect. Building on this, we introduce **Dimensional Stance Analysis (DimStance)**, a Stance-as-DimABSA task that reformulates stance detection under the ABSA schema in the VA space. This new formulation extends ABSA beyond consumer reviews to public-issue discourse (e.g., social, political, energy, climate) and also generalizes stance analysis from categorical labels to continuous VA scores. 
