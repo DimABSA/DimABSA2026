@@ -531,7 +531,7 @@ Given an utterance or post and a target entity, stance detection involves determ
 4. Opinion terms are incorporated to align with the ABSA structure.  
 -->
 
-Based on this formulation, we define two subtasks equivalent to those in Track A, with the stance target regarded as the aspect.
+Based on this formulation, we define the following subtask mirroring Track A, with the stance target treated as the aspect.
  
 ### Subtask 1: Dimensional Aspect Sentiment Regression (DimASR)  
 
