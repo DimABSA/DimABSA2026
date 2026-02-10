@@ -28,6 +28,11 @@
 
 # 📢 **News**
 
+
+## **10 Februrary 2026**
+
+- We release the test sets with gold labels for all languages and domains to GitHub
+
 ## **8 Februrary 2026**
 
 SemEval has released the timeline for system paper submission and publication:
