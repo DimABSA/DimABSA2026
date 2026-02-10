@@ -65,7 +65,7 @@ SemEval has released the timeline for system paper submission and publication:
 ```bibtex
 @misc{lee2026dimabsabuildingmultilingualmultidomain,
       title={DimABSA: Building Multilingual and Multidomain Datasets for Dimensional Aspect-Based Sentiment Analysis}, 
-      author={Lung-Hao Lee and Liang-Chih Yu and Natalia Loukashevich and Ilseyar Alimova and Alexander Panchenko and Tzu-Mi Lin and Zhe-Yu Xu and Jian-Yu Zhou and Guangmin Zheng and Jin Wang and Sharanya Awasthi and Jonas Becker and Jan Philip Wahle and Terry Ruas and Shamsuddeen Hassan Muhammad and Saif M. Mohammed},
+      author={Lung-Hao Lee and Liang-Chih Yu and Natalia Loukashevich and Ilseyar Alimova and Alexander Panchenko and Tzu-Mi Lin and Zhe-Yu Xu and Jian-Yu Zhou and Guangmin Zheng and Jin Wang and Sharanya Awasthi and Jonas Becker and Jan Philip Wahle and Terry Ruas and Shamsuddeen Hassan Muhammad and Saif M. Mohammad},
       year={2026},
       eprint={2601.23022},
       archivePrefix={arXiv},
@@ -76,7 +76,7 @@ SemEval has released the timeline for system paper submission and publication:
 ```bibtex
 @misc{becker2026dimstancemultilingualdatasetsdimensional,
       title={DimStance: Multilingual Datasets for Dimensional Stance Analysis}, 
-      author={Jonas Becker and Liang-Chih Yu and Shamsuddeen Hassan Muhammad and Jan Philip Wahle and Terry Ruas and Idris Abdulmumin and Lung-Hao Lee and Wen-Ni Liu and Tzu-Mi Lin and Zhe-Yu Xu and Ying-Lung Lin and Jin Wang and Maryam Ibrahim Mukhtar and Bela Gipp and Saif M. Mohammed},
+      author={Jonas Becker and Liang-Chih Yu and Shamsuddeen Hassan Muhammad and Jan Philip Wahle and Terry Ruas and Idris Abdulmumin and Lung-Hao Lee and Nelson Odhiambo and Lilian Wanzare and Wen-Ni Liu and Tzu-Mi Lin and Zhe-Yu Xu and Ying-Lung Lin and Jin Wang and Maryam Ibrahim Mukhtar and Bela Gipp and Saif M. Mohammad},
       year={2026},
       eprint={2601.21483},
       archivePrefix={arXiv},
