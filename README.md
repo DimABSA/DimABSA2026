@@ -28,6 +28,21 @@
 
 # 📢 **News**
 
+## **23 Februrary 2026**
+
+- We release the bibtex of the task paper below.
+
+```bibtex
+@inproceedings{yu-etal-2026-semeval,
+	title        = {{S}em{E}val-2026 Task 3: Dimensional Aspect-Based Sentiment Analysis ({D}im{ABSA})},
+	author       = {Yu, Liang-Chih  and Becker, Jonas and Muhammad, Shamsuddeen Hassan and Abdulmumin, Idris and Lee, Lung-Hao and Lin, Ying-Lung and Wang, Jin and Wahle, Jan Philip and Ruas, Terry and Panchenko, Alexander and Alimova, Ilseyar and Chang, Kai-Wei and Wanzare, Lilian and Odhiambo, Nelson and Gipp, Bela and Mohammad, Saif M.},
+	year         = 2026,
+	month        = jun,
+	booktitle    = {Proceedings of the 20th International Workshop on Semantic Evaluation (SemEval-2026)},
+	publisher    = {Association for Computational Linguistics}
+}
+```
+
 
 ## **10 Februrary 2026**
 
