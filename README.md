@@ -767,10 +767,10 @@ You can use the provided examples as a reference and then extend or replace them
 | Training Data Ready           | 30 September 2025                                |
 | Evaluation Start              | 20 January 2026                                 |
 | Evaluation End                | 30 January 2026                                 |
-| System Description Paper Due  | February 2026                                   |
-| Notification to Authors       | March 2026                                      |
-| Camera Ready Due              | April 2026                                      |
-| SemEval Workshop 2026         | (co-located with ACL 2026)                      |
+| System Description Paper Due  | 2 March 2026                                  |
+| Notification to Authors       | 9 April 2026                                   |
+| Camera Ready Due              | 30 April 2026                                    |
+| SemEval Workshop 2026         | SemEval workshop July (co-located with ACL 2026)                     |
 
 
 
