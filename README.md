@@ -772,7 +772,7 @@ You can use the provided examples as a reference and then extend or replace them
 | Camera Ready Due              | 30 April 2026                                    |
 | SemEval Workshop 2026         | SemEval workshop July (co-located with ACL 2026)                     |
 
-
+All deadlines are 23:59 UTC-12 ("anywhere on Earth").
 
 # How to Participate
 
