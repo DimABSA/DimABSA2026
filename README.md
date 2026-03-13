@@ -697,7 +697,7 @@ cTP^{(t)} =
 \end{cases}
 $$
 
-where $P_{cat} \subseteq P$ denotes the set of predictions in which all categorical elements, (A, O) for a triplet or (A, C, O) for a quadruplet, exactly match the gold annotation for the same sentence. Each categorically correct prediction $t \in P_{cat}$ is assigned an initial TP score of 1, which is then reduced based on its VA error distance. Predictions with no categorical match are assigned a score of 0. The distance function is defined as 
+where $P_{cat} \subseteq P$ denotes the set of predictions in which all categorical elements, (A, O) for a triplet or (A, C, O) for a quadruplet, exactly match the gold annotation for the same sentence. Each categorically correct prediction $t \in P_{cat}$ is assigned an initial TP score of 1, which is then reduced based on its VA error distance. The distance function is defined as 
 
 $$
 dist(VA_p, VA_g) = \frac{\sqrt{\left( V_p - V_g \right)^2 + \left( A_p - A_g \right)^2}}{D_{max}},
