@@ -1,0 +1,225 @@
+{"ID": "R9340:S003", "Text": "紅醬海鮮pizza $320這個pizza真的可以算是我看過賣像最差的pizza。", "Aspect_Polarity": [{"Aspect": "賣像", "Polarity": "NEG"}]}
+{"ID": "R10003:S007", "Text": "菜飯裡有青江菜和香腸，從白飯的顏色就可看出青菜的菜香和香腸的油脂都有煮進去，雖然味道較清淡，但配上剛剛客家小炒和其他菜色，真的非常合適。", "Aspect_Polarity": [{"Aspect": "味道", "Polarity": "NEU"}, {"Aspect": "客家小炒", "Polarity": "POS"}]}
+{"ID": "R7910:S000", "Text": "記得年輕的時候來吃過，現在變的比較精緻小巧，整體用餐環境算乾淨，小菜選擇也不少，沒有紙寫帳單，牆面有菜單與價目，櫃台上有小菜菜單價目表告示，點餐則直接告知店員點餐結帳，內用桌數約6桌。", "Aspect_Polarity": [{"Aspect": "用餐環境", "Polarity": "POS"}, {"Aspect": "小菜選擇", "Polarity": "POS"}]}
+{"ID": "R10099:S032", "Text": "另外，大推香草茶。", "Aspect_Polarity": [{"Aspect": "香草茶", "Polarity": "POS"}]}
+{"ID": "R6065:S003", "Text": "兵庫海膽醬鮮蝦寬麵$280很驚喜，讓不吃海膽的我都喜歡它的海膽醬。", "Aspect_Polarity": [{"Aspect": "兵庫海膽醬鮮蝦寬麵", "Polarity": "POS"}, {"Aspect": "海膽醬", "Polarity": "POS"}]}
+{"ID": "R9598:S019", "Text": "入座便提供置物布箱外，鍋料盤空了也會不定時幫忙收盤清理，服務著實值得稱許。", "Aspect_Polarity": [{"Aspect": "服務", "Polarity": "POS"}]}
+{"ID": "R9245:S006", "Text": "價格雖然有調漲，但與其他同類型的「現炒」一比，它還算相對平價的。", "Aspect_Polarity": [{"Aspect": "價格", "Polarity": "POS"}]}
+{"ID": "R6045:S006", "Text": "番茄蛤蜊生麵($230):麵體選擇了寬麵，番茄味道中規中矩，蛤蜊的量還不錯。", "Aspect_Polarity": [{"Aspect": "番茄味道", "Polarity": "NEU"}, {"Aspect": "蛤蜊的量", "Polarity": "POS"}]}
+{"ID": "R5818:S001", "Text": "創始店位在西大路上，靠近食品路、十八尖山寶山入口，是許多清交大學生、園區上班族，上下班必經的重要道路之一，距離新竹大遠百、城隍廟也不遠，是附近居民飯後想吃點甜品、休息的好地方。", "Aspect_Polarity": [{"Aspect": "創始店", "Polarity": "POS"}]}
+{"ID": "R9250:S008", "Text": "餛飩皮薄，內餡有味但飽滿度一般。", "Aspect_Polarity": [{"Aspect": "餛飩皮", "Polarity": "NEU"}, {"Aspect": "內餡", "Polarity": "POS"}, {"Aspect": "飽滿度", "Polarity": "NEU"}]}
+{"ID": "R10067:S008", "Text": "大仁哥蔗香脆皮桶仔雞-宜蘭旗艦店，餐點電話我有先預約招牌烤雞，就已經一旁熱呼呼上桌等我們了，讓阿貓布偶先聞香XD菜基本上真的很快，感覺我們還沒點就做好等我們了啊哈哈哈哈，但我還是先逐一開箱菜色。", "Aspect_Polarity": [{"Aspect": "菜", "Polarity": "POS"}]}
+{"ID": "R5889:S000", "Text": "新竹最愛的甜品店沒有之一。", "Aspect_Polarity": [{"Aspect": "甜品店", "Polarity": "POS"}]}
+{"ID": "R5914:S000", "Text": "卡比巴拉很Q但桌上有螞蟻..。", "Aspect_Polarity": [{"Aspect": "桌上", "Polarity": "NEG"}, {"Aspect": "卡比巴拉", "Polarity": "POS"}]}
+{"ID": "R10532:S004", "Text": "用餐區空間較為狹窄，但整潔維持得還不錯。", "Aspect_Polarity": [{"Aspect": "用餐區空間", "Polarity": "NEG"}, {"Aspect": "整潔", "Polarity": "POS"}]}
+{"ID": "R9526:S017", "Text": "炭烤章魚 $260老闆把章魚腳處理的滿好的。", "Aspect_Polarity": [{"Aspect": "章魚腳", "Polarity": "POS"}]}
+{"ID": "R9885:S015", "Text": "滷蛋有入味，蛋香挺好。", "Aspect_Polarity": [{"Aspect": "滷蛋", "Polarity": "POS"}, {"Aspect": "蛋香", "Polarity": "POS"}]}
+{"ID": "R9972:S001", "Text": "廚房是採半開放式的，於點餐櫃檯後方就可以看到店員忙碌的在製作飯糰，吃寶覺得這種看得到的感覺也不錯，可以確認餐點是現點現做以及衛生環境。", "Aspect_Polarity": [{"Aspect": "半開放式", "Polarity": "POS"}]}
+{"ID": "R10090:S020", "Text": "豬肉湯汁蠻飽滿的，正常表現。", "Aspect_Polarity": [{"Aspect": "豬肉湯汁", "Polarity": "POS"}]}
+{"ID": "R6301:S000", "Text": "已經加了麵覺得吃完還是有點空虛，味道很濃郁但是口味可能不是很合，店內環境乾淨明亮但空間太小，吃完就被急著收盤子就只好離開了，不是一個適合聊天聚餐的地方...。", "Aspect_Polarity": [{"Aspect": "味道", "Polarity": "POS"}, {"Aspect": "口味", "Polarity": "NEG"}, {"Aspect": "店內環境", "Polarity": "POS"}, {"Aspect": "空間", "Polarity": "NEG"}]}
+{"ID": "R9456:S010", "Text": "這道便是邰智源去錄木曜四時學的菜，紅燒大腸吃起來很有嚼勁，味道不錯。", "Aspect_Polarity": [{"Aspect": "紅燒大腸", "Polarity": "POS"}, {"Aspect": "味道", "Polarity": "POS"}]}
+{"ID": "R10335:S025", "Text": "得說還是飯田商店有儀式感一些，不過旁邊的擦手巾好香。", "Aspect_Polarity": [{"Aspect": "擦手巾", "Polarity": "POS"}]}
+{"ID": "R5761:S000", "Text": "東西很好吃,吃過超多間蔬菜都烤超乾超鹹,這間完全不會調味都不會蓋過食材原味~都超juicy!來了好多次了~米腸米血甜不辣我超推!!。", "Aspect_Polarity": [{"Aspect": "東西", "Polarity": "POS"}, {"Aspect": "蔬菜", "Polarity": "NEG"}, {"Aspect": "食材", "Polarity": "POS"}, {"Aspect": "米腸", "Polarity": "POS"}, {"Aspect": "米血", "Polarity": "POS"}, {"Aspect": "甜不辣", "Polarity": "POS"}]}
+{"ID": "R9666:S004", "Text": "食物吃多會覺得有點乾，如果有煉乳就更好了。", "Aspect_Polarity": [{"Aspect": "食物", "Polarity": "NEG"}]}
+{"ID": "R9386:S006", "Text": "蘭陽西魯肉又是個湯品(?)，西魯肉是宜蘭的名菜之一，我超喜歡裡面的甜白菜，相信這也是台菜無菜單中重要的料理，裡面的料印象比我之前吃的豐富很多啊!這還有附上紅醋(?) 降低湯頭的濃稠甜感。", "Aspect_Polarity": [{"Aspect": "甜白菜", "Polarity": "POS"}, {"Aspect": "料", "Polarity": "POS"}]}
+{"ID": "R6021:S000", "Text": "價格還是一樣貴，卻變小碗了。", "Aspect_Polarity": [{"Aspect": "價格", "Polarity": "NEG"}]}
+{"ID": "R7015:S001", "Text": "附近停車不太容易需要花點時間找一下。", "Aspect_Polarity": [{"Aspect": "停車", "Polarity": "NEG"}]}
+{"ID": "R7716:S001", "Text": "中午時間一到馬上電話訂購晚上的餐點，時間到即可取餐，很方便。", "Aspect_Polarity": [{"Aspect": "電話訂購", "Polarity": "POS"}]}
+{"ID": "R10050:S006", "Text": "．蒜味豬泡在含有蒜頭的醃製醬汁裡，入口不僅有豬肉的甜味也包含了蒜頭一點辛香的風味口感多汁、入味軟Q。", "Aspect_Polarity": [{"Aspect": "口感", "Polarity": "POS"}, {"Aspect": "蒜味豬", "Polarity": "POS"}]}
+{"ID": "R10063:S000", "Text": "大面窗外的綠意植栽，陽光在午後穿透時更顯柔和，預約制讓每位來訪者都有足夠舒適的使用空間。", "Aspect_Polarity": [{"Aspect": "使用空間", "Polarity": "POS"}]}
+{"ID": "R7850:S000", "Text": "紹興炒飯好吃牛肉還好不要忘記加蔥蒜味道會很加分。", "Aspect_Polarity": [{"Aspect": "紹興炒飯", "Polarity": "POS"}, {"Aspect": "蔥蒜味道", "Polarity": "POS"}, {"Aspect": "牛肉", "Polarity": "NEU"}]}
+{"ID": "R9831:S010", "Text": "布丁的質地非常滑嫩綿密。", "Aspect_Polarity": [{"Aspect": "布丁的質地", "Polarity": "POS"}]}
+{"ID": "R7255:S000", "Text": "很少在市區可以吃到這麼便宜的麵店、而且我跟先生店大碗他吃炸醬麵粗麵、我吃炸醬湯麵，細麵好吃，重口味的人會喜歡。", "Aspect_Polarity": [{"Aspect": "麵店", "Polarity": "POS"}, {"Aspect": "細麵", "Polarity": "POS"}, {"Aspect": "炸醬湯麵", "Polarity": "POS"}]}
+{"ID": "R9868:S007", "Text": "泰式蒜蓉蝦 280元 一上來的擺盤很特別，中間還有蝦餅，覺得份量比我們想的多!特寫，蝦子很大隻而且有處理過腸泥，一隻一盤分好讓你一口吃!蝦餅我蠻喜歡。", "Aspect_Polarity": [{"Aspect": "擺盤", "Polarity": "POS"}, {"Aspect": "份量", "Polarity": "POS"}, {"Aspect": "蝦子", "Polarity": "POS"}, {"Aspect": "蝦餅", "Polarity": "POS"}]}
+{"ID": "R9595:S006", "Text": "但肉入口後總讓我們不斷想起早餐肉...還好份量也不大，沒有想多吃。", "Aspect_Polarity": [{"Aspect": "份量", "Polarity": "NEG"}]}
+{"ID": "R6104:S004", "Text": "麵的份量有增加，不過有點太多吃不完。", "Aspect_Polarity": [{"Aspect": "麵的份量", "Polarity": "POS"}, {"Aspect": "份量", "Polarity": "NEG"}]}
+{"ID": "R8526:S001", "Text": "店內有冷氣，另外一間的在路邊，這點勝。", "Aspect_Polarity": [{"Aspect": "店內", "Polarity": "POS"}]}
+{"ID": "R9526:S009", "Text": "但這應該是因為我本來就不愛那種樸實又原始的雜糧麵包。", "Aspect_Polarity": [{"Aspect": "雜糧麵包", "Polarity": "NEG"}]}
+{"ID": "R10562:S017", "Text": "肉排有嚼感，外面撒的調料粉超加分，趕快再要一盤，沾不夠。", "Aspect_Polarity": [{"Aspect": "肉排", "Polarity": "POS"}, {"Aspect": "調料粉", "Polarity": "POS"}]}
+{"ID": "R5874:S000", "Text": "卡皮巴拉三兄弟豆花超可愛！豆花大碗料足夠一進來黑糖味超級香 可惜位置不多！…。", "Aspect_Polarity": [{"Aspect": "卡皮巴拉三兄弟豆花", "Polarity": "POS"}, {"Aspect": "豆花", "Polarity": "POS"}, {"Aspect": "料", "Polarity": "POS"}, {"Aspect": "黑糖味", "Polarity": "POS"}, {"Aspect": "位置", "Polarity": "NEU"}]}
+{"ID": "R5944:S000", "Text": "非常可愛的熊熊冰冰沙很好吃！。", "Aspect_Polarity": [{"Aspect": "熊熊冰", "Polarity": "POS"}, {"Aspect": "冰沙", "Polarity": "POS"}]}
+{"ID": "R5913:S000", "Text": "老闆服務態度很好 餐點料多豐富。", "Aspect_Polarity": [{"Aspect": "老闆服務態度", "Polarity": "POS"}, {"Aspect": "餐點", "Polarity": "POS"}]}
+{"ID": "R8045:S000", "Text": "新竹人的回鄉飯，當歸鴨麵線好吃。", "Aspect_Polarity": [{"Aspect": "當歸鴨麵線", "Polarity": "POS"}]}
+{"ID": "R9613:S003", "Text": "(馬賽魚湯)新菜，紙包湯用鐵板加熱，調味淡雅但是鮮度很足，撈裡面的料一吃就知，上面的軟絲片則是現煎再放入，讓這道湯品又多了點活力。", "Aspect_Polarity": [{"Aspect": "調味", "Polarity": "POS"}, {"Aspect": "鮮度", "Polarity": "POS"}]}
+{"ID": "R7314:S000", "Text": "推炸醬麵口味清淡吃完不會口渴不喜歡重口味的來吃看看從小吃到大的道地美食。", "Aspect_Polarity": [{"Aspect": "炸醬麵", "Polarity": "POS"}, {"Aspect": "美食", "Polarity": "POS"}]}
+{"ID": "R10000:S017", "Text": "鍋品中有放入金針菇、高麗菜、南瓜等蔬菜搭配，但份量不足，若有更多蔬菜需求，可以另行單點。", "Aspect_Polarity": [{"Aspect": "份量", "Polarity": "NEG"}]}
+{"ID": "R9818:S001", "Text": "一走進店內滿滿的蛋塔香味撲鼻而來，應該是開出爐吧否則怎麼這麼香呀！這天我們就來吃吃他們家的招牌蛋塔吧。", "Aspect_Polarity": [{"Aspect": "蛋塔香味", "Polarity": "POS"}]}
+{"ID": "R10037:S002", "Text": "推薦菜色：各種肉類，黑松露蝦煎餃。", "Aspect_Polarity": [{"Aspect": "黑松露蝦煎餃", "Polarity": "POS"}, {"Aspect": "肉類", "Polarity": "POS"}]}
+{"ID": "R7457:S004", "Text": "至於餐點部分則有些中規中矩，比較看個人口味。", "Aspect_Polarity": [{"Aspect": "餐點", "Polarity": "NEU"}]}
+{"ID": "R9800:S014", "Text": "海帶豆干本身略帶鹹味。", "Aspect_Polarity": [{"Aspect": "海帶", "Polarity": "NEU"}, {"Aspect": "豆干", "Polarity": "NEU"}]}
+{"ID": "R10006:S027", "Text": "最期待的是甜點環節，會直接推車過來，一個人可以選三個小點。", "Aspect_Polarity": [{"Aspect": "甜點環節", "Polarity": "POS"}]}
+{"ID": "R9416:S015", "Text": "升級的濃湯+鳳梨冰茶簡單分享新開幕的NU PASTA台南崇善店給大家，可以趁著有優惠活動來嚐鮮，有再加送黃金12度濃豆漿和扭蛋，很超值啦。", "Aspect_Polarity": [{"Aspect": "優惠活動", "Polarity": "POS"}]}
+{"ID": "R7134:S007", "Text": "整體來說，這家麵店不僅食物美味，服務也很周到，是值得再訪的好地方。", "Aspect_Polarity": [{"Aspect": "服務", "Polarity": "POS"}, {"Aspect": "食物", "Polarity": "POS"}, {"Aspect": "麵店", "Polarity": "POS"}]}
+{"ID": "R9684:S016", "Text": "溫馨可愛的鄉村風有特色，用餐氛圍舒適，餐飲價格平實，料理品質好擺盤美麗，聚餐或想要享受一人悠閒時光都很推薦的選擇。", "Aspect_Polarity": [{"Aspect": "用餐氛圍", "Polarity": "POS"}, {"Aspect": "餐飲價格", "Polarity": "POS"}, {"Aspect": "料理品質", "Polarity": "POS"}, {"Aspect": "擺盤", "Polarity": "POS"}]}
+{"ID": "R5700:S001", "Text": "服務態度好，上菜速度快，許多外帶客戶，內用座位或許是半開放，有淡淡煙味，可以linepay很是方便。", "Aspect_Polarity": [{"Aspect": "服務態度", "Polarity": "POS"}, {"Aspect": "上菜速度", "Polarity": "POS"}, {"Aspect": "內用座位", "Polarity": "NEG"}]}
+{"ID": "R6910:S005", "Text": "總結來說，用餐空間的環境比食物更令人驚喜，餐廳值得再訪。", "Aspect_Polarity": [{"Aspect": "用餐空間的環境", "Polarity": "POS"}, {"Aspect": "餐廳", "Polarity": "POS"}]}
+{"ID": "R10374:S053", "Text": "紅豆蛋黃酥、紅豆麻糬酥、芋頭麻糬酥：中秋節會推出這些蛋黃酥類，每種都好吃。", "Aspect_Polarity": [{"Aspect": "蛋黃酥類", "Polarity": "POS"}]}
+{"ID": "R7218:S000", "Text": "好吃的炸醬麵在外面愛吃不到湯的炸醬麵口味非常特別價錢也是北部找不到的。", "Aspect_Polarity": [{"Aspect": "炸醬麵", "Polarity": "POS"}, {"Aspect": "炸醬麵口味", "Polarity": "POS"}]}
+{"ID": "R9933:S003", "Text": "左邊是室外空間，但天氣實在有夠熱，夏天正中午，我想應該不會有人想座這邊吧！走進一樓，看起來室內的用餐座位並不多，但是由於是住宅別墅改造的，所以餐廳內有不少房間，而這搖身一變，都成了獨立包廂。", "Aspect_Polarity": [{"Aspect": "室內的用餐座位", "Polarity": "NEG"}]}
+{"ID": "R9677:S009", "Text": "甜中帶鹹的可頌，我只吃到鹹味跟風味，但沒有吃到實際的料。", "Aspect_Polarity": [{"Aspect": "可頌", "Polarity": "POS"}, {"Aspect": "料", "Polarity": "NEG"}]}
+{"ID": "R6991:S000", "Text": "酸溜溜檸檬塔酸而不甜，榛果脆脆生巧克力塔甜而不膩。", "Aspect_Polarity": [{"Aspect": "檸檬塔", "Polarity": "POS"}, {"Aspect": "榛果脆脆生巧克力塔", "Polarity": "POS"}]}
+{"ID": "R7851:S000", "Text": "是目前為止吃過最好吃的炒飯！推薦點紹興炒飯唷。", "Aspect_Polarity": [{"Aspect": "炒飯", "Polarity": "POS"}, {"Aspect": "紹興炒飯", "Polarity": "POS"}]}
+{"ID": "R10122:S002", "Text": "麵條咬勁可，醬汁重於鹹及蒜味，麻醬香不明顯，酸味無（至少我沒嚐出）。", "Aspect_Polarity": [{"Aspect": "麵條", "Polarity": "POS"}, {"Aspect": "麻醬香", "Polarity": "NEU"}, {"Aspect": "酸味", "Polarity": "NEU"}]}
+{"ID": "R9295:S010", "Text": "其它調味較欠缺，且少了辣椒板麵的溫泉蛋，因此整碗麵又更乾些。", "Aspect_Polarity": [{"Aspect": "調味", "Polarity": "NEG"}, {"Aspect": "麵", "Polarity": "NEG"}]}
+{"ID": "R5964:S000", "Text": "店員親切有可愛造型冰磚小孩很喜歡。", "Aspect_Polarity": [{"Aspect": "店員", "Polarity": "POS"}]}
+{"ID": "R10246:S012", "Text": "吧檯區，牆面滿滿的酒，充滿著島主的各種收藏，嗯，與其說是收藏品，我認為它更像被有溫度的擺放著。", "Aspect_Polarity": [{"Aspect": "吧檯區", "Polarity": "POS"}]}
+{"ID": "R10200:S003", "Text": "牛肉的品質也很好，吃的到肉的鮮甜。", "Aspect_Polarity": [{"Aspect": "牛肉的品質", "Polarity": "POS"}, {"Aspect": "肉", "Polarity": "POS"}]}
+{"ID": "R6026:S000", "Text": "豆花很好吃！卡皮巴拉超可愛。", "Aspect_Polarity": [{"Aspect": "豆花", "Polarity": "POS"}, {"Aspect": "卡皮巴拉", "Polarity": "POS"}]}
+{"ID": "R6716:S000", "Text": "用心的小店座位都會噴酒精清潔的很乾淨，醬配飯好好吃豬排配上一顆蛋也好美味醃蘿蔔也好開胃後來有加點一碗飯超級大碗的唷老闆沒有在怕你吃的啦。", "Aspect_Polarity": [{"Aspect": "座位", "Polarity": "POS"}, {"Aspect": "豬排", "Polarity": "POS"}, {"Aspect": "醃蘿蔔", "Polarity": "POS"}, {"Aspect": "醬配飯", "Polarity": "POS"}, {"Aspect": "飯", "Polarity": "POS"}]}
+{"ID": "R9812:S035", "Text": "若能改善服務上的細節，「刁民酸菜魚」將是更值得推薦的店家了。", "Aspect_Polarity": [{"Aspect": "刁民酸菜魚", "Polarity": "POS"}]}
+{"ID": "R5989:S000", "Text": "料真的很少，當下還以為少放到料，燒仙草65可以選三種料，但三種料加在一起比別家一種的還少。", "Aspect_Polarity": [{"Aspect": "料", "Polarity": "NEG"}]}
+{"ID": "R5984:S000", "Text": "豆花好吃，配料實在，環境舒適。", "Aspect_Polarity": [{"Aspect": "豆花", "Polarity": "POS"}, {"Aspect": "配料", "Polarity": "POS"}, {"Aspect": "環境", "Polarity": "POS"}]}
+{"ID": "R8610:S000", "Text": "兩百塊的炸蝦蓋飯內容物有三隻炸蝦一片玉子燒一朵花椰菜三節玉米味噌湯應該是有洋蔥所以很甜原本要吃一個年輕的懷舊感用餐桌面有點黏膩工作人員在料理區叼著點燃的煙才走去外頭抽剛好給我看到。", "Aspect_Polarity": [{"Aspect": "味噌湯", "Polarity": "POS"}, {"Aspect": "用餐桌面", "Polarity": "NEG"}]}
+{"ID": "R9498:S011", "Text": "雞白湯拉麵所附的雞蛋也很有特色，與一般拉麵店的溫泉蛋不同，而是採用水波蛋的做法，柔滑細緻的口感與奶香湯底非常對味。", "Aspect_Polarity": [{"Aspect": "雞蛋", "Polarity": "POS"}, {"Aspect": "口感", "Polarity": "POS"}]}
+{"ID": "R8572:S001", "Text": "椒麻雞口味也是偏甜口。", "Aspect_Polarity": [{"Aspect": "椒麻雞口味", "Polarity": "NEU"}]}
+{"ID": "R7455:S003", "Text": "餐點味道濃郁，如果習慣較清淡飲食風味的朋友，點餐前可以向服務人員告知。", "Aspect_Polarity": [{"Aspect": "餐點味道", "Polarity": "POS"}]}
+{"ID": "R8794:S000", "Text": "餐廳慕名而來，但卻是失望的，環境老舊且不說，醬油盤沒洗乾淨，食材不新鮮，綠茶有怪味，大概就只有份量這個優點了。", "Aspect_Polarity": [{"Aspect": "環境", "Polarity": "NEG"}, {"Aspect": "醬油盤", "Polarity": "NEG"}, {"Aspect": "食材", "Polarity": "NEG"}, {"Aspect": "綠茶", "Polarity": "NEG"}, {"Aspect": "餐廳", "Polarity": "NEG"}, {"Aspect": "份量", "Polarity": "NEU"}]}
+{"ID": "R10549:S018", "Text": "若在價格上能有所調整，相信再訪的意願會更高。", "Aspect_Polarity": [{"Aspect": "價格", "Polarity": "NEG"}]}
+{"ID": "R6041:S000", "Text": "平日6點到等約10分鐘好像不能現金支付如果三人可能被安排在兩人座加一張椅子桌上會有點擠，可能對麵條期待有點高反而口味還不錯麵的口感普通點兩盤一樣的有一盤很濕一盤很乾如果不用等以200多的價位還不錯。", "Aspect_Polarity": [{"Aspect": "桌上", "Polarity": "NEG"}, {"Aspect": "口味", "Polarity": "POS"}, {"Aspect": "口感", "Polarity": "NEU"}, {"Aspect": "價位", "Polarity": "POS"}]}
+{"ID": "R10326:S037", "Text": "牛肉的風味與烤制的煙燻香氣交織在一起，散發出誘人的香氣。", "Aspect_Polarity": [{"Aspect": "香氣", "Polarity": "POS"}]}
+{"ID": "R5988:S000", "Text": "今天點了燒仙草配三種料好吃。", "Aspect_Polarity": [{"Aspect": "燒仙草配三種料", "Polarity": "POS"}]}
+{"ID": "R9885:S003", "Text": "清燉湯頭為蘿蔔湯底路線，喝來清爽，肉味和蘿蔔味都不算重。", "Aspect_Polarity": [{"Aspect": "清燉湯頭", "Polarity": "POS"}]}
+{"ID": "R6286:S001", "Text": "但是有一點不習慣，有蛤蠣料理的可能有放原湯，麵一入口就過鹹，馬上想找水喝。", "Aspect_Polarity": [{"Aspect": "麵", "Polarity": "NEG"}]}
+{"ID": "R9673:S001", "Text": "真的不是！店離市區只有15分鐘車程啦。", "Aspect_Polarity": [{"Aspect": "店", "Polarity": "POS"}]}
+{"ID": "R10555:S005", "Text": "蛋黃酥表層油亮的光澤感，加上黑芝麻與片鹽的點綴，看似平凡卻又不簡單。", "Aspect_Polarity": [{"Aspect": "蛋黃酥", "Polarity": "POS"}, {"Aspect": "表層", "Polarity": "POS"}]}
+{"ID": "R6002:S000", "Text": "我們家小朋友最愛的仙草冰店天氣變熱了來一碗剛剛好。", "Aspect_Polarity": [{"Aspect": "仙草冰店", "Polarity": "POS"}]}
+{"ID": "R6103:S000", "Text": "我點的是青醬、細麵，沒有在吃義大利麵的感覺，醬汁偏水，千萬別排隊老半天還點細麵份量比較少的部分就懶得計較了。", "Aspect_Polarity": [{"Aspect": "醬汁", "Polarity": "NEG"}, {"Aspect": "份量", "Polarity": "NEG"}]}
+{"ID": "R9812:S003", "Text": "每逢用餐時段，「刁民酸菜魚」的人潮總是絡繹不絕，因此建議若有時間，可以提前來櫃檯登記，並領取號碼牌。", "Aspect_Polarity": [{"Aspect": "人潮", "Polarity": "POS"}]}
+{"ID": "R9547:S012", "Text": "不過這道辣味是屬於點到爲止的辣，一大塊雞肉大概有一半的辣醬味，也是非常重口味的一道餐點。", "Aspect_Polarity": [{"Aspect": "餐點", "Polarity": "NEU"}]}
+{"ID": "R9469:S003", "Text": "炒飯工坊用餐環境最近都是在找有冷氣開放的平價炒飯或麵店，所以有符合我的需求。", "Aspect_Polarity": [{"Aspect": "用餐環境", "Polarity": "POS"}]}
+{"ID": "R10355:S009", "Text": "台灣溫體牛肉吃起來就是讚！椒鹽松阪豬$458鹿寮享自在的主餐都有包含麵包、濃湯（火鍋除外）、飲料、甜湯。", "Aspect_Polarity": [{"Aspect": "台灣溫體牛肉", "Polarity": "POS"}]}
+{"ID": "R10329:S004", "Text": "（又或者只是我孤陋寡聞XD）這次去野柳，除了吃萬里蟹 ，最滿足的就是終於吃到瀨尿蝦啦~~野柳地質公園附近有整條街的海產餐廳，讓人眼花撩亂。", "Aspect_Polarity": [{"Aspect": "瀨尿蝦", "Polarity": "POS"}]}
+{"ID": "R6087:S003", "Text": "這次點選青醬蛤蠣（寬麵），有滿滿的蛤蠣，青醬味道濃郁好吃，不過醬汁水分較多，會喜歡濃稠一點的，但仍然是美味的！。", "Aspect_Polarity": [{"Aspect": "蛤蠣", "Polarity": "POS"}, {"Aspect": "青醬", "Polarity": "POS"}, {"Aspect": "醬汁水分", "Polarity": "POS"}, {"Aspect": "醬汁", "Polarity": "POS"}]}
+{"ID": "R6089:S000", "Text": "佈置很溫馨的店 可訂位 內用座位不多但可以外帶。", "Aspect_Polarity": [{"Aspect": "佈置", "Polarity": "POS"}, {"Aspect": "內用座位", "Polarity": "NEG"}]}
+{"ID": "R5832:S000", "Text": "豆花很好吃，人員也很貼心，下次我會試試泰奶冰沙！。", "Aspect_Polarity": [{"Aspect": "豆花", "Polarity": "POS"}, {"Aspect": "人員", "Polarity": "POS"}]}
+{"ID": "R7527:S000", "Text": "空心菜炒到燒焦，紅咖哩辣度0.5（很適合不吃辣的人），泰奶還蠻好喝的，整體來說還不錯，價格也很便宜。", "Aspect_Polarity": [{"Aspect": "泰奶", "Polarity": "POS"}, {"Aspect": "價格", "Polarity": "POS"}, {"Aspect": "空心菜", "Polarity": "NEG"}, {"Aspect": "整體", "Polarity": "POS"}]}
+{"ID": "R9394:S020", "Text": "德式香腸是細長狀，脆彈口感，不錯吃。", "Aspect_Polarity": [{"Aspect": "德式香腸", "Polarity": "POS"}, {"Aspect": "口感", "Polarity": "POS"}]}
+{"ID": "R10006:S029", "Text": "餐點吃完以後超級飽，有很多湯類或是流質的菜式，整個吃完都是水的感覺。", "Aspect_Polarity": [{"Aspect": "餐點", "Polarity": "NEU"}]}
+{"ID": "R5900:S000", "Text": "芋圓仙草凍搭配仙草冰砂是夏天消暑的好選擇來店活動還有免費嚐鮮的鮮奶麻糬奶香味十足食物平價銅板美食。", "Aspect_Polarity": [{"Aspect": "鮮奶麻糬", "Polarity": "POS"}, {"Aspect": "食物", "Polarity": "POS"}]}
+{"ID": "R6336:S000", "Text": "日本人開的義大利麵店，味道還不錯，但是不是濃的那種，湯是稀的不會巴在麵上，要用湯匙舀湯配麵才比較有味道。", "Aspect_Polarity": [{"Aspect": "味道", "Polarity": "POS"}]}
+{"ID": "R6075:S002", "Text": "不理解那麼多人朝聖到底是為什麼？可能是價格便宜吧。", "Aspect_Polarity": [{"Aspect": "價格", "Polarity": "POS"}]}
+{"ID": "R10432:S009", "Text": "單杯紅葡萄酒 $520(法國 阿諾·拜悠酒莊 布根地黑皮諾紅酒 2019)能感受到紅櫻桃和覆盆子的優雅香氣。", "Aspect_Polarity": [{"Aspect": "紅葡萄酒", "Polarity": "POS"}]}
+{"ID": "R9758:S004", "Text": "不要看它這樣一份100多，以高雄夜市來說，餐點好像有點不便宜，不過實際上吃起來炒麵的份量卻是不少耶！！而且吃的當下還有鍋氣，真的很提海陸炒麵的鍋氣香。", "Aspect_Polarity": [{"Aspect": "餐點", "Polarity": "NEG"}, {"Aspect": "炒麵的份量", "Polarity": "POS"}]}
+{"ID": "R9526:S029", "Text": "皮下包裹著的那層油脂，在加熱後釋放出人的鵝香。", "Aspect_Polarity": [{"Aspect": "油脂", "Polarity": "POS"}]}
+{"ID": "R9675:S000", "Text": "魚政的位置在四木站走出來一下子就到了，這裡是足球小將翼作者的故鄉，所以車站到處都可以看到塗鴉(誤?)。", "Aspect_Polarity": [{"Aspect": "位置", "Polarity": "POS"}]}
+{"ID": "R10260:S001", "Text": "觀光城林師炒飯營業時間超猛，每天只賣3小時而已，即使我是平日中午用餐，觀光城林師炒飯仍然是大排長龍，生意相當好。", "Aspect_Polarity": [{"Aspect": "生意", "Polarity": "POS"}]}
+{"ID": "R5774:S000", "Text": "變向漲價沒問題但說一下，柳葉魚少一條炸甜不辣也變小了。", "Aspect_Polarity": [{"Aspect": "柳葉魚", "Polarity": "NEG"}, {"Aspect": "甜不辣", "Polarity": "NEG"}]}
+{"ID": "R5977:S000", "Text": "在原本清原的位置很開心一樣開了甜品店座位乾淨明亮餐點也不錯五星好評贈鮮奶凍。", "Aspect_Polarity": [{"Aspect": "座位", "Polarity": "POS"}, {"Aspect": "餐點", "Polarity": "POS"}]}
+{"ID": "R6061:S000", "Text": "他的細麵很像拉麵，所以義大利麵感覺像是沾麵，味道好吃，店內是提供筷子湯匙，突然覺得蠻有趣的。", "Aspect_Polarity": [{"Aspect": "味道", "Polarity": "POS"}]}
+{"ID": "R7067:S000", "Text": "這間店位在於三民路上，雖然路邊不好停，但從巨城過來也不會很遠。", "Aspect_Polarity": [{"Aspect": "路邊", "Polarity": "NEG"}]}
+{"ID": "R6050:S001", "Text": "近期吃到最厲害義大利麵，首推福岡明太子雞肉義大利麵店。", "Aspect_Polarity": [{"Aspect": "義大利麵", "Polarity": "POS"}, {"Aspect": "福岡明太子雞肉義大利麵店", "Polarity": "POS"}]}
+{"ID": "R6047:S000", "Text": "海膽醬滿特別，在一般義大利麵店較少見，口味稍微偏甜，做小辣好吃。", "Aspect_Polarity": [{"Aspect": "海膽醬", "Polarity": "POS"}, {"Aspect": "口味", "Polarity": "NEU"}, {"Aspect": "小辣", "Polarity": "POS"}]}
+{"ID": "R10380:S012", "Text": "餅皮帶脆，蔥花新鮮。", "Aspect_Polarity": [{"Aspect": "餅皮", "Polarity": "POS"}, {"Aspect": "蔥花", "Polarity": "POS"}]}
+{"ID": "R10428:S000", "Text": "大概就是如果不用排隊、路過可以吃一下的店，薯條也還不錯，很接近新竹美食麥當勞的美味度了(就當我半開玩笑..)。", "Aspect_Polarity": [{"Aspect": "薯條", "Polarity": "POS"}]}
+{"ID": "R6122:S000", "Text": "食物好老闆人很好,因為停電很熱，所以請我們喝飲料。", "Aspect_Polarity": [{"Aspect": "食物", "Polarity": "POS"}, {"Aspect": "老闆", "Polarity": "POS"}]}
+{"ID": "R10180:S005", "Text": "點心價格不貴，大家常點的牛肉丸RM10.5(台幣約73元)、皮蛋粥RM11.5(台幣約80元)、酥炸腸粉RM14.8(台幣約103元)、蘿蔔糕RM9.2(台幣約64元)。", "Aspect_Polarity": [{"Aspect": "點心價格", "Polarity": "POS"}]}
+{"ID": "R5819:S000", "Text": "點2碗外帶～1、原味豆花（芋圓綠豆薏仁+仙草冰沙），芋圓Q軟吃的到芋頭粒，仙草冰沙不錯但配料也有甜，吃到後面會覺得較膩。", "Aspect_Polarity": [{"Aspect": "芋圓", "Polarity": "POS"}, {"Aspect": "仙草冰沙", "Polarity": "POS"}, {"Aspect": "配料", "Polarity": "POS"}, {"Aspect": "原味豆花", "Polarity": "NEG"}]}
+{"ID": "R10364:S003", "Text": "陳眷村麵館店外觀 陳眷村麵館用餐環境有冷氣開放，桌子擦的很乾淨。", "Aspect_Polarity": [{"Aspect": "桌子", "Polarity": "POS"}]}
+{"ID": "R9268:S020", "Text": "將雞塊佐上些許醬汁享用，別有一番風味，但個人還是較喜愛原本的滋味。", "Aspect_Polarity": [{"Aspect": "雞塊", "Polarity": "POS"}]}
+{"ID": "R5740:S000", "Text": "吃過很多次了烤串味道很好魚下巴必點。", "Aspect_Polarity": [{"Aspect": "烤串味道", "Polarity": "POS"}, {"Aspect": "魚下巴", "Polarity": "POS"}]}
+{"ID": "R9658:S003", "Text": "蜜釀脆梅冰美式，上頭還附上一棵脆梅，加入釀梅醬的冰美式，帶有酸甜的風味，相當的清爽。", "Aspect_Polarity": [{"Aspect": "蜜釀脆梅冰美式", "Polarity": "POS"}]}
+{"ID": "R7051:S000", "Text": "慕名而來，但可能是抱太大期待了甜點部份，抹茶塔蠻濃郁的，葡萄那個吃起來就比較膩，整體價格其實偏高，然後飲料非常非常普通還有！去店附近那邊要小心防蚊，蚊子超多～～不過蠻好拍照的。", "Aspect_Polarity": [{"Aspect": "抹茶塔", "Polarity": "POS"}, {"Aspect": "葡萄", "Polarity": "NEU"}, {"Aspect": "飲料", "Polarity": "NEG"}, {"Aspect": "價格", "Polarity": "NEG"}, {"Aspect": "蚊子", "Polarity": "NEG"}, {"Aspect": "店", "Polarity": "POS"}]}
+{"ID": "R10006:S010", "Text": "小麵包配上奶油，可以無限續用的。", "Aspect_Polarity": [{"Aspect": "小麵包", "Polarity": "POS"}]}
+{"ID": "R9484:S004", "Text": "豬肉非常大方給了兩塊，份量足夠，肉質不會乾柴；牛肉部分則可以吃到肉汁，這天是點選五分熟，熟度剛剛好。", "Aspect_Polarity": [{"Aspect": "豬肉", "Polarity": "POS"}, {"Aspect": "份量", "Polarity": "POS"}, {"Aspect": "肉質", "Polarity": "POS"}, {"Aspect": "熟度", "Polarity": "POS"}]}
+{"ID": "R10500:S007", "Text": "店家門面極小，但選購期間不斷湧入外國觀光客，本地人僅我一位，也許店家在海外的名聲十分響亮。", "Aspect_Polarity": [{"Aspect": "店家門面", "Polarity": "NEG"}]}
+{"ID": "R9268:S017", "Text": "「からあげセンター (炸雞中心)」的山賊燒以雞胸肉所製，外觀與口感皆與台灣常見的炸雞排十分相似，外酥內嫩，滋味不錯，但內層的雞肉汁氣卻略顯不足，沒有台灣雞排來得甘甜。", "Aspect_Polarity": [{"Aspect": "口感", "Polarity": "POS"}, {"Aspect": "滋味", "Polarity": "POS"}, {"Aspect": "內層的雞肉汁氣", "Polarity": "NEG"}]}
+{"ID": "R10338:S036", "Text": "別忘了來點生菜包肉，非常好吃。", "Aspect_Polarity": [{"Aspect": "生菜包肉", "Polarity": "POS"}]}
+{"ID": "R6046:S001", "Text": "可能期待有點太高，吃完覺得有點不如預期，當天點了海膽醬干貝以及明太子雞肉，覺得麵條可以再更Q一點。", "Aspect_Polarity": [{"Aspect": "海膽醬干貝", "Polarity": "NEG"}, {"Aspect": "明太子雞肉", "Polarity": "NEG"}, {"Aspect": "麵條", "Polarity": "NEG"}]}
+{"ID": "R10000:S022", "Text": "起司與牛奶融合的湯底，鮮美醇香，若加上特製的麻辣湯汁，更是將口味提升了許多層次，相當好吃。", "Aspect_Polarity": [{"Aspect": "湯底", "Polarity": "POS"}, {"Aspect": "口味", "Polarity": "POS"}]}
+{"ID": "R10162:S005", "Text": "除了精緻的料理，39樓的景色更是這家餐廳的賣點之一。", "Aspect_Polarity": [{"Aspect": "料理", "Polarity": "POS"}, {"Aspect": "39樓的景色", "Polarity": "POS"}]}
+{"ID": "R5876:S000", "Text": "好吃的卡皮巴拉三兄弟，很可愛的造型，食物很優惠。", "Aspect_Polarity": [{"Aspect": "卡皮巴拉三兄弟", "Polarity": "POS"}, {"Aspect": "造型", "Polarity": "POS"}, {"Aspect": "食物", "Polarity": "POS"}]}
+{"ID": "R8785:S003", "Text": "但是味道真的非常普通。", "Aspect_Polarity": [{"Aspect": "味道", "Polarity": "NEG"}]}
+{"ID": "R9568:S000", "Text": "用餐的空間有兩層樓，二樓有吧台及一張四人桌及雙人桌，三樓的座位數比較多，室內的光線偏昏暗。", "Aspect_Polarity": [{"Aspect": "室內的光線", "Polarity": "NEG"}]}
+{"ID": "R10471:S029", "Text": "這幾款炸串吃下來，素串反倒比肉串還讓我有回訪的念頭。", "Aspect_Polarity": [{"Aspect": "素串", "Polarity": "POS"}]}
+{"ID": "R7229:S001", "Text": "相比其他老店，有提升服務以及點餐的程序；且價格實惠，2024年還能用五十元吃到一碗好吃的炸醬麵、85元吃的到不錯的牛肉麵已不容易。", "Aspect_Polarity": [{"Aspect": "價格", "Polarity": "POS"}, {"Aspect": "炸醬麵", "Polarity": "POS"}, {"Aspect": "牛肉麵", "Polarity": "POS"}]}
+{"ID": "R5885:S000", "Text": "鮮奶凍很好吃⋯還會再來呀呼。", "Aspect_Polarity": [{"Aspect": "鮮奶凍", "Polarity": "POS"}]}
+{"ID": "R5942:S000", "Text": "今天吃外送的3Q仙草凍滿口都是香菸味，二手菸的焦油味殘留在口腔內，餘韻讓你細細品嚐製作的人是如何在邊吸煙邊製作仙草凍。", "Aspect_Polarity": [{"Aspect": "3Q仙草凍", "Polarity": "NEG"}]}
+{"ID": "R6140:S000", "Text": "關新地區的生義大利麵巷子內可達店內裝潢舒服自助點餐機店內比較小是十分熱門的店家需稍微等候義大利麵口感好吃醬料也美味是我再度造訪的店家。", "Aspect_Polarity": [{"Aspect": "店內裝潢", "Polarity": "POS"}, {"Aspect": "店內", "Polarity": "NEG"}, {"Aspect": "義大利麵口感", "Polarity": "POS"}, {"Aspect": "醬料", "Polarity": "POS"}]}
+{"ID": "R5714:S001", "Text": "CP值普中上，上菜很快，餐廳人不會太多，不需要特別訂位。", "Aspect_Polarity": [{"Aspect": "CP值", "Polarity": "POS"}, {"Aspect": "上菜", "Polarity": "POS"}]}
+{"ID": "R9358:S004", "Text": "(本人也是樂桃粉，哈哈！)野生黑鮪魚赤身滿好吃的，有比普通黑鮪魚赤身好些，普通的黑鮪魚赤身有些吃起來會粉粉的，這個野生的肉質就比較好些，味道也比較好。", "Aspect_Polarity": [{"Aspect": "野生黑鮪魚赤身", "Polarity": "POS"}, {"Aspect": "肉質", "Polarity": "POS"}, {"Aspect": "味道", "Polarity": "POS"}]}
+{"ID": "R6059:S000", "Text": "點了明太子干貝麵跟海膽干貝燉飯都滿好吃的敢吃辣的建議可以點中辣以上比較不膩小辣沒有什麼辣度先跟老闆確認是否有座位後即可用自助點餐機點餐這次因為沒位子所以坐外面環境不錯。", "Aspect_Polarity": [{"Aspect": "明太子干貝麵", "Polarity": "POS"}, {"Aspect": "海膽干貝燉飯", "Polarity": "POS"}, {"Aspect": "小辣", "Polarity": "POS"}, {"Aspect": "外面環境", "Polarity": "POS"}]}
+{"ID": "R9355:S020", "Text": "手搖飲的價位，但有小咖啡館的內用空間，蠻適合在這短暫停留，^^b。", "Aspect_Polarity": [{"Aspect": "內用空間", "Polarity": "POS"}]}
+{"ID": "R9444:S002", "Text": "味道算重，喜歡醬油拉麵的同學，一定要嚐嚐。", "Aspect_Polarity": [{"Aspect": "味道", "Polarity": "POS"}]}
+{"ID": "R8185:S000", "Text": "現在價格為70元，沒煮飯時，常去買，外帶很方便！。", "Aspect_Polarity": [{"Aspect": "外帶", "Polarity": "POS"}]}
+{"ID": "R6916:S003", "Text": "檸檬塔酸溜溜如名字一般，是我喜歡的派別，如果太甜的反而吃不出檸檬的香味。", "Aspect_Polarity": [{"Aspect": "檸檬塔", "Polarity": "POS"}]}
+{"ID": "R5936:S000", "Text": "店內很乾淨，餐具也超漂亮~餐點務實好吃口味比較沒那麼甜。", "Aspect_Polarity": [{"Aspect": "店內", "Polarity": "POS"}, {"Aspect": "餐具", "Polarity": "POS"}, {"Aspect": "餐點", "Polarity": "POS"}, {"Aspect": "口味", "Polarity": "POS"}]}
+{"ID": "R9731:S020", "Text": "可惜以平價義大利麵而言，價格則稍微高了一些，個人認為不是太過划算。", "Aspect_Polarity": [{"Aspect": "價格", "Polarity": "NEG"}, {"Aspect": "義大利麵", "Polarity": "NEG"}]}
+{"ID": "R7123:S001", "Text": "餐點：炸醬以豆瓣、肉末、豆干為主，半熟蛋炸醬好吃，粗麵煮的不錯吃榨菜肉絲味道還好桌上醬料、小菜沒使用。氣氛：內用空氣和桌子感覺黏黏的湯匙、筷子有選擇，另有免洗的衛生紙掛牆上另有圓凳可以放隨身物品。", "Aspect_Polarity": [{"Aspect": "粗麵", "Polarity": "POS"}, {"Aspect": "榨菜肉絲味道", "Polarity": "NEU"}, {"Aspect": "半熟蛋炸醬", "Polarity": "POS"}, {"Aspect": "桌子", "Polarity": "NEG"}]}
+{"ID": "R10214:S006", "Text": "兩種品項都值得推薦，價位也不算高。", "Aspect_Polarity": [{"Aspect": "兩種品項", "Polarity": "POS"}, {"Aspect": "價位", "Polarity": "POS"}]}
+{"ID": "R6397:S000", "Text": "2023/5/1用餐～*黃悶雞米飯味道尚可。", "Aspect_Polarity": [{"Aspect": "黃悶雞米飯味道", "Polarity": "NEU"}]}
+{"ID": "R10381:S003", "Text": "店裡有種宅寂風，冷氣很強，還頗舒服的。", "Aspect_Polarity": [{"Aspect": "冷氣", "Polarity": "POS"}, {"Aspect": "店裡", "Polarity": "POS"}]}
+{"ID": "R6104:S005", "Text": "麵上方多了生菜，這搭配還不錯。", "Aspect_Polarity": [{"Aspect": "搭配", "Polarity": "POS"}]}
+{"ID": "R10003:S010", "Text": "尤其是他們家的韭黃鐵板湯包，一顆顆會爆汁且有酥脆冰花的湯包，真的是我的心頭好，有機會來西門町，可以考慮試一試哦～。", "Aspect_Polarity": [{"Aspect": "韭黃鐵板湯包", "Polarity": "POS"}]}
+{"ID": "R6019:S001", "Text": "點了芋泥+芋圓+紅豆的黑糖冰沙豆花，結果吃幾口才發現根本沒有給芋圓，後來看評價發現很多人也有遇到這種狀況，還蠻誇張的。", "Aspect_Polarity": [{"Aspect": "芋圓", "Polarity": "NEG"}]}
+{"ID": "R8385:S003", "Text": "椒麻雞+泰奶組合有折扣，很推薦！比市區那幾間泰式料理便宜。", "Aspect_Polarity": [{"Aspect": "椒麻雞+泰奶", "Polarity": "POS"}]}
+{"ID": "R5708:S000", "Text": "食物烤得很好，香氣有烤出來，好吃，餐廳還會再還會訪。", "Aspect_Polarity": [{"Aspect": "食物", "Polarity": "POS"}, {"Aspect": "餐廳", "Polarity": "POS"}]}
+{"ID": "R6316:S001", "Text": "餐點平價親民，味道真的算是偏比較日式，很好吃，雞肉和蝦子都很新鮮。", "Aspect_Polarity": [{"Aspect": "餐點", "Polarity": "POS"}, {"Aspect": "味道", "Polarity": "POS"}, {"Aspect": "雞肉", "Polarity": "POS"}, {"Aspect": "蝦子", "Polarity": "POS"}]}
+{"ID": "R10191:S019", "Text": "他們提供了日式麥茶、新鮮的高麗菜絲、蒸熱的白飯以及濃郁的味噌湯等，這些無限取用的食材讓你能夠隨心所欲地搭配自己喜愛的組合，打造出獨一無二的用餐體驗。", "Aspect_Polarity": [{"Aspect": "高麗菜絲", "Polarity": "POS"}, {"Aspect": "味噌湯", "Polarity": "POS"}, {"Aspect": "用餐體驗", "Polarity": "POS"}]}
+{"ID": "R5880:S001", "Text": "大家要內用的謹慎考慮是否趕時間，第一次吃豆花等這麼久的，而內用只坐了6個人而已。", "Aspect_Polarity": [{"Aspect": "內用", "Polarity": "NEG"}]}
+{"ID": "R5882:S000", "Text": "好特別，湯底有多種選擇喜歡仙草冰。", "Aspect_Polarity": [{"Aspect": "湯底", "Polarity": "POS"}, {"Aspect": "仙草冰", "Polarity": "POS"}]}
+{"ID": "R10005:S006", "Text": "儘管等待時間偏長，實際到訪發現真的有它值得的地方，光是冷掉食物也好吃就厲害。", "Aspect_Polarity": [{"Aspect": "等待時間", "Polarity": "NEG"}, {"Aspect": "冷掉食物", "Polarity": "POS"}]}
+{"ID": "R7317:S000", "Text": "價錢便宜，麵條不錯，調味普通，湯品不像熬過的偏清淡，本身點餛飩湯，炸醬麵，牛肉麵，牛肉麵湯頭普通。", "Aspect_Polarity": [{"Aspect": "價錢", "Polarity": "POS"}, {"Aspect": "麵條", "Polarity": "POS"}, {"Aspect": "調味", "Polarity": "NEU"}, {"Aspect": "湯品", "Polarity": "NEU"}, {"Aspect": "牛肉麵湯頭", "Polarity": "NEU"}]}
+{"ID": "R8413:S000", "Text": "每道菜都好吃，訂單有點多內用要等待一段時間，菜單畫記給油性筆有些奇怪......。", "Aspect_Polarity": [{"Aspect": "每道菜", "Polarity": "POS"}, {"Aspect": "內用", "Polarity": "NEG"}]}
+{"ID": "R5739:S000", "Text": "走過路過還好沒有錯過，路過的一間店意外的好吃～。", "Aspect_Polarity": [{"Aspect": "店", "Polarity": "POS"}]}
+{"ID": "R5701:S000", "Text": "食材新鮮、有冷藏櫃、環境乾淨，重點價格非常實在，內用還有免費的味噌湯！推一個。", "Aspect_Polarity": [{"Aspect": "食材", "Polarity": "POS"}, {"Aspect": "環境", "Polarity": "POS"}, {"Aspect": "價格", "Polarity": "POS"}]}
+{"ID": "R8036:S000", "Text": "粉腸普普米血很硬高麗菜好吃當歸鴨麵線還不錯。", "Aspect_Polarity": [{"Aspect": "粉腸", "Polarity": "NEU"}, {"Aspect": "米血", "Polarity": "NEG"}, {"Aspect": "高麗菜", "Polarity": "POS"}, {"Aspect": "當歸鴨麵線", "Polarity": "POS"}]}
+{"ID": "R5912:S000", "Text": "點了芋圓、粉粿、芝麻小湯圓跟鮮奶麻糬，料都很好吃，鮮奶麻糬口感很特別，黑糖冰沙也不會太甜。", "Aspect_Polarity": [{"Aspect": "料", "Polarity": "POS"}, {"Aspect": "鮮奶麻糬口感", "Polarity": "POS"}, {"Aspect": "黑糖冰沙", "Polarity": "POS"}]}
+{"ID": "R10019:S009", "Text": "鰻魚玉子燒整體心得分享如果是吃飽再訪，會選擇大份的鰻魚飯吃的大滿足，並且會想嘗試店家推薦的鰻魚三吃（原味、配料、湯泡飯）。", "Aspect_Polarity": [{"Aspect": "大份的鰻魚飯", "Polarity": "POS"}]}
+{"ID": "R6859:S000", "Text": "裝潢有相當的格調，四位店員中的一位白色口罩小姐，語氣冷漠不耐，加上聲音非常小，沒有展現服務業應該有的態度，餐點水準可圈可點。", "Aspect_Polarity": [{"Aspect": "裝潢", "Polarity": "POS"}, {"Aspect": "語氣", "Polarity": "NEG"}, {"Aspect": "餐點水準", "Polarity": "POS"}]}
+{"ID": "R6923:S003", "Text": "官網介紹口味種類很多，主要賣的是Pie。", "Aspect_Polarity": [{"Aspect": "口味種類", "Polarity": "POS"}]}
+{"ID": "R8321:S000", "Text": "服務親切，打拋豬夠味，小辣就很夠，椒麻雞好吃，炸豆腐好吃。", "Aspect_Polarity": [{"Aspect": "服務", "Polarity": "POS"}, {"Aspect": "打拋豬", "Polarity": "POS"}, {"Aspect": "小辣", "Polarity": "POS"}, {"Aspect": "椒麻雞", "Polarity": "POS"}, {"Aspect": "炸豆腐", "Polarity": "POS"}]}
+{"ID": "R10326:S033", "Text": "牛肉的外層經過烤製，形成金黃酥脆的外皮，這種酥脆感在切下去的一刹那，發出清脆的聲音，仿佛在宣告著美味的開始。", "Aspect_Polarity": [{"Aspect": "外皮", "Polarity": "POS"}]}
+{"ID": "R9885:S013", "Text": "皮蛋豆腐 40元  涼拌素雞 30元  滷蛋 15元  海帶 10元    皮蛋豆腐中規中矩，上頭灑了大量蔥花柴魚片。", "Aspect_Polarity": [{"Aspect": "皮蛋豆腐", "Polarity": "NEU"}]}
+{"ID": "R6093:S007", "Text": "醬料是明太子調味，口味較淡一點，搭配生菜意外非常順口，完全沒有那種膩口感。", "Aspect_Polarity": [{"Aspect": "口味", "Polarity": "NEU"}, {"Aspect": "生菜", "Polarity": "POS"}, {"Aspect": "醬料", "Polarity": "POS"}]}
+{"ID": "R10564:S004", "Text": "採取半自助式的用餐方式，醬料與免洗餐具自取，用餐結束餐具碗盤也要自己拿至回收區放置唷。", "Aspect_Polarity": [{"Aspect": "用餐方式", "Polarity": "NEU"}]}
+{"ID": "R6153:S006", "Text": "價格很親民，麵是Q彈的那種。", "Aspect_Polarity": [{"Aspect": "價格", "Polarity": "POS"}, {"Aspect": "麵", "Polarity": "POS"}]}
+{"ID": "R7150:S000", "Text": "點了大乾炸醬麵+蛋+餛飩，很滿足！客人絡繹不絕，內用需要稍微排隊等候。", "Aspect_Polarity": [{"Aspect": "大乾炸醬麵+蛋+餛飩", "Polarity": "POS"}, {"Aspect": "內用", "Polarity": "NEU"}]}
+{"ID": "R10526:S028", "Text": "甜度剛好，厚度剛好，溫度剛好，嘴裡熱熱暖暖的，如同沖繩的夜晚一樣，舒服又帶點濕潤。", "Aspect_Polarity": [{"Aspect": "甜度", "Polarity": "POS"}, {"Aspect": "厚度", "Polarity": "POS"}, {"Aspect": "溫度", "Polarity": "POS"}]}
+{"ID": "R10010:S021", "Text": "若嗜甜，可以點多花生糖粉＋黑芝麻醬，帶甜的堅果風味也不錯。", "Aspect_Polarity": [{"Aspect": "堅果風味", "Polarity": "POS"}]}
+{"ID": "R9333:S001", "Text": "飯加了藜麥，煮得 Q 彈。", "Aspect_Polarity": [{"Aspect": "飯", "Polarity": "POS"}]}
+{"ID": "R10000:S009", "Text": "此外，也有不少提供單點的火鍋料與主食肉品。", "Aspect_Polarity": [{"Aspect": "火鍋料", "Polarity": "POS"}, {"Aspect": "主食肉品", "Polarity": "POS"}]}
+{"ID": "R5891:S000", "Text": "天熱來吃卡皮巴拉三兄弟，真讚！。", "Aspect_Polarity": [{"Aspect": "卡皮巴拉三兄弟", "Polarity": "POS"}]}
+{"ID": "R6069:S000", "Text": "用餐環境十分狹窄擁擠，但是上餐點很快速，食物份量不算多，一份義大利麵是無法吃飽的。", "Aspect_Polarity": [{"Aspect": "用餐環境", "Polarity": "NEG"}, {"Aspect": "上餐點", "Polarity": "POS"}, {"Aspect": "食物份量", "Polarity": "NEG"}, {"Aspect": "義大利麵", "Polarity": "NEG"}]}
+{"ID": "R5804:S000", "Text": "烤物多汁鮮嫩，用餐環境佳。", "Aspect_Polarity": [{"Aspect": "烤物", "Polarity": "POS"}, {"Aspect": "用餐環境", "Polarity": "POS"}]}
+{"ID": "R10090:S009", "Text": "可愛又有趣的菜單，也很適合拿來當食物背景拍照。", "Aspect_Polarity": [{"Aspect": "菜單", "Polarity": "POS"}]}
+{"ID": "R10069:S001", "Text": "而且麻辣湯頭是順口可以喝下去的，就已經勝過許多臭豆腐店家了，但臭豆腐的臭味是真的有點臭～要能喜愛臭感的寶友再來嘗試看看喔！。", "Aspect_Polarity": [{"Aspect": "麻辣湯頭", "Polarity": "POS"}, {"Aspect": "臭豆腐的臭味", "Polarity": "NEU"}]}
+{"ID": "R9549:S002", "Text": "點了一杯白酒，可能是同為華人，老闆非常親切跟我聊天，然後酒就加得老滿。", "Aspect_Polarity": [{"Aspect": "老闆", "Polarity": "POS"}]}
+{"ID": "R9440:S009", "Text": "魚丸湯居然還有油條，這價格來說，CP值爆炸高，魚丸相當多顆，味道也不錯。", "Aspect_Polarity": [{"Aspect": "CP值", "Polarity": "POS"}, {"Aspect": "魚丸", "Polarity": "POS"}, {"Aspect": "味道", "Polarity": "POS"}]}
+{"ID": "R5721:S000", "Text": "內用味增湯好喝，冷氣冷，服務員馬上調整，服務佳。", "Aspect_Polarity": [{"Aspect": "味增湯", "Polarity": "POS"}, {"Aspect": "服務", "Polarity": "POS"}]}
+{"ID": "R6099:S004", "Text": "無奈口味不合，也沒有飽足感，用餐畢又轉往原先目的餐館點了一份pizza跟pasta才飽足。", "Aspect_Polarity": [{"Aspect": "口味", "Polarity": "NEG"}]}
+{"ID": "R10031:S017", "Text": "粒粒分明的炒飯搭配酸甜的烤鳳梨丁與新鮮海鮮，再撒上畫龍點睛的肉鬆好好吃。", "Aspect_Polarity": [{"Aspect": "炒飯", "Polarity": "POS"}, {"Aspect": "烤鳳梨丁", "Polarity": "POS"}, {"Aspect": "海鮮", "Polarity": "POS"}, {"Aspect": "肉鬆", "Polarity": "POS"}]}
+{"ID": "R6102:S000", "Text": "麵條蠻特別的，跟一般的義大利麵很不一樣，本來很疑惑怎麼會用筷子吃，但看到麵條之後就能理解了，有點像在吃某些拉麵的口感。", "Aspect_Polarity": [{"Aspect": "麵條", "Polarity": "POS"}]}
+{"ID": "R9658:S001", "Text": "要特別提醒，店內並無提供洗手間，如廁需到附近的誠品使用。", "Aspect_Polarity": [{"Aspect": "洗手間", "Polarity": "NEG"}]}
+{"ID": "R5877:S000", "Text": "上次叫外送食物好吃，這次特地來店裡吃。", "Aspect_Polarity": [{"Aspect": "食物", "Polarity": "POS"}]}
+{"ID": "R6153:S002", "Text": "裝潢很舒服～點餐是真的跟在日本一樣，大螢幕自己點。", "Aspect_Polarity": [{"Aspect": "裝潢", "Polarity": "POS"}]}
+{"ID": "R9543:S018", "Text": "紅火龍果入麵團（有些黑色小點間雜其中），貝果光看就鮮豔誘人。", "Aspect_Polarity": [{"Aspect": "貝果", "Polarity": "POS"}]}
+{"ID": "R10304:S000", "Text": "店內有冷氣開放很涼爽，比較意外的是菜單裡居然還有賣腸粉和炸薯片，可惜我已經吃不下了，只好下次再來吃。", "Aspect_Polarity": [{"Aspect": "店內", "Polarity": "POS"}]}
+{"ID": "R5749:S004", "Text": "這樣的好店的真的需要大力推一下！！。", "Aspect_Polarity": [{"Aspect": "店", "Polarity": "POS"}]}
+{"ID": "R9922:S004", "Text": "就是那種非常新鮮現做的炸雙胞胎的口感，不過酸奶內餡因為加熱後變得酸味更重，這點我跟朋友都有點吃不消，倒不如是加點糖粉或是巧克力可能更對我們胃口。", "Aspect_Polarity": [{"Aspect": "口感", "Polarity": "POS"}, {"Aspect": "酸奶內餡", "Polarity": "NEG"}]}
+{"ID": "R10120:S023", "Text": "事實上，主廚的Triple cooked炸薯條食譜是筆者的最愛。", "Aspect_Polarity": [{"Aspect": "炸薯條", "Polarity": "POS"}]}
+{"ID": "R6056:S002", "Text": "基本麵番茄雞肉，麵條Q彈，醬料頗濃郁，雞肉有煎過香嫩，整體是滿意的。", "Aspect_Polarity": [{"Aspect": "麵條", "Polarity": "POS"}, {"Aspect": "醬料", "Polarity": "POS"}, {"Aspect": "雞肉", "Polarity": "POS"}, {"Aspect": "整體", "Polarity": "POS"}]}
+{"ID": "R6154:S003", "Text": "開放式廚房的熱風與空調同時混吹著，沒吃完身上油煙味就揮之不去了。", "Aspect_Polarity": [{"Aspect": "開放式廚房", "Polarity": "NEG"}]}
+{"ID": "R9937:S013", "Text": "月亮蝦餅 280元 冷筍沙拉 300元月亮蝦餅外酥內彈，能吃到蝦肉，沾醬甜辣。", "Aspect_Polarity": [{"Aspect": "月亮蝦餅", "Polarity": "POS"}]}
+{"ID": "R5749:S000", "Text": "【鹽烤魚３５０元】這道菜是我每次烤肉必定要吃的，真的沒想到可以在串燒店吃到這道菜雖然簡單　但是有它的技術在以外要烤很久。", "Aspect_Polarity": [{"Aspect": "鹽烤魚", "Polarity": "POS"}]}
+{"ID": "R6133:S007", "Text": "由於服務人員一人必須負責接電話、叫號出餐、為客人登記候位、安排座位、餐點調理、擺盤、消毒客桌面、回答顧客疑問⋯⋯，也許急忙的語氣讓您感到不舒服，但一定是竭誠的歡迎每一位客人。", "Aspect_Polarity": [{"Aspect": "語氣", "Polarity": "NEG"}]}
+{"ID": "R7500:S001", "Text": "我覺得泡麵就普普通通了。", "Aspect_Polarity": [{"Aspect": "泡麵", "Polarity": "NEU"}]}
+{"ID": "R9271:S017", "Text": "這次來里斯本吃好吃滿，但有點可惜的是，我吃了2~3次，幾乎都是像這樣比較細瘦，味道也不太甜。", "Aspect_Polarity": [{"Aspect": "味道", "Polarity": "NEU"}]}
+{"ID": "R10006:S012", "Text": "濃郁的花生豆腐，搭配超鮮的魚子醬，橘子丁給足了濕潤跟融合幾種食材的媒介，爽口、鮮甜跟濃郁一次達成。", "Aspect_Polarity": [{"Aspect": "花生豆腐", "Polarity": "POS"}, {"Aspect": "魚子醬", "Polarity": "POS"}]}
+{"ID": "R6786:S000", "Text": "炸豬排厚實好吃，簡單的蛋跟飯好香，被ig吸引來，結果真的很好吃，注意吃太多多少會膩，可以點小菜。", "Aspect_Polarity": [{"Aspect": "炸豬排", "Polarity": "POS"}, {"Aspect": "蛋", "Polarity": "POS"}, {"Aspect": "飯", "Polarity": "POS"}]}
+{"ID": "R10089:S000", "Text": "或許因造訪時間較早，店內客潮不多。", "Aspect_Polarity": [{"Aspect": "店內客潮", "Polarity": "POS"}]}
+{"ID": "R5778:S000", "Text": "餐點好吃 酒類多樣還免費提供熱湯。", "Aspect_Polarity": [{"Aspect": "餐點", "Polarity": "POS"}, {"Aspect": "酒類", "Polarity": "POS"}, {"Aspect": "熱湯", "Polarity": "POS"}]}
+{"ID": "R9524:S011", "Text": "蔬菜幾乎都是道產，比起常見只吃辣味的韓式小菜，這裡的蔬菜原味變成了主力，辣味則是點綴。", "Aspect_Polarity": [{"Aspect": "蔬菜原味", "Polarity": "NEU"}, {"Aspect": "辣味", "Polarity": "NEU"}]}
+{"ID": "R10006:S030", "Text": "價位上真的不便宜，比較偏向吃過一次就差不多的類型。", "Aspect_Polarity": [{"Aspect": "價位", "Polarity": "NEG"}]}
+{"ID": "R6134:S003", "Text": "本來還以為在這個關新路附近，開了一家$180就可以吃到義大利麵的好餐廳，但是我大概就只會吃這麼ㄧ次吧下次還是乖乖地花兩三百多塊去吃一個比較完整的義大利麵網路的評價，真的要看清楚。", "Aspect_Polarity": [{"Aspect": "餐廳", "Polarity": "NEG"}]}
+{"ID": "R9199:S000", "Text": "支持店家、漢堡好吃。值得強力推薦。", "Aspect_Polarity": [{"Aspect": "漢堡", "Polarity": "POS"}, {"Aspect": "店家", "Polarity": "POS"}]}
+{"ID": "R9885:S004", "Text": "以自己嚐過的蘿蔔湯系麵款來說，這家算是較清淡的路線。", "Aspect_Polarity": [{"Aspect": "蘿蔔湯系麵", "Polarity": "POS"}]}
+{"ID": "R10515:S003", "Text": "一樓座位其實並不算多，所以在二樓部分也有桌椅能夠選擇；或是如果有需要包場的會議空間，聽說容市食堂二樓也有提供這樣子的服務。", "Aspect_Polarity": [{"Aspect": "一樓座位", "Polarity": "NEG"}]}
+{"ID": "R8975:S000", "Text": "漢堡的尺寸大小跟其他美式漢堡店比起來，明顯的比較小顆。", "Aspect_Polarity": [{"Aspect": "漢堡的尺寸", "Polarity": "NEG"}]}
+{"ID": "R5856:S000", "Text": "帶小孩來吃卡皮巴拉三兄弟，可愛到爆，食物料多味美…。", "Aspect_Polarity": [{"Aspect": "食物", "Polarity": "POS"}]}
+{"ID": "R5973:S000", "Text": "店內乾淨，份量剛好不會過於甜膩悠閒消暑的好去處，芋圓很Q！。", "Aspect_Polarity": [{"Aspect": "店內", "Polarity": "POS"}, {"Aspect": "份量", "Polarity": "POS"}, {"Aspect": "店", "Polarity": "POS"}, {"Aspect": "芋圓", "Polarity": "POS"}]}
+{"ID": "R8114:S000", "Text": "牛肉意麵NT80，覺得他們家粥比較好吃(會小包附油條)，意麵就很普通。", "Aspect_Polarity": [{"Aspect": "粥", "Polarity": "POS"}, {"Aspect": "意麵", "Polarity": "NEG"}]}
+{"ID": "R9304:S004", "Text": "放飲料的冰櫃超級復古。", "Aspect_Polarity": [{"Aspect": "放飲料的冰櫃", "Polarity": "POS"}]}
+{"ID": "R5998:S000", "Text": "黑糖冰沙，黑糖味濃厚。", "Aspect_Polarity": [{"Aspect": "黑糖味", "Polarity": "POS"}]}
+{"ID": "R9471:S007", "Text": "但老實說店裡的位置不少，原則上都不需排太久。", "Aspect_Polarity": [{"Aspect": "店裡的位置", "Polarity": "POS"}]}
+{"ID": "R10152:S015", "Text": "那天吃的覺得都不錯，唯有起司比較普一點，下次不會再點。", "Aspect_Polarity": [{"Aspect": "起司", "Polarity": "NEG"}]}
+{"ID": "R10211:S013", "Text": "光論定價芳珍蔬食的水餃煎餃／，比八方雲集的鍋貼／水餃（6.5～7）貴。", "Aspect_Polarity": [{"Aspect": "煎餃", "Polarity": "NEG"}]}
