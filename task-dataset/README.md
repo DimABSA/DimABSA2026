@@ -3,6 +3,7 @@
 - 4 domains: Restaurant, Laptop, Hotel and Finance
 - 6 Languages: Chinese, English, Japanese, Russian, Tatar, and Ukrainian
 - A total of 76,958 aspect instances (aspect pairs, triplets, and quadruplets) across 42,590 sentences.
+- Categorical versions are also provided by converting VA scores into polarity labels (positive, neutral, and negative).
 ## Track B DimStance
 - 1 subtask: DimASR
 - 2 domains: environmental protection and politics
